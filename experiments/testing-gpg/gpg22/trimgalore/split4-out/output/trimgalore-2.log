@@ -1,0 +1,24 @@
+
+ N E X T F L O W   ~  version 25.04.6
+
+Launching `trimgalore/task.nf` [condescending_turing] DSL2 - revision: f547650496
+
+[-        ] proc -
+Creating env using conda: bioconda::trim-galore=0.6.7 [cache /users/grad/kathleen/journal-paper/tasks/work/conda/env-280b48b715fe2a4ff84587983176f97b]
+
+executor >  local (1)
+[1f/1397cb] proc (1) | 0 of 1
+
+
+executor >  local (1)
+[1f/1397cb] proc (1) | 0 of 1
+
+
+executor >  local (1)
+[1f/1397cb] proc (1) | 1 of 1 ✔
+Completed at: 25-Aug-2025 15:13:40
+Duration    : 13m 48s
+CPU hours   : 0.2
+Succeeded   : 1
+
+

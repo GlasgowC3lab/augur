@@ -1,0 +1,24 @@
+
+ N E X T F L O W   ~  version 25.04.6
+
+Launching `fastqc/task.nf` [irreverent_hugle] DSL2 - revision: cbf880967c
+
+[-        ] proc -
+Creating env using conda: bioconda::fastqc=0.12.1 [cache /users/grad/kathleen/journal-paper/tasks/work/conda/env-49dea791c31ead673ed2e341e1c6d206]
+
+executor >  local (1)
+[47/ce264e] proc (1) | 0 of 1
+
+
+executor >  local (1)
+[47/ce264e] proc (1) | 1 of 1 ✔
+
+
+executor >  local (1)
+[47/ce264e] proc (1) | 1 of 1 ✔
+Completed at: 26-Aug-2025 16:21:15
+Duration    : 8m 16s
+CPU hours   : 0.1
+Succeeded   : 1
+
+
