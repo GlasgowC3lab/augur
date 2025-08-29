@@ -80,6 +80,9 @@ def make_model(filename):
 
     return (model_linear_v2, mem_draw, (min(y_arr), max(y_arr)))
 
+
+# update to store in the format expected by ichnos / JSON ? or easily parseable record
+# add versioning, i.e. date/timestamp for it, version like 1.0 and then increment -> 1.1 -- 1.11+
 def write_output(filename, model, mem_draw, minmax, mem):
     filename = f'output/{filename}-model.txt'
     (miiin, maaax) = minmax
@@ -95,7 +98,7 @@ def write_output(filename, model, mem_draw, minmax, mem):
     print(f'Models: stored in file {filename}')
 
 
-# call with ts filename prefix and memory on the node requested, e.g. for gpg13, this is gpg13-performance and 64GB of RAM
+# $ python3 FitPowerModels gpg13-performance 64  # node-setting RAM in GB 
 if __name__ == '__main__':
     args = sys.argv[1:]
     filename = args[0].strip()
