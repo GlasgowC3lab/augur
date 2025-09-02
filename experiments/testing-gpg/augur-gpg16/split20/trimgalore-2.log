@@ -1,0 +1,26 @@
+
+ N E X T F L O W   ~  version 25.04.6
+
+Launching `trimgalore/task.nf` [shrivelled_visvesvaraya] DSL2 - revision: 0c1a3c5d6e
+
+[-        ] proc -
+
+[-        ] proc -
+Creating env using conda: bioconda::trim-galore=0.6.7 [cache /users/grad/kathleen/journal-paper/tasks/work/conda/env-280b48b715fe2a4ff84587983176f97b]
+
+executor >  local (1)
+[66/ffe923] proc (1) | 0 of 1
+
+
+executor >  local (1)
+[66/ffe923] proc (1) | 1 of 1 ✔
+
+
+executor >  local (1)
+[66/ffe923] proc (1) | 1 of 1 ✔
+Completed at: 28-Aug-2025 16:40:13
+Duration    : 6m 45s
+CPU hours   : 0.1
+Succeeded   : 1
+
+

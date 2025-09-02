@@ -1,0 +1,29 @@
+
+ N E X T F L O W   ~  version 25.04.6
+
+Launching `fastqc/task.nf` [soggy_caravaggio] DSL2 - revision: fc06a4e0a0
+
+[-        ] proc -
+
+[-        ] proc -
+Creating env using conda: bioconda::fastqc=0.12.1 [cache /users/grad/kathleen/journal-paper/tasks/work/conda/env-49dea791c31ead673ed2e341e1c6d206]
+
+executor >  local (1)
+[c1/65d5b3] proc (1) | 0 of 1
+
+
+executor >  local (1)
+[c1/65d5b3] proc (1) | 0 of 1
+
+
+executor >  local (1)
+[c1/65d5b3] proc (1) | 1 of 1 ✔
+
+executor >  local (1)
+[c1/65d5b3] proc (1) | 1 of 1 ✔
+Completed at: 28-Aug-2025 16:24:31
+Duration    : 1m 59s
+CPU hours   : (a few seconds)
+Succeeded   : 1
+
+
