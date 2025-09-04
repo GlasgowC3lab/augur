@@ -67,7 +67,7 @@ class Polynomial:
 
 # Helper Functions
 def make_model(filename):
-    ts_path = f'data/ts/{filename}-ITER.csv'
+    ts_path = f'ts/ts-ITER.csv'
     node_stats = {}
     (node_stats[filename], mem_draw) = get_average_ts_files(ts_path)
     x = range(0,110,10)
@@ -84,7 +84,7 @@ def make_model(filename):
 # update to store in the format expected by ichnos / JSON ? or easily parseable record
 # add versioning, i.e. date/timestamp for it, version like 1.0 and then increment -> 1.1 -- 1.11+
 def write_output(filename, model, mem_draw, minmax, mem):
-    filename = f'output/{filename}-model.txt'
+    filename = f'{filename}-model.txt'
     (miiin, maaax) = minmax
 
     with open(filename, 'w') as f:
@@ -95,10 +95,9 @@ def write_output(filename, model, mem_draw, minmax, mem):
         f.write(f'Idle: {miiin}\n')
         f.write(f'Max: {maaax}\n')
 
-    print(f'Models: stored in file {filename}')
+    print(f'Model stored in file {filename}')
 
 
-# $ python3 FitPowerModels gpg13-performance 64  # node-setting RAM in GB 
 if __name__ == '__main__':
     args = sys.argv[1:]
     filename = args[0].strip()

@@ -1,0 +1,27 @@
+
+ N E X T F L O W   ~  version 25.04.6
+
+Launching `trimgalore/task.nf` [confident_ampere] DSL2 - revision: 982398fbc7
+
+[-        ] proc -
+
+[-        ] proc -
+Creating env using conda: bioconda::trim-galore=0.6.7 [cache /users/grad/kathleen/journal-paper/tasks/work/conda/env-280b48b715fe2a4ff84587983176f97b]
+
+[-        ] proc | 0 of 1
+
+
+executor >  local (1)
+[94/ec1f45] proc (1) | 0 of 1
+
+executor >  local (1)
+[94/ec1f45] proc (1) | 1 of 1 ✔
+
+executor >  local (1)
+[94/ec1f45] proc (1) | 1 of 1 ✔
+Completed at: 02-Sep-2025 18:47:05
+Duration    : 1h 32m 3s
+CPU hours   : 1.5
+Succeeded   : 1
+
+
