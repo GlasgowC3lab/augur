@@ -1,0 +1,27 @@
+
+ N E X T F L O W   ~  version 25.04.6
+
+Launching `fastqc/task.nf` [cheesy_pasteur] DSL2 - revision: f2b5c82f0f
+
+[-        ] proc -
+Creating env using conda: bioconda::fastqc=0.12.1 [cache /users/grad/kathleen/journal-paper/tasks/work/conda/env-49dea791c31ead673ed2e341e1c6d206]
+
+executor >  local (1)
+[cb/fd6768] proc (1) | 0 of 1
+
+
+executor >  local (1)
+[cb/fd6768] proc (1) | 0 of 1
+
+
+executor >  local (1)
+[cb/fd6768] proc (1) | 1 of 1 ✔
+
+executor >  local (1)
+[cb/fd6768] proc (1) | 1 of 1 ✔
+Completed at: 08-Sep-2025 13:16:18
+Duration    : 2m 28s
+CPU hours   : (a few seconds)
+Succeeded   : 1
+
+

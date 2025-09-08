@@ -1,0 +1,21 @@
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_GB.UTF-8,Utf16=on,HugeFiles=on,64 bits,64 CPUs Intel(R) Xeon(R) Gold 6426Y (806F8),ASM,AES-NI)
+
+Intel(R) Xeon(R) Gold 6426Y (806F8)
+CPU Freq: - - - - - - - - -
+
+RAM size:  128407 MB,  # CPU hardware threads:  64
+RAM usage:  14120 MB,  # Benchmark threads:     64
+
+                       Compressing  |                  Decompressing
+Dict     Speed Usage    R/U Rating  |      Speed Usage    R/U Rating
+         KiB/s     %   MIPS   MIPS  |      KiB/s     %   MIPS   MIPS
+
+22:     208624  5841   3475 202950  |    2040041  6363   2734 173964
+23:     176801  5546   3248 180139  |    2004735  6330   2740 173463
+24:     169030  5581   3257 181742  |    1972822  6336   2733 173154
+25:     162057  5637   3283 185031  |    1902135  6170   2744 169251
+----------------------------------  | ------------------------------
+Avr:            5651   3316 187465  |             6300   2738 172458
+Tot:            5975   3027 179962
