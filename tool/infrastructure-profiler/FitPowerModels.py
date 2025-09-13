@@ -54,7 +54,7 @@ class Polynomial:
             if coeff == 0:
                 continue
             chunks.append(self.format_coeff(coeff))
-        return f'[ {', '.join(chunks)} ]'
+        return f"[ {', '.join(chunks)} ]"
 
     @staticmethod
     def format_coeff(coeff):
