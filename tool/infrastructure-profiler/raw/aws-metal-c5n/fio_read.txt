@@ -1,0 +1,31 @@
+read_throughput: (g=0): rw=read, bs=(R) 1024KiB-1024KiB, (W) 1024KiB-1024KiB, (T) 1024KiB-1024KiB, ioengine=posixaio, iodepth=64
+fio-3.36
+Starting 1 process
+read_throughput: Laying out IO file (1 file / 10240MiB)
+
+read_throughput: (groupid=0, jobs=1): err= 0: pid=16512: Mon Sep 15 10:19:25 2025
+  read: IOPS=124, BW=127MiB/s (133MB/s)(3839MiB/30217msec)
+    slat (nsec): min=94, max=46205, avg=607.31, stdev=1143.89
+    clat (msec): min=507, max=558, avg=511.20, stdev= 1.53
+     lat (msec): min=507, max=558, avg=511.20, stdev= 1.53
+    clat percentiles (msec):
+     |  1.00th=[  510],  5.00th=[  510], 10.00th=[  510], 20.00th=[  510],
+     | 30.00th=[  510], 40.00th=[  510], 50.00th=[  510], 60.00th=[  510],
+     | 70.00th=[  510], 80.00th=[  514], 90.00th=[  514], 95.00th=[  514],
+     | 99.00th=[  514], 99.50th=[  514], 99.90th=[  535], 99.95th=[  550],
+     | 99.99th=[  558]
+   bw (  KiB/s): min=14336, max=131334, per=99.12%, avg=128949.07, stdev=15072.42, samples=60
+   iops        : min=   14, max=  128, avg=125.83, stdev=14.71, samples=60
+  lat (msec)   : 750=100.19%
+  cpu          : usr=0.06%, sys=0.01%, ctx=480, majf=0, minf=36
+  IO depths    : 1=0.0%, 2=0.0%, 4=0.0%, 8=12.5%, 16=25.0%, 32=50.0%, >=64=12.5%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=98.6%, 8=0.1%, 16=0.0%, 32=0.0%, 64=1.4%, >=64=0.0%
+     issued rwts: total=3776,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: bw=127MiB/s (133MB/s), 127MiB/s-127MiB/s (133MB/s-133MB/s), io=3839MiB (4025MB), run=30217-30217msec
+
+Disk stats (read/write):
+  nvme0n1: ios=33063/3, sectors=8464128/32, merge=0/1, ticks=142503/8, in_queue=142510, util=96.83%
