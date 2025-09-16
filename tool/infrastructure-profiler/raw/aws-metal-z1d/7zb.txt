@@ -1,0 +1,21 @@
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=C.UTF-8,Utf16=on,HugeFiles=on,64 bits,48 CPUs Intel(R) Xeon(R) Platinum 8151 CPU @ 3.40GHz (50654),ASM,AES-NI)
+
+Intel(R) Xeon(R) Platinum 8151 CPU @ 3.40GHz (50654)
+CPU Freq: - - - - - - - - -
+
+RAM size:  386581 MB,  # CPU hardware threads:  48
+RAM usage:  10590 MB,  # Benchmark threads:     48
+
+                       Compressing  |                  Decompressing
+Dict     Speed Usage    R/U Rating  |      Speed Usage    R/U Rating
+         KiB/s     %   MIPS   MIPS  |      KiB/s     %   MIPS   MIPS
+
+22:     141340  4524   3039 137496  |    1615588  4787   2878 137772
+23:     133674  4426   3077 136198  |    1573526  4751   2866 136154
+24:     123323  4385   3024 132597  |    1544161  4725   2869 135535
+25:     121986  4425   3148 139279  |    1517188  4719   2861 135014
+----------------------------------  | ------------------------------
+Avr:            4440   3072 136393  |             4746   2869 136119
+Tot:            4593   2970 136256
