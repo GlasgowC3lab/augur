@@ -23,7 +23,7 @@ Execute the generic benchmark script.
 
 $ ./benchmark.sh
 
-4) Run workflow benchmark (WIP development)
+4) Run workflow benchmark (WIP)
 We also use a workflow benchmark, generated using the WfBench project.
 
 $ ./wf-benchmark.sh
@@ -33,4 +33,4 @@ Finally, we want to take the output of all profiling stages and produce a record
 
 $ python ExportStats.py <node-identifier> <memory in GB>
 
-The script will create a profile file: <node-identifier>-profile.csv
+The script will create a profile file: profiles/<node-identifier>.csv

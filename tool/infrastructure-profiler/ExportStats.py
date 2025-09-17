@@ -33,23 +33,36 @@ def read_sysbench_run(filename, node):
 # measured in MiB/s
 def read_fio_run(filename, node):
     raw = get_lines(filename, node)
-    bw = raw[-1].split(',')[0].split(' ')[1].split('=')[1][:-5]
-    return bw
+
+    for line in raw:
+        if "READ: bw=" in line or "WRITE: bw=" in line:
+            data_line = line
+            break
+
+    return data_line.split(',')[0].split(' ')[1].split('=')[1][:-5]
 
 
 def convert_J_to_kWh(val):
     return val / 3600000
 
 
-def read_perf_output(filename, node):
+def read_benchmark_trace(filename, node):
     raw = get_lines(filename, node)
 
-    # 0 is a datetime, 1 is the summary
-    energy_pkg = float(raw[2].split(' ')[0].replace(',', ''))
-    energy_ram = float(raw[3].split(' ')[0].replace(',', ''))
-    time = float(raw[4].split(' ')[0].replace(',', ''))
+    # compute the difference --> 16 is start, 17 complete, memory is 13, 21 cpu%, 22 %mem, 26 peak_vmem, 31 read_bytes, 32 write_bytes
+    first_record = raw[1].split(',')
+    earliest_start = first_record[16]
+    latest_complete = first_record[17]
+    for line in raw[2:]:
+        parts = line.split(',')
+        if parts[16] < earliest_start:
+            earliest_start = parts[16]
+        if parts[17] > latest_complete:
+            latest_complete = parts[17]
 
-    return (convert_J_to_kWh(energy_pkg), convert_J_to_kWh(energy_ram), time)
+    makespan = (float(latest_complete) - float(earliest_start)) / 1000  # convert to seconds
+
+    return makespan
 
 
 def get_mean_and_std(arr):
@@ -57,23 +70,19 @@ def get_mean_and_std(arr):
 
 
 def average_wf_benchmark(node):
-    (cpu_1, ram_1, time_1) = read_perf_output('perf-bench-1.txt', node)
-    (cpu_2, ram_2, time_2) = read_perf_output('perf-bench-2.txt', node)
-    (cpu_3, ram_3, time_3) = read_perf_output('perf-bench-3.txt', node)
+    time_1 = read_benchmark_trace('wf-benchmark-1.csv', node)
+    time_2 = read_benchmark_trace('wf-benchmark-2.csv', node)
+    time_3 = read_benchmark_trace('wf-benchmark-3.csv', node)
 
-    cpu_mean, cpu_std = get_mean_and_std([cpu_1, cpu_2, cpu_3])
-    ram_mean, ram_std = get_mean_and_std([ram_1, ram_2, ram_3])
-    time_mean, time_std = get_mean_and_std([time_1, time_2, time_3])
-
-    return (cpu_mean + ram_mean, time_mean)
+    return get_mean_and_std([time_1, time_2, time_3])
 
 
 def write_profile(data, node, memory):
-    cores,io_read,io_write,bench,z7_bench,bench_time,bench_energy = data
+    cores,io_read,io_write,bench,z7_bench,bench_time = data
     filename = f'profiles/{node}.csv'
     with open(filename, 'w') as f:
-        f.write('node,ram,cores,io_read,io_write,sysbench,z7b,bench_time,bench_energy\n')
-        f.write(f'{node},{memory},{cores},{io_read},{io_write},{bench},{z7_bench},{bench_time},{bench_energy}\n')
+        f.write('node,ram,cores,io_read,io_write,sysbench,z7b,bench_time\n')
+        f.write(f'{node},{memory},{cores},{io_read},{io_write},{bench},{z7_bench},{bench_time}\n')
     print(f'[ExportStats] profile created for {node} with {memory}GB in {filename}')
 
 
@@ -87,6 +96,6 @@ if __name__ == '__main__':
     fio_write = read_fio_run('fio_write.txt', node)
     sysbench = read_sysbench_run('sysbench.txt', node)
     z7 = read_7z_run('7zb.txt', node)
-    bench_energy, bench_time = average_wf_benchmark(node)
+    (bench_time, _) = average_wf_benchmark(node)
 
-    write_profile((props, fio_read, fio_write, sysbench, z7, bench_time, bench_energy), node, memory)
+    write_profile((props, fio_read, fio_write, sysbench, z7, bench_time), node, memory)
