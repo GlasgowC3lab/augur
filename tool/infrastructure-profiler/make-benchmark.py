@@ -12,3 +12,6 @@ benchmark.create_benchmark(pathlib.Path('./tmp/'), cpu_work=100, data=500, perce
 # generate a Nextflow workflow 
 translator = NextflowTranslator(benchmark.workflow) 
 translator.translate(output_folder=pathlib.Path('./benchmark'))
+
+
+# todo: make more than 1 benchmark, make these more specific/meaningful? 
