@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nextflow-manager
+  namespace: default
+  labels:
+    app: nextflow
+spec:
+  containers:
+    - name: nextflow
+      image: public.ecr.aws/seqera-labs/nextflow:latest
+      command: ["sleep", "infinity"]
+      volumeMounts:
+        - name: nextflow-storage
+          mountPath: /workspace
+      resources:
+        limits:
+          cpu: "2"
+          memory: "12Gi"
+  volumes:
+    - name: nextflow-storage
+      persistentVolumeClaim:
+        claimName: ceph-pvc

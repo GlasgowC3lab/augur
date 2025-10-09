@@ -1,5 +1,0 @@
-sample,fastq_1,fastq_2,antibody,control
-H3K4me1_LAPC4_Control_REP3,/input/input/SRR11518275.fastq.gz,,,
-H3K4me1_LAPC4_Control_REP2,/input/input/SRR11518274.fastq.gz,,,
-H3K4me1_LAPC4_Control_REP1,/input/input/SRR11518273.fastq.gz,,,
-H3K27ac_LAPC4_Daro_REP3,/input/input/SRR11518272.fastq.gz,,H3K27ac,H3K27ac_LAPC4_Control_REP3
