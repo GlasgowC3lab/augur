@@ -64,21 +64,21 @@ kill -9 <pid>
 mkdir run-data
 cd run-data
 kubectl cp kathleen-pod-gpgnode12:private-data/energy_log_gpgnode12.txt energy_log_gpgnode12.txt
-kubectl cp kathleen-pod-gpgnode12:private-data/energy_log_gpgnode13.txt energy_log_gpgnode13.txt
-kubectl cp kathleen-pod-gpgnode12:private-data/energy_log_gpgnode14.txt energy_log_gpgnode14.txt
-kubectl cp kathleen-pod-gpgnode12:private-data/energy_log_gpgnode15.txt energy_log_gpgnode15.txt
-kubectl cp kathleen-pod-gpgnode12:private-data/energy_log_gpgnode16.txt energy_log_gpgnode16.txt
-kubectl cp kathleen-pod-gpgnode12:private-data/energy_log_gpgnode17.txt energy_log_gpgnode17.txt
-kubectl cp kathleen-pod-gpgnode12:private-data/energy_log_gpgnode18.txt energy_log_gpgnode18.txt
-kubectl cp kathleen-pod-gpgnode12:private-data/energy_log_gpgnode19.txt energy_log_gpgnode19.txt
+kubectl cp kathleen-pod-gpgnode13:private-data/energy_log_gpgnode13.txt energy_log_gpgnode13.txt
+kubectl cp kathleen-pod-gpgnode14:private-data/energy_log_gpgnode14.txt energy_log_gpgnode14.txt
+kubectl cp kathleen-pod-gpgnode15:private-data/energy_log_gpgnode15.txt energy_log_gpgnode15.txt
+kubectl cp kathleen-pod-gpgnode16:private-data/energy_log_gpgnode16.txt energy_log_gpgnode16.txt
+kubectl cp kathleen-pod-gpgnode17:private-data/energy_log_gpgnode17.txt energy_log_gpgnode17.txt
+kubectl cp kathleen-pod-gpgnode18:private-data/energy_log_gpgnode18.txt energy_log_gpgnode18.txt
+kubectl cp kathleen-pod-gpgnode19:private-data/energy_log_gpgnode19.txt energy_log_gpgnode19.txt
 kubectl cp kathleen-pod-gpgnode12:private-data/energy_DRAM_log_gpgnode12.txt energy_DRAM_log_gpgnode12.txt
-kubectl cp kathleen-pod-gpgnode12:private-data/energy_DRAM_log_gpgnode13.txt energy_DRAM_log_gpgnode13.txt
-kubectl cp kathleen-pod-gpgnode12:private-data/energy_DRAM_log_gpgnode14.txt energy_DRAM_log_gpgnode14.txt
-kubectl cp kathleen-pod-gpgnode12:private-data/energy_DRAM_log_gpgnode15.txt energy_DRAM_log_gpgnode15.txt
-kubectl cp kathleen-pod-gpgnode12:private-data/energy_DRAM_log_gpgnode16.txt energy_DRAM_log_gpgnode16.txt
-kubectl cp kathleen-pod-gpgnode12:private-data/energy_DRAM_log_gpgnode17.txt energy_DRAM_log_gpgnode17.txt
-kubectl cp kathleen-pod-gpgnode12:private-data/energy_DRAM_log_gpgnode18.txt energy_DRAM_log_gpgnode18.txt
-kubectl cp kathleen-pod-gpgnode12:private-data/energy_DRAM_log_gpgnode19.txt energy_DRAM_log_gpgnode19.txt
+kubectl cp kathleen-pod-gpgnode13:private-data/energy_DRAM_log_gpgnode13.txt energy_DRAM_log_gpgnode13.txt
+kubectl cp kathleen-pod-gpgnode14:private-data/energy_DRAM_log_gpgnode14.txt energy_DRAM_log_gpgnode14.txt
+kubectl cp kathleen-pod-gpgnode15:private-data/energy_DRAM_log_gpgnode15.txt energy_DRAM_log_gpgnode15.txt
+kubectl cp kathleen-pod-gpgnode16:private-data/energy_DRAM_log_gpgnode16.txt energy_DRAM_log_gpgnode16.txt
+kubectl cp kathleen-pod-gpgnode17:private-data/energy_DRAM_log_gpgnode17.txt energy_DRAM_log_gpgnode17.txt
+kubectl cp kathleen-pod-gpgnode18:private-data/energy_DRAM_log_gpgnode18.txt energy_DRAM_log_gpgnode18.txt
+kubectl cp kathleen-pod-gpgnode19:private-data/energy_DRAM_log_gpgnode19.txt energy_DRAM_log_gpgnode19.txt
 mv run-data wf-iteration
 ```
 
