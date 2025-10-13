@@ -26,6 +26,10 @@ kubectl cp collect_energy_gpgnode19.sh kathleen-pod-gpgnode19:/private-data
 
 3. start script - measure energy
 ```
+# run on nextflow-manager ->
+chmod +x /private-data/collect_energy_gpgnode1*.sh
+
+# run on each node
 kubectl exec -it kathleen-pod-gpgnode12 -- /bin/bash
 nohup /private-data/collect_energy_gpgnode12.sh /private-data/energy_log_gpgnode12.txt /private-data/energy_DRAM_log_gpgnode12.txt &
 kubectl exec -it kathleen-pod-gpgnode13 -- /bin/bash
