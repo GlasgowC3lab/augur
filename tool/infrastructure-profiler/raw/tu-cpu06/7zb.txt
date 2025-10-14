@@ -1,0 +1,21 @@
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=C.UTF-8,Utf16=on,HugeFiles=on,64 bits,32 CPUs AMD EPYC 7282 16-Core Processor                 (830F10),ASM,AES-NI)
+
+AMD EPYC 7282 16-Core Processor                 (830F10)
+CPU Freq: - - - - - - - 1024000000 -
+
+RAM size:  128510 MB,  # CPU hardware threads:  32
+RAM usage:   7060 MB,  # Benchmark threads:     32
+
+                       Compressing  |                  Decompressing
+Dict     Speed Usage    R/U Rating  |      Speed Usage    R/U Rating
+         KiB/s     %   MIPS   MIPS  |      KiB/s     %   MIPS   MIPS
+
+22:      92410  2891   3110  89897  |    1077973  3113   2953  91928
+23:      84207  2832   3030  85797  |    1088743  3180   2963  94210
+24:      79811  2806   3058  85813  |    1063505  3171   2944  93347
+25:      76209  2769   3142  87012  |    1028583  3141   2915  91537
+----------------------------------  | ------------------------------
+Avr:            2824   3085  87130  |             3151   2944  92756
+Tot:            2988   3014  89943

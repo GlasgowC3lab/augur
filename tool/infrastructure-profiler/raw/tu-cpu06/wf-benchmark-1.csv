@@ -1,0 +1,2 @@
+task_id,hostname,native_id,process,tag,name,status,exit,module,container,cpus,time,disk,memory,attempt,submit,start,complete,duration,realtime,queue,%cpu,%mem,rss,vmem,peak_rss,peak_vmem,rchar,wchar,syscr,syscw,read_bytes,write_bytes,vol_ctxt,inv_ctxt,workdir,scratch,error_action,cpu_model
+1,-,16771,split_fasta_00000001,-,split_fasta_00000001,FAILED,127,-,-,1,-,-,-,1,1760454707849,1760454707896,1760454707958,109,62,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,/home/west/infrastructure-profiler/benchmark/work/38/dde984d902bf88f8917a507cb0645e,-,TERMINATE,-
