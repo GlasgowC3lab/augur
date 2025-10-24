@@ -13,7 +13,8 @@ Current config is found in `experiments/nf-exp.config` - where it is important t
 Each workflow must be run a minimum of 3 times, recording the following data:
 - workflow trace generated, enabled by the config file with RAW VALUES
 - workflow timeline - found in the workflow output folder 'pipeline_info' for official start and stop times
-- energy consumption data - log of energy consumed over time, using turbostat/powercap tools to monitor, at every second, ideally this data will be available per task, as we aim to predict the energy consumed by a workflow task. 
+- energy consumption data - log of energy consumed over time, using turbostat/powercap tools to monitor, at every second, ideally this data will be available per task, as we aim to predict the energy consumed by a workflow task
+  - see example files in experiments/hu-cluster/rnaseq/full/1/run_1_c40_pkg.csv where we log the timestamp and RAPL value
 - data used as workflow input should be persisted, either in a drive, or cloud storage -- main thing is to have the file names and the file sizes, measured in bytes, for the uncompressed data sizes e.g. using gzip -l FILE to get the uncompressed data
 
 Where possible, data should be in csv/txt files, and tracked e.g. workflow/iteration, e.g. rnaseq/1 in folders. 
