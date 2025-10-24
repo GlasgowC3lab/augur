@@ -1,1 +1,0 @@
-2025-10-22 14:40:27	15h 59m 48s	crazy_lattes	OK	f421ddc35d81a0561685927c03e03995	13bd5c7a-87f6-46db-bcc0-670cd8821b05	nextflow run /input/rnaseq -profile test_full -c /experiments/experiment/rnaseq/nextflow.config -c /experiments/experiment/nextflow_orig.config -c /experiments/experiment/nextflow_ceph.config
