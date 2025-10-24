@@ -1,3 +1,5 @@
 # Block Files
 magnus-code
 py-lotaru
+*.DS_Store
+*.zip

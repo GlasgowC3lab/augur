@@ -1,6 +1,6 @@
 ## Steps
 
-1. set-up monitoring pods
+1. set-up monitoring pods (wait a moment after)
 ```
 kubectl apply -f pod-gpgnode12.yaml 
 kubectl apply -f pod-gpgnode13.yaml 
@@ -46,6 +46,13 @@ kubectl exec -it kathleen-pod-gpgnode18 -- /bin/bash
 nohup /private-data/collect_energy_gpgnode18.sh /private-data/energy_log_gpgnode18.txt /private-data/energy_DRAM_log_gpgnode18.txt &
 kubectl exec -it kathleen-pod-gpgnode19 -- /bin/bash
 nohup /private-data/collect_energy_gpgnode19.sh /private-data/energy_log_gpgnode19.txt /private-data/energy_DRAM_log_gpgnode19.txt &
+```
+
+```
+nohup /private-data/collect_energy_data_c40.sh /private-data/energy_log_c40.txt /private-data/energy_DRAM_log_c40.txt &
+nohup /private-data/collect_energy_data_c42.sh /private-data/energy_log_c42.txt /private-data/energy_DRAM_log_c42.txt &
+nohup /private-data/collect_energy_data_c44.sh /private-data/energy_log_c44.txt /private-data/energy_DRAM_log_c44.txt &
+nohup /private-data/collect_energy_data_c45.sh /private-data/energy_log_c45.txt /private-data/energy_DRAM_log_c45.txt &
 ```
 
 4. kill scripts
