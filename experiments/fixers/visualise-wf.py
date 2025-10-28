@@ -1,6 +1,7 @@
 import sys
 import matplotlib.pyplot as plt
 import pandas as pd
+import os, csv
 
 
 class TraceRecord:
@@ -355,14 +356,71 @@ def get_node_idle_periods(tasks):
     return idle_periods
 
 
+def get_node_active_periods(tasks):
+    """
+    Return a dictionary mapping each node to a list of (start, end) intervals
+    when at least one task was running on that node.
+    Overlapping task intervals are merged into continuous periods.
+    """
+    tasks_by_node = {}
+    for task in tasks:
+        node = task["hostname"]
+        tasks_by_node.setdefault(node, []).append(task)
+
+    active_periods = {}
+
+    for node, node_tasks in tasks_by_node.items():
+        # Sort by start time
+        intervals = sorted(
+            [(int(t["start"]), int(t["complete"])) for t in node_tasks],
+            key=lambda x: x[0],
+        )
+
+        merged = []
+        for start, end in intervals:
+            if not merged or start > merged[-1][1]:
+                merged.append([start, end])
+            else:
+                merged[-1][1] = max(merged[-1][1], end)
+        active_periods[node] = [(s, e) for s, e in merged]
+
+    return active_periods
+
+
+
+def export_periods_to_csv(periods_by_node, filename_prefix):
+    """
+    Export a dictionary of node -> [(start, end), ...] to CSV files.
+    One file per node, e.g., 'active_nodeA.csv' or 'idle_nodeB.csv'.
+    """
+    os.makedirs("period_exports", exist_ok=True)
+
+    for node, periods in periods_by_node.items():
+        csv_path = os.path.join("period_exports", f"{filename_prefix}_{node}.csv")
+        with open(csv_path, "w", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["start_ms", "end_ms", "duration_ms", "start_time", "end_time"])
+            for start, end in periods:
+                writer.writerow([
+                    start,
+                    end,
+                    end - start,
+                    pd.to_datetime(start, unit="ms").strftime("%Y-%m-%d %H:%M:%S"),
+                    pd.to_datetime(end, unit="ms").strftime("%Y-%m-%d %H:%M:%S")
+                ])
+        print(f"Exported {len(periods)} periods for {node} → {csv_path}")
+
+
 # Main Script
 if __name__ == '__main__':
     arguments = sys.argv[1:]
     filename = arguments[0]
     tasks = get_tasks(filename)
-    idle_times = get_node_idle_periods(tasks)
 
-    for node, periods in idle_times.items():
-        print(f"{node}: {periods} ")
+    idle_times = get_node_idle_periods(tasks)
+    export_periods_to_csv(idle_times, "idle")
+
+    active_times = get_node_active_periods(tasks)
+    export_periods_to_csv(active_times, "active")
 
     plot_task_timeline(tasks)
