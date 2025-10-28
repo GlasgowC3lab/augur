@@ -66,8 +66,7 @@ kubectl exec -it kathleen-pod-gpgnode17 -- /bin/bash
 kubectl exec -it kathleen-pod-gpgnode18 -- /bin/bash
 kubectl exec -it kathleen-pod-gpgnode19 -- /bin/bash
 ...
-ps -elf
-kill -9 <pid>
+kill $(ps aux | grep '[c]ollect_energy_gpgnode' | awk '{print $2}')
 ```
 
 5. retrieve data

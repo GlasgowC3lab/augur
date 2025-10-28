@@ -23,7 +23,7 @@ def main(args):
 
     pref = '/'.join(filename.split('/')[:-1])
     actual = filename.split('/')[-1]
-    output_file = pref + "conv-" + actual
+    output_file = pref + "/conv-" + actual
     current_date = start_date
     previous_time = None
 

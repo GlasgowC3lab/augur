@@ -3,3 +3,5 @@ magnus-code
 py-lotaru
 *.DS_Store
 *.zip
+*energy_evaluation.py 
+*/fixers/*/*
