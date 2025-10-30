@@ -394,9 +394,10 @@ def export_periods_to_csv(periods_by_node, filename_prefix):
     One file per node, e.g., 'active_nodeA.csv' or 'idle_nodeB.csv'.
     """
     os.makedirs("period_exports", exist_ok=True)
+    node_out = node.split('-')[-1]
 
     for node, periods in periods_by_node.items():
-        csv_path = os.path.join("period_exports", f"{filename_prefix}_{node}.csv")
+        csv_path = os.path.join("period_exports", f"{filename_prefix}_{node_out}.csv")
         with open(csv_path, "w", newline="") as f:
             writer = csv.writer(f)
             writer.writerow(["start_ms", "end_ms", "duration_ms", "start_time", "end_time"])
