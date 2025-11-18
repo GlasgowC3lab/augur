@@ -13,7 +13,7 @@ def main(args):
         for row in reader:
             try:
                 runs.append({
-                    "run": int(row["run"]),
+                    "run": str(row["run"]),
                     "start": int(row["start"]),
                     "end": int(row["end"]),
                     "data": []  

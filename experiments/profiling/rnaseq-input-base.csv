@@ -1,0 +1,2 @@
+sample,fastq_1,fastq_2,strandedness
+SAMPNAME,BASE/profiling/INPUT1,BASE/profiling/INPUT2,reverse
