@@ -3,7 +3,7 @@
 mkdir WORKFLOW-INPUT
 mkdir outdata
 
-nextflow run WORKFLOW/main.nf -profile test_full -c WORKFLOW-CONF.config
+nextflow run WORKFLOW -c WORKFLOW-CONF.config
 
 mv outdata/pipeline_info/* WORKFLOW-INPUT
 mv null/pipeline_info/* WORKFLOW-INPUT
