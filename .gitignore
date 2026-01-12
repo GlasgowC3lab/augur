@@ -1,6 +1,7 @@
 # Block Files
 magnus-code
 py-lotaru
+*/hu-cluster-old
 *.DS_Store
 *.zip
 energy_evaluation.py 
