@@ -1,2 +1,0 @@
-node,ram,cores,io_read,io_write,sysbench,z7b,bench_time,bench_energy
-gpg16,64,32,106,89.1,308.45,1785,71.36036573366667,0.0023447685185185186

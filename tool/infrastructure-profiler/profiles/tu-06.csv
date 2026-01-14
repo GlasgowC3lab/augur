@@ -1,0 +1,2 @@
+node,ram,cores,io_read,io_write,sysbench,z7b,bench_time
+tu-06,128,32,3500,4717,601.07,3014,0.07366666666666667
