@@ -6,3 +6,14 @@ py-lotaru
 *.zip
 energy_evaluation.py 
 */fixers/*/*
+
+# Local python environment
+.venv/
+
+# uv configuration and lockfiles
+.python-version
+pyproject.toml
+uv.lock
+
+# VS Code local settings
+.vscode/
