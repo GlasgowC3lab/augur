@@ -10,17 +10,18 @@ PKG = 'pkg'
 DRAM = 'dram'
 args = sys.argv[1:]
 workflow = args[0]
+run = int(args[1])
 run_data = {} 
+iteration = f'-{run}'
+# call it with python energy_eval_4node.py <workflow> <iteration>
+# e.g. python3 energy_eval_4node.py rnaseq 1
 
-with open(f'{workflow}/stamp-2.csv') as file:
+with open(f'{workflow}/stamp{iteration}.csv') as file:
     stamps = [line.rstrip().split(',') for line in file.readlines()][1:]
 
-runs = len(stamps)
-
-for run in range(0, runs):
-    run_data[run] = {}
-    run_data[run]['start'] = int(stamps[run][1])
-    run_data[run]['end'] = int(stamps[run][2])
+run_data[run] = {}
+run_data[run]['start'] = int(stamps[0][1])
+run_data[run]['end'] = int(stamps[0][2])
 
 
 # Functions
@@ -119,7 +120,7 @@ def get_rapl_for_period(start_time, end_time, package_log, dram_log):
     return ((energy_consumed_1, energy_consumed_2), (dram_energy_consumed_1, dram_energy_consumed_2))
 
 def get_idle_period_data(run, node):
-    energy_dir = f'{workflow}/{run+1}/energy/'
+    energy_dir = f'{workflow}/{run}/energy/'
     with open(energy_dir + f'idle_{node}.csv') as file:
         stripped_lines = [line.rstrip().split(',') for line in file.readlines()]
         header = stripped_lines[0]
@@ -132,7 +133,7 @@ def get_idle_period_data(run, node):
 
 
 def get_active_period_data(run, node):
-    energy_dir = f'{workflow}/{run+1}/energy/'
+    energy_dir = f'{workflow}/{run}/energy/'
     with open(energy_dir + f'active_{node}.csv') as file:
         stripped_lines = [line.rstrip().split(',') for line in file.readlines()]
         header = stripped_lines[0]
@@ -144,29 +145,29 @@ def get_active_period_data(run, node):
     return active_periods
 
 
-with open(f'{workflow}-runs.csv', 'w') as outfile:
+with open(f'{workflow}-run{iteration}.csv', 'w') as outfile:
     outfile.write('run,pkg,dram,total,idle_pkg,idle_dram,idle_total,active_pkg,active_dram,active_total\n')
 
-    for run in range(0, runs): 
+    for run in range(run, run+1): 
         task_data = []
-        trace = f'{workflow}/{run+1}/trace.csv'
-        energy_dir = f'{workflow}/{run+1}/energy/'
-        # pkg_gpg12 = energy_dir + f'run_{run+1}_gpgnode12_pkg.csv'
-        pkg_gpg13 = energy_dir + f'run_{run+1}_gpgnode13_pkg.csv'
-        pkg_gpg14 = energy_dir + f'run_{run+1}_gpgnode14_pkg.csv'
-        pkg_gpg15 = energy_dir + f'run_{run+1}_gpgnode15_pkg.csv'
-        pkg_gpg16 = energy_dir + f'run_{run+1}_gpgnode16_pkg.csv'
-        pkg_gpg17 = energy_dir + f'run_{run+1}_gpgnode17_pkg.csv'
-        # pkg_gpg18 = energy_dir + f'run_{run+1}_gpgnode18_pkg.csv'
-        # pkg_gpg19 = energy_dir + f'run_{run+1}_gpgnode19_pkg.csv'
-        # dram_gpg12 = energy_dir + f'run_{run+1}_gpgnode12_dram.csv'
-        dram_gpg13 = energy_dir + f'run_{run+1}_gpgnode13_dram.csv'
-        dram_gpg14 = energy_dir + f'run_{run+1}_gpgnode14_dram.csv'
-        dram_gpg15 = energy_dir + f'run_{run+1}_gpgnode15_dram.csv'
-        dram_gpg16 = energy_dir + f'run_{run+1}_gpgnode16_dram.csv'
-        dram_gpg17 = energy_dir + f'run_{run+1}_gpgnode17_dram.csv'
-        # dram_gpg18 = energy_dir + f'run_{run+1}_gpgnode18_dram.csv'
-        # dram_gpg19 = energy_dir + f'run_{run+1}_gpgnode19_dram.csv'
+        trace = f'{workflow}/{run}/trace.csv'
+        energy_dir = f'{workflow}/{run}/energy/'
+        # pkg_gpg12 = energy_dir + f'run_{run}_gpgnode12_pkg.csv'
+        pkg_gpg13 = energy_dir + f'run_{run}_gpgnode13_pkg.csv'
+        pkg_gpg14 = energy_dir + f'run_{run}_gpgnode14_pkg.csv'
+        # pkg_gpg15 = energy_dir + f'run_{run}_gpgnode15_pkg.csv'
+        pkg_gpg16 = energy_dir + f'run_{run}_gpgnode16_pkg.csv'
+        # pkg_gpg17 = energy_dir + f'run_{run}_gpgnode17_pkg.csv'
+        pkg_gpg18 = energy_dir + f'run_{run}_gpgnode18_pkg.csv'
+        # pkg_gpg19 = energy_dir + f'run_{run}_gpgnode19_pkg.csv'
+        # dram_gpg12 = energy_dir + f'run_{run}_gpgnode12_dram.csv'
+        dram_gpg13 = energy_dir + f'run_{run}_gpgnode13_dram.csv'
+        dram_gpg14 = energy_dir + f'run_{run}_gpgnode14_dram.csv'
+        # dram_gpg15 = energy_dir + f'run_{run}_gpgnode15_dram.csv'
+        dram_gpg16 = energy_dir + f'run_{run}_gpgnode16_dram.csv'
+        # dram_gpg17 = energy_dir + f'run_{run}_gpgnode17_dram.csv'
+        dram_gpg18 = energy_dir + f'run_{run}_gpgnode18_dram.csv'
+        # dram_gpg19 = energy_dir + f'run_{run}_gpgnode19_dram.csv'
 
         # store trace run data
         with open(trace) as file:
@@ -182,10 +183,10 @@ with open(f'{workflow}-runs.csv', 'w') as outfile:
         # gpg12_pkg, gpg12_dram = get_energy_data(pkg_gpg12, dram_gpg12)
         gpg13_pkg, gpg13_dram = get_energy_data(pkg_gpg13, dram_gpg13)
         gpg14_pkg, gpg14_dram = get_energy_data(pkg_gpg14, dram_gpg14)
-        gpg15_pkg, gpg15_dram = get_energy_data(pkg_gpg15, dram_gpg15)
+        # gpg15_pkg, gpg15_dram = get_energy_data(pkg_gpg15, dram_gpg15)
         gpg16_pkg, gpg16_dram = get_energy_data(pkg_gpg16, dram_gpg16)
-        gpg17_pkg, gpg17_dram = get_energy_data(pkg_gpg17, dram_gpg17)
-        # gpg18_pkg, gpg18_dram = get_energy_data(pkg_gpg18, dram_gpg18)
+        # gpg17_pkg, gpg17_dram = get_energy_data(pkg_gpg17, dram_gpg17)
+        gpg18_pkg, gpg18_dram = get_energy_data(pkg_gpg18, dram_gpg18)
         # gpg19_pkg, gpg19_dram = get_energy_data(pkg_gpg19, dram_gpg19)
         energy_by_host = {
             # 'gpgnode-12': {
@@ -206,30 +207,30 @@ with open(f'{workflow}-runs.csv', 'w') as outfile:
                 'idle_intervals': get_idle_period_data(run, '14'),
                 'active_intervals': get_active_period_data(run, '14')
             },
-            'gpgnode-15': {
-                PKG: gpg15_pkg,
-                DRAM: gpg15_dram,
-                'idle_intervals': get_idle_period_data(run, '15'),
-                'active_intervals': get_active_period_data(run, '15')
-            },
+            # 'gpgnode-15': {
+            #     PKG: gpg15_pkg,
+            #     DRAM: gpg15_dram,
+            #     'idle_intervals': get_idle_period_data(run, '15'),
+            #     'active_intervals': get_active_period_data(run, '15')
+            # },
             'gpgnode-16': {
                 PKG: gpg16_pkg,
                 DRAM: gpg16_dram,
                 'idle_intervals': get_idle_period_data(run, '16'),
                 'active_intervals': get_active_period_data(run, '16')
             },
-            'gpgnode-17': {
-                PKG: gpg17_pkg,
-                DRAM: gpg17_dram,
-                'idle_intervals': get_idle_period_data(run, '17'),
-                'active_intervals': get_active_period_data(run, '17')
-            },
-            # 'gpgnode-18': {
-            #     PKG: gpg18_pkg,
-            #     DRAM: gpg18_dram,
-            #     'idle_intervals': get_idle_period_data(run, '18'),
-            #     'active_intervals': get_active_period_data(run, '18')
+            # 'gpgnode-17': {
+            #     PKG: gpg17_pkg,
+            #     DRAM: gpg17_dram,
+            #     'idle_intervals': get_idle_period_data(run, '17'),
+            #     'active_intervals': get_active_period_data(run, '17')
             # },
+            'gpgnode-18': {
+                PKG: gpg18_pkg,
+                DRAM: gpg18_dram,
+                'idle_intervals': get_idle_period_data(run, '18'),
+                'active_intervals': get_active_period_data(run, '18')
+            },
             # 'gpgnode-19': {
             #     PKG: gpg19_pkg,
             #     DRAM: gpg19_dram,
