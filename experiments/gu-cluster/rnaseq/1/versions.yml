@@ -5,11 +5,11 @@ CUSTOM_GETCHROMSIZES:
 CUSTOM_TX2GENE:
   python: 3.10.4
 DESEQ2_QC_PSEUDO:
-  r-base: 4.0.3
-  bioconductor-deseq2: 1.28.0
+  r-base: 4.4.2
+  bioconductor-deseq2: 1.46.0
 DESEQ2_QC_STAR_SALMON:
-  r-base: 4.0.3
-  bioconductor-deseq2: 1.28.0
+  r-base: 4.4.2
+  bioconductor-deseq2: 1.46.0
 DUPRADAR:
   bioconductor-dupradar: 1.32.0
 FASTQC:
@@ -53,6 +53,8 @@ SAMTOOLS_INDEX:
   samtools: 1.21
 SAMTOOLS_SORT:
   samtools: 1.21
+SAMTOOLS_SORT_QUALIMAP:
+  samtools: 1.21
 SAMTOOLS_STATS:
   samtools: 1.21
 SE_GENE_UNIFIED:
@@ -61,7 +63,7 @@ SE_TRANSCRIPT_UNIFIED:
   bioconductor-summarizedexperiment: 1.32.0
 STAR_ALIGN_IGENOMES:
   star: 2.6.1d
-  samtools: 1.1
+  samtools: 1.21
   gawk: 5.1.0
 STRINGTIE_STRINGTIE:
   stringtie: 2.2.3
@@ -78,5 +80,5 @@ UCSC_BEDCLIP:
 UCSC_BEDGRAPHTOBIGWIG:
   ucsc: 469
 Workflow:
-    nf-core/rnaseq: v3.21.0-g9738a2d
-    Nextflow: 25.10.0
+    nf-core/rnaseq: v3.22.2-g3816d48
+    Nextflow: 25.10.3
