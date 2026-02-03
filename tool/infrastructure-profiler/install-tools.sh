@@ -21,6 +21,17 @@ bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
 rm ~/miniconda3/miniconda.sh
 export PATH="$HOME/miniconda3/bin:$PATH"  # add conda to path
 
+# install docker using convenience script (root permissions)
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh ./get-docker.sh 
+dockerd-rootless-setuptool.sh install  # rootless version
+
+# gsutil
+curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-linux-x86_64.tar.gz
+tar -xf google-cloud-cli-linux-x86_64.tar.gz
+./google-cloud-sdk/install.sh
+gcloud auth init 
+
 conda create -n use_py python=3.12
 conda activate use_py
 python -m pip install scipy==1.13.0 

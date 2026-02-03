@@ -1,0 +1,2 @@
+sample,single_end,fastq_1,fastq_2,antibody,control
+sample_f_T1,1,/root/rnaseq-mini/sample_f.fastq.gz,,,
