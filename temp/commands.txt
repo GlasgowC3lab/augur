@@ -8,7 +8,7 @@ python3 -m src.scripts.IchnosCF hu-chipseq-3 1.0 schedutil_linear 60 1.0 0.392 2
 python3 -m src.scripts.IchnosCF hu-rnaseq-1 1.0 schedutil_linear 60 1.0 0.392 256 4
 python3 -m src.scripts.IchnosCF hu-rnaseq-2 1.0 schedutil_linear 60 1.0 0.392 256 4
 python3 -m src.scripts.IchnosCF hu-rnaseq-3 1.0 schedutil_linear 60 1.0 0.392 256 4
-# ... (todo)
+...
 python3 -m src.scripts.IchnosCF hu-rangeland-1 1.0 schedutil_linear 60 1.0 0.392 256 4
 python3 -m src.scripts.IchnosCF hu-rangeland-2 1.0 schedutil_linear 60 1.0 0.392 256 4
 python3 -m src.scripts.IchnosCF hu-rangeland-3 1.0 schedutil_linear 60 1.0 0.392 256 4
