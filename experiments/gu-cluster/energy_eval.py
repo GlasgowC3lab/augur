@@ -345,6 +345,6 @@ with open(f'{workflow}-runs.csv', 'w') as outfile:
 
         # Report on Energy
         outfile.write(f'\
-{total_pkg_kwh_1 + total_pkg_kwh_2 - pkg_idle_kwh},{total_dram_kwh_1 + total_dram_kwh_2 - dram_idle_kwh},{total_kwh_1 + total_kwh_2 - pkg_idle_kwh - dram_idle_kwh},\
+{total_pkg_kwh_1 + total_pkg_kwh_2},{total_dram_kwh_1 + total_dram_kwh_2},{total_kwh_1 + total_kwh_2},\
 {pkg_idle_kwh},{dram_idle_kwh},{pkg_idle_kwh + dram_idle_kwh},\
 {total_active_pkg},{total_active_dram},{total_active_pkg + total_active_dram}\n')
