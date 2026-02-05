@@ -146,7 +146,7 @@ def get_active_period_data(run, node):
 
 
 with open(f'{workflow}-run{iteration}.csv', 'w') as outfile:
-    outfile.write('run,pkg,dram,total,idle_pkg,idle_dram,idle_total,active_pkg,active_dram,active_total\n')
+    outfile.write('run,pkg_1,dram_1,total_1,idle_pkg_1,idle_dram_1,idle_total_1,active_pkg_1,active_dram_1,active_total_1,pkg_2,dram_2,total_2,idle_pkg_2,idle_dram_2,idle_total_2,active_pkg_2,active_dram_2,active_total_2\n')
 
     for run in range(run, run+1): 
         task_data = []
@@ -240,22 +240,24 @@ with open(f'{workflow}-run{iteration}.csv', 'w') as outfile:
         }
 
         # energy per task over execution
-        package_energy_per_task = []
-        dram_energy_per_task = []
-        energy_per_task = []
+        # package_energy_per_task = []
+        # dram_energy_per_task = []
+        # energy_per_task = []
 
-        for index, row in run_df.iterrows():
-            pkg = energy_by_host[row['hostname']][PKG].values.tolist()
-            dram = energy_by_host[row['hostname']][DRAM].values.tolist()
+        # for index, row in run_df.iterrows():
+        #     pkg = energy_by_host[row['hostname']][PKG].values.tolist()
+        #     dram = energy_by_host[row['hostname']][DRAM].values.tolist()
 
-            (task_energy_1, task_energy_2), (task_dram_1, task_dram_2) = get_rapl_for_period(row['start'], row['complete'], pkg, dram)
-            package_energy_per_task.append(task_energy_1 + task_energy_2)
-            dram_energy_per_task.append(task_dram_1 + task_dram_2)
-            energy_per_task.append(task_energy_1 + task_energy_2 + task_dram_1 + task_dram_2)
+        #     (task_energy_1, task_energy_2), (task_dram_1, task_dram_2) = get_rapl_for_period(row['start'], row['complete'], pkg, dram)
+        #     package_energy_per_task.append(task_energy_1 + task_energy_2)
+        #     dram_energy_per_task.append(task_dram_1 + task_dram_2)
+        #     energy_per_task.append(task_energy_1 + task_energy_2 + task_dram_1 + task_dram_2)
 
         # idle energy
-        package_idle_per_node = []
-        dram_idle_per_node = []
+        package_idle_per_node_1 = []
+        dram_idle_per_node_1 = []
+        package_idle_per_node_2 = []
+        dram_idle_per_node_2 = []
         for hostname in energy_by_host.keys():
             pkg = energy_by_host[hostname][PKG].values.tolist()
             dram = energy_by_host[hostname][DRAM].values.tolist()
@@ -263,15 +265,21 @@ with open(f'{workflow}-run{iteration}.csv', 'w') as outfile:
 
             for _, row in idle_intervals.iterrows():
                 (task_energy_1, task_energy_2), (task_dram_1, task_dram_2) = get_rapl_for_period(row['start_ms'], row['end_ms'], pkg, dram)
-                package_idle_per_node.append(task_energy_1 + task_energy_2)
-                dram_idle_per_node.append(task_dram_1 + task_dram_2)
+                package_idle_per_node_1.append(task_energy_1)
+                dram_idle_per_node_1.append(task_dram_1)
+                package_idle_per_node_2.append(task_energy_2)
+                dram_idle_per_node_2.append(task_dram_2)
 
-        total_idle_pkg = sum(package_idle_per_node)
-        total_idle_dram = sum(dram_idle_per_node)
+        total_idle_pkg_1 = convert_J_to_kWh(sum(package_idle_per_node_1))
+        total_idle_dram_1 = convert_J_to_kWh(sum(dram_idle_per_node_1))
+        total_idle_pkg_2 = convert_J_to_kWh(sum(package_idle_per_node_2))
+        total_idle_dram_2 = convert_J_to_kWh(sum(dram_idle_per_node_2))
 
         # active energy
-        package_active_per_node = []
-        dram_active_per_node = []
+        package_active_per_node_1 = []
+        dram_active_per_node_1 = []
+        package_active_per_node_2 = []
+        dram_active_per_node_2 = []
         for hostname in energy_by_host.keys():
             pkg = energy_by_host[hostname][PKG].values.tolist()
             dram = energy_by_host[hostname][DRAM].values.tolist()
@@ -279,11 +287,15 @@ with open(f'{workflow}-run{iteration}.csv', 'w') as outfile:
 
             for _, row in active_intervals.iterrows():
                 (task_energy_1, task_energy_2), (task_dram_1, task_dram_2) = get_rapl_for_period(row['start_ms'], row['end_ms'], pkg, dram)
-                package_active_per_node.append(task_energy_1 + task_energy_2)
-                dram_active_per_node.append(task_dram_1 + task_dram_2)
+                package_active_per_node_1.append(task_energy_1)
+                package_active_per_node_2.append(task_energy_2)
+                dram_active_per_node_1.append(task_dram_1)
+                dram_active_per_node_2.append(task_dram_2)
 
-        total_active_pkg = convert_J_to_kWh(sum(package_active_per_node))
-        total_active_dram = convert_J_to_kWh(sum(dram_active_per_node))
+        total_active_pkg_1 = convert_J_to_kWh(sum(package_active_per_node_1))
+        total_active_dram_1 = convert_J_to_kWh(sum(dram_active_per_node_1))
+        total_active_pkg_2 = convert_J_to_kWh(sum(package_active_per_node_2))
+        total_active_dram_2 = convert_J_to_kWh(sum(dram_active_per_node_2))
 
         # overall energy per node over workflow execution
         package_energy_per_node_1 = []
@@ -316,42 +328,28 @@ with open(f'{workflow}-run{iteration}.csv', 'w') as outfile:
         total_dram_kwh_2 = convert_J_to_kWh(total_dram_energy_per_node_2)
         total_kwh_2 = convert_J_to_kWh(total_energy_2)
 
-        print(workflow, 'run', run + 1)
-        # print(total_pkg_energy_per_node, 'J', total_dram_energy_per_node, 'J', total_energy, 'J')
-        #print(total_pkg_kwh_1, 'kWh', total_dram_kwh_1, 'kWh', total_kwh_1, 'kWh')
-        #print(total_pkg_kwh_2, 'kWh', total_dram_kwh_2, 'kWh', total_kwh_2, 'kWh')
-        print('overall')
-        print(total_pkg_kwh_1+total_pkg_kwh_2, 'kWh', 
-            total_dram_kwh_1+total_dram_kwh_2, 'kWh', 
-            total_kwh_1+total_kwh_2, 'kWh')
+        print(workflow, 'run', run)
 
-        print('idle')
-        pkg_idle_kwh = convert_J_to_kWh(total_idle_pkg)
-        dram_idle_kwh = convert_J_to_kWh(total_idle_dram)
-        print(pkg_idle_kwh, 'kWh', dram_idle_kwh, 'kWh', pkg_idle_kwh + dram_idle_kwh, 'kWh')
+        # # Overall Task Energy
+        # run_df['pkg_J'] = pd.Series(package_energy_per_task)
+        # run_df['dram_J'] = pd.Series(dram_energy_per_task)
 
-        print('actual')
-        print(total_pkg_kwh_1 + total_pkg_kwh_2 - pkg_idle_kwh, 'kWh', 
-            total_dram_kwh_1 + total_dram_kwh_2 - dram_idle_kwh, 'kWh', 
-            total_kwh_1 + total_kwh_2 - pkg_idle_kwh - dram_idle_kwh, 'kWh')
+        # tasks_pkg_energy = run_df['pkg_J'].sum()
+        # tasks_dram_energy = run_df['dram_J'].sum()
+        # tasks_energy = tasks_pkg_energy + tasks_dram_energy
+        # tasks_pkg_kwh = convert_J_to_kWh(tasks_pkg_energy)
+        # tasks_dram_kwh = convert_J_to_kWh(tasks_dram_energy)
+        # tasks_kwh = convert_J_to_kWh(tasks_energy)
 
-        # Overall Task Energy
-        run_df['pkg_J'] = pd.Series(package_energy_per_task)
-        run_df['dram_J'] = pd.Series(dram_energy_per_task)
-
-        tasks_pkg_energy = run_df['pkg_J'].sum()
-        tasks_dram_energy = run_df['dram_J'].sum()
-        tasks_energy = tasks_pkg_energy + tasks_dram_energy
-        tasks_pkg_kwh = convert_J_to_kWh(tasks_pkg_energy)
-        tasks_dram_kwh = convert_J_to_kWh(tasks_dram_energy)
-        tasks_kwh = convert_J_to_kWh(tasks_energy)
-
-        print('tasks')
-        # print(tasks_pkg_energy, 'J', tasks_dram_energy, 'J', tasks_energy, 'J')
-        print(tasks_pkg_kwh, 'kWh', tasks_dram_kwh, 'kWh', tasks_kwh, 'kWh')
+        # print('tasks')
+        # print(tasks_pkg_kwh, 'kWh', tasks_dram_kwh, 'kWh', tasks_kwh, 'kWh')
 
         # Report on Energy
-        outfile.write(f'\
-{total_pkg_kwh_1 + total_pkg_kwh_2},{total_dram_kwh_1 + total_dram_kwh_2},{total_kwh_1 + total_kwh_2},\
-{pkg_idle_kwh},{dram_idle_kwh},{pkg_idle_kwh + dram_idle_kwh},\
-{total_active_pkg},{total_active_dram},{total_active_pkg + total_active_dram}\n')
+        outfile.write(
+            f'{run},{total_pkg_kwh_1},{total_dram_kwh_1},{total_kwh_1},\
+{total_idle_pkg_1},{total_idle_dram_1},{total_idle_pkg_1 + total_idle_dram_1},\
+{total_active_pkg_1},{total_active_dram_1},{total_active_pkg_1 + total_active_dram_1},\
+{total_pkg_kwh_2},{total_dram_kwh_2},{total_kwh_2},\
+{total_idle_pkg_2},{total_idle_dram_2},{total_idle_pkg_2 + total_idle_dram_2},\
+{total_active_pkg_2},{total_active_dram_2},{total_active_pkg_2 + total_active_dram_2}\
+\n')
