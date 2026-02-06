@@ -1,0 +1,5 @@
+name;hash;path;type;size
+NFCORE_CHIPSEQ:CHIPSEQ:PREPARE_GENOME:CUSTOM_GETCHROMSIZES (genome.fa);b5181551562e162dd0acfe4fac7a3742;/root/profiling/ref/genome.fa;f;3147288982
+NFCORE_CHIPSEQ:CHIPSEQ:PREPARE_GENOME:GTF2BED (genes.gtf);ca439181f4060e3fdd637ed5285256a7;/root/profiling/ref/genes.gtf;f;916094160
+NFCORE_CHIPSEQ:CHIPSEQ:INPUT_CHECK:SAMPLESHEET_CHECK (chipseq-input-f.csv);748635fdec3ce634843f4b9e852ebab7;/root/profiling/chipseq-input-f.csv;f;87
+NFCORE_CHIPSEQ:CHIPSEQ:IGV;b29b570a842affeb6bf8ab8a0b936520;/root/profiling/ref/genome.fa;f;3147288982
