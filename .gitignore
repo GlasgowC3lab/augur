@@ -1,7 +1,19 @@
 # Block Files
 magnus-code
 py-lotaru
+*/hu-cluster-old
 *.DS_Store
 *.zip
 energy_evaluation.py 
 */fixers/*/*
+
+# Local python environment
+.venv/
+
+# uv configuration and lockfiles
+.python-version
+pyproject.toml
+uv.lock
+
+# VS Code local settings
+.vscode/

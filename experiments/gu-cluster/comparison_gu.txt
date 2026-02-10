@@ -1,6 +1,6 @@
 rnaseq
 
-rnaseq run 1
+rnaseq run 1 (7 nodes)
 overall - idle 
 1.4101539879622225 kWh 0.36669898191555556 kWh 1.776852969877778 kWh
 

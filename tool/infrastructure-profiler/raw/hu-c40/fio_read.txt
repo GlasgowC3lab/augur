@@ -1,0 +1,32 @@
+read_throughput: (g=0): rw=read, bs=(R) 1024KiB-1024KiB, (W) 1024KiB-1024KiB, (T) 1024KiB-1024KiB, ioengine=posixaio, iodepth=64
+fio-3.28
+Starting 1 process
+read_throughput: Laying out IO file (1 file / 10240MiB)
+
+read_throughput: (groupid=0, jobs=1): err= 0: pid=554196: Thu Jan 15 12:32:04 2026
+  read: IOPS=1359, BW=1362MiB/s (1428MB/s)(39.9GiB/30027msec)
+    slat (nsec): min=73, max=4422, avg=179.33, stdev=127.30
+    clat (usec): min=42305, max=51773, avg=47044.66, stdev=1529.67
+     lat (usec): min=42305, max=51774, avg=47044.84, stdev=1529.67
+    clat percentiles (usec):
+     |  1.00th=[43779],  5.00th=[44827], 10.00th=[44827], 20.00th=[45351],
+     | 30.00th=[45876], 40.00th=[46924], 50.00th=[47449], 60.00th=[47973],
+     | 70.00th=[47973], 80.00th=[48497], 90.00th=[48497], 95.00th=[49021],
+     | 99.00th=[51643], 99.50th=[51643], 99.90th=[51643], 99.95th=[51643],
+     | 99.99th=[51643]
+   bw (  MiB/s): min= 1280, max= 1526, per=99.97%, avg=1361.49, stdev=64.71, samples=60
+   iops        : min= 1280, max= 1526, avg=1361.37, stdev=64.67, samples=60
+  lat (msec)   : 50=98.13%, 100=1.89%
+  cpu          : usr=0.09%, sys=0.07%, ctx=5112, majf=0, minf=58
+  IO depths    : 1=0.0%, 2=0.0%, 4=0.0%, 8=12.5%, 16=25.0%, 32=50.0%, >=64=12.5%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=98.6%, 8=0.1%, 16=0.0%, 32=0.0%, 64=1.4%, >=64=0.0%
+     issued rwts: total=40832,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: bw=1362MiB/s (1428MB/s), 1362MiB/s-1362MiB/s (1428MB/s-1428MB/s), io=39.9GiB (42.9GB), run=30027-30027msec
+
+Disk stats (read/write):
+    dm-2: ios=43610/417, merge=0/0, ticks=30924/52, in_queue=30976, util=99.73%, aggrios=349184/323, aggrmerge=0/104, aggrticks=191623/20, aggrin_queue=191642, aggrutil=99.68%
+  nvme0n1: ios=349184/323, merge=0/104, ticks=191623/20, in_queue=191642, util=99.68%

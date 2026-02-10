@@ -1,0 +1,32 @@
+write_throughput: (g=0): rw=write, bs=(R) 1024KiB-1024KiB, (W) 1024KiB-1024KiB, (T) 1024KiB-1024KiB, ioengine=posixaio, iodepth=64
+fio-3.28
+Starting 1 process
+write_throughput: Laying out IO file (1 file / 10240MiB)
+
+write_throughput: (groupid=0, jobs=1): err= 0: pid=1163828: Thu Jan 15 11:38:58 2026
+  write: IOPS=969, BW=972MiB/s (1019MB/s)(28.5GiB/30034msec); 0 zone resets
+    slat (nsec): min=8892, max=75629, avg=31763.13, stdev=6321.57
+    clat (usec): min=50549, max=85322, avg=65162.63, stdev=5690.50
+     lat (usec): min=50582, max=85359, avg=65194.39, stdev=5690.53
+    clat percentiles (usec):
+     |  1.00th=[54264],  5.00th=[58983], 10.00th=[59507], 20.00th=[60556],
+     | 30.00th=[61604], 40.00th=[62653], 50.00th=[64226], 60.00th=[65799],
+     | 70.00th=[67634], 80.00th=[68682], 90.00th=[71828], 95.00th=[78119],
+     | 99.00th=[83362], 99.50th=[84411], 99.90th=[84411], 99.95th=[84411],
+     | 99.99th=[85459]
+   bw (  KiB/s): min=917504, max=1054720, per=99.93%, avg=994326.55, stdev=64907.00, samples=60
+   iops        : min=  896, max= 1030, avg=970.95, stdev=63.46, samples=60
+  lat (msec)   : 100=100.02%
+  cpu          : usr=3.17%, sys=0.01%, ctx=3081, majf=0, minf=58
+  IO depths    : 1=0.0%, 2=0.0%, 4=0.0%, 8=12.5%, 16=25.0%, 32=50.4%, >=64=12.1%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=98.6%, 8=0.1%, 16=0.0%, 32=0.0%, 64=1.4%, >=64=0.0%
+     issued rwts: total=0,29120,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+  WRITE: bw=972MiB/s (1019MB/s), 972MiB/s-972MiB/s (1019MB/s-1019MB/s), io=28.5GiB (30.6GB), run=30034-30034msec
+
+Disk stats (read/write):
+    dm-2: ios=0/31303, merge=0/0, ticks=0/31372, in_queue=31372, util=99.64%, aggrios=0/249120, aggrmerge=0/276, aggrticks=0/139369, aggrin_queue=139369, aggrutil=99.58%
+  nvme0n1: ios=0/249120, merge=0/276, ticks=0/139369, in_queue=139369, util=99.58%

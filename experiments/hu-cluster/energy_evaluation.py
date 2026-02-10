@@ -254,7 +254,15 @@ with open(f'{workflow}-runs.csv', 'w') as outfile:
         total_active_pkg = convert_J_to_kWh(sum(package_active_per_node))
         total_active_dram = convert_J_to_kWh(sum(dram_active_per_node))
 
+        # if total_dram_kwh < 0:
+        #     total_dram_kwh *= -1  # make positive
+        #     total_dram_kwh = abs(total_dram_kwh - total_idle_dram)
+        # else:
+        #     total_dram_kwh = total_dram_kwh - total_idle_dram
+
+        # total_kwh = total_pkg_kwh - total_idle_pkg
+
         # Report on Energy
-        outfile.write(f'{run + 1},{total_pkg_kwh - total_idle_pkg},{total_dram_kwh - total_idle_dram},{total_kwh - total_idle_pkg - total_idle_dram},\
+        outfile.write(f'{run + 1},{total_pkg_kwh},{total_dram_kwh},{total_kwh},\
 {total_idle_pkg},{total_idle_dram},{total_idle_pkg + total_idle_dram},\
 {total_active_pkg},{total_active_dram},{total_active_pkg + total_active_dram}\n')

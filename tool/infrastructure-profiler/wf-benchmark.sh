@@ -22,3 +22,6 @@ mv wf-bench-*.log ../raw/
 mv wf-benchmark-*.csv ../raw/
 
 cd ../
+
+# fix error
+# sed -i 's|benchmark/bin/wfbench|/root/infra-profiling/benchmark/bin/wfbench|g' /root/infra-profiling/benchmark/bin/script_*.sh
