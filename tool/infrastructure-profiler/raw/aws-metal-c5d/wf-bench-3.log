@@ -1,0 +1,4066 @@
+
+ N E X T F L O W   ~  version 25.10.4
+
+Launching `workflow.nf` [drunk_monod] DSL2 - revision: 51741ae322
+
+[-        ] split_fasta_00000001 -
+[-        ] blastall_00000008    -
+[-        ] blastall_00000034    -
+[-        ] blastall_00000066    -
+[-        ] blastall_00000097    -
+[-        ] blastall_00000035    -
+[-        ] blastall_00000067    -
+[-        ] blastall_00000098    -
+[-        ] blastall_00000036    -
+[-        ] blastall_00000068    -
+[-        ] blastall_00000099    -
+[-        ] blastall_00000037    -
+[-        ] blastall_00000069    -
+[-        ] blastall_00000100    -
+[-        ] blastall_00000038    -
+
+[-        ] split_fasta_00000001 -
+[-        ] blastall_00000008    -
+[-        ] blastall_00000034    -
+[-        ] blastall_00000066    -
+[-        ] blastall_00000097    -
+[-        ] blastall_00000035    -
+[-        ] blastall_00000067    -
+[-        ] blastall_00000098    -
+[-        ] blastall_00000036    -
+[-        ] blastall_00000068    -
+[-        ] blastall_00000099    -
+[-        ] blastall_00000037    -
+[-        ] blastall_00000069    -
+[-        ] blastall_00000100    -
+[-        ] blastall_00000038    -
+[-        ] blastall_00000070    -
+[-        ] blastall_00000101    -
+[-        ] blastall_00000039    -
+[-        ] blastall_00000071    -
+[-        ] blastall_00000102    -
+[-        ] blastall_00000009    -
+[-        ] blastall_00000040    -
+[-        ] blastall_00000072    -
+[-        ] blastall_00000103    -
+[-        ] blastall_00000010    -
+[-        ] blastall_00000041    -
+[-        ] blastall_00000073    -
+[-        ] blastall_00000004    -
+[-        ] blastall_00000104    -
+[-        ] blastall_00000011    -
+[-        ] blastall_00000074    -
+[-        ] blastall_00000105    -
+[-        ] blastall_00000005    -
+[-        ] blastall_00000012    -
+[-        ] blastall_00000075    -
+[-        ] blastall_00000106    -
+[-        ] blastall_00000002    -
+[-        ] blastall_00000013    -
+[-        ] blastall_00000044    -
+[-        ] blastall_00000076    -
+[-        ] blastall_00000107    -
+Plus 2 more processes waiting for tasks…
+
+[-        ] split_fasta_00000001 -
+[-        ] blastall_00000008    -
+[-        ] blastall_00000034    -
+[-        ] blastall_00000066    -
+[-        ] blastall_00000097    -
+[-        ] blastall_00000035    -
+[-        ] blastall_00000067    -
+[-        ] blastall_00000098    -
+[-        ] blastall_00000036    -
+[-        ] blastall_00000068    -
+[-        ] blastall_00000099    -
+[-        ] blastall_00000037    -
+[-        ] blastall_00000069    -
+[-        ] blastall_00000100    -
+[-        ] blastall_00000038    -
+[-        ] blastall_00000070    -
+[-        ] blastall_00000101    -
+[-        ] blastall_00000039    -
+[-        ] blastall_00000071    -
+[-        ] blastall_00000102    -
+[-        ] blastall_00000009    -
+[-        ] blastall_00000040    -
+[-        ] blastall_00000072    -
+[-        ] blastall_00000103    -
+[-        ] blastall_00000010    -
+[-        ] blastall_00000041    -
+[-        ] blastall_00000073    -
+[-        ] blastall_00000004    -
+[-        ] blastall_00000104    -
+[-        ] blastall_00000011    -
+[-        ] blastall_00000074    -
+[-        ] blastall_00000105    -
+[-        ] blastall_00000005    -
+[-        ] blastall_00000012    -
+[-        ] blastall_00000075    -
+[-        ] blastall_00000106    -
+[-        ] blastall_00000002    -
+[-        ] blastall_00000013    -
+[-        ] blastall_00000044    -
+[-        ] blastall_00000076    -
+[-        ] blastall_00000107    -
+Plus 24 more processes waiting for tasks…
+
+[-        ] split_fasta_00000001 -
+[-        ] blastall_00000008    -
+[-        ] blastall_00000034    -
+[-        ] blastall_00000066    -
+[-        ] blastall_00000097    -
+[-        ] blastall_00000035    -
+[-        ] blastall_00000067    -
+[-        ] blastall_00000098    -
+[-        ] blastall_00000036    -
+[-        ] blastall_00000068    -
+[-        ] blastall_00000099    -
+[-        ] blastall_00000037    -
+[-        ] blastall_00000069    -
+[-        ] blastall_00000100    -
+[-        ] blastall_00000038    -
+[-        ] blastall_00000070    -
+[-        ] blastall_00000101    -
+[-        ] blastall_00000039    -
+[-        ] blastall_00000071    -
+[-        ] blastall_00000102    -
+[-        ] blastall_00000009    -
+[-        ] blastall_00000040    -
+[-        ] blastall_00000072    -
+[-        ] blastall_00000103    -
+[-        ] blastall_00000010    -
+[-        ] blastall_00000041    -
+[-        ] blastall_00000073    -
+[-        ] blastall_00000004    -
+[-        ] blastall_00000104    -
+[-        ] blastall_00000011    -
+[-        ] blastall_00000074    -
+[-        ] blastall_00000105    -
+[-        ] blastall_00000005    -
+[-        ] blastall_00000012    -
+[-        ] blastall_00000075    -
+[-        ] blastall_00000106    -
+[-        ] blastall_00000002    -
+[-        ] blastall_00000013    -
+[-        ] blastall_00000044    -
+[-        ] blastall_00000076    -
+[-        ] blastall_00000107    -
+Plus 46 more processes waiting for tasks…
+
+[-        ] split_fasta_00000001 -
+[-        ] blastall_00000008    -
+[-        ] blastall_00000034    -
+[-        ] blastall_00000066    -
+[-        ] blastall_00000097    -
+[-        ] blastall_00000035    -
+[-        ] blastall_00000067    -
+[-        ] blastall_00000098    -
+[-        ] blastall_00000036    -
+[-        ] blastall_00000068    -
+[-        ] blastall_00000099    -
+[-        ] blastall_00000037    -
+[-        ] blastall_00000069    -
+[-        ] blastall_00000100    -
+[-        ] blastall_00000038    -
+[-        ] blastall_00000070    -
+[-        ] blastall_00000101    -
+[-        ] blastall_00000039    -
+[-        ] blastall_00000071    -
+[-        ] blastall_00000102    -
+[-        ] blastall_00000009    -
+[-        ] blastall_00000040    -
+[-        ] blastall_00000072    -
+[-        ] blastall_00000103    -
+[-        ] blastall_00000010    -
+[-        ] blastall_00000041    -
+[-        ] blastall_00000073    -
+[-        ] blastall_00000004    -
+[-        ] blastall_00000104    -
+[-        ] blastall_00000011    -
+[-        ] blastall_00000074    -
+[-        ] blastall_00000105    -
+[-        ] blastall_00000005    -
+[-        ] blastall_00000012    -
+[-        ] blastall_00000075    -
+[-        ] blastall_00000106    -
+[-        ] blastall_00000002    -
+[-        ] blastall_00000013    -
+[-        ] blastall_00000044    -
+[-        ] blastall_00000076    -
+[-        ] blastall_00000107    -
+Plus 65 more processes waiting for tasks…
+
+[-        ] split_fasta_00000001 -
+[-        ] blastall_00000008    -
+[-        ] blastall_00000034    -
+[-        ] blastall_00000066    -
+[-        ] blastall_00000097    -
+[-        ] blastall_00000035    -
+[-        ] blastall_00000067    -
+[-        ] blastall_00000098    -
+[-        ] blastall_00000036    -
+[-        ] blastall_00000068    -
+[-        ] blastall_00000099    -
+[-        ] blastall_00000037    -
+[-        ] blastall_00000069    -
+[-        ] blastall_00000100    -
+[-        ] blastall_00000038    -
+[-        ] blastall_00000070    -
+[-        ] blastall_00000101    -
+[-        ] blastall_00000039    -
+[-        ] blastall_00000071    -
+[-        ] blastall_00000102    -
+[-        ] blastall_00000009    -
+[-        ] blastall_00000040    -
+[-        ] blastall_00000072    -
+[-        ] blastall_00000103    -
+[-        ] blastall_00000010    -
+[-        ] blastall_00000041    -
+[-        ] blastall_00000073    -
+[-        ] blastall_00000004    -
+[-        ] blastall_00000104    -
+[-        ] blastall_00000011    -
+[-        ] blastall_00000074    -
+[-        ] blastall_00000105    -
+[-        ] blastall_00000005    -
+[-        ] blastall_00000012    -
+[-        ] blastall_00000075    -
+[-        ] blastall_00000106    -
+[-        ] blastall_00000002    -
+[-        ] blastall_00000013    -
+[-        ] blastall_00000044    -
+[-        ] blastall_00000076    -
+[-        ] blastall_00000107    -
+Plus 75 more processes waiting for tasks…
+
+[-        ] split_fasta_00000001 -
+[-        ] blastall_00000008    -
+[-        ] blastall_00000034    -
+[-        ] blastall_00000066    -
+[-        ] blastall_00000097    -
+[-        ] blastall_00000035    -
+[-        ] blastall_00000067    -
+[-        ] blastall_00000098    -
+[-        ] blastall_00000036    -
+[-        ] blastall_00000068    -
+[-        ] blastall_00000099    -
+[-        ] blastall_00000037    -
+[-        ] blastall_00000069    -
+[-        ] blastall_00000100    -
+[-        ] blastall_00000038    -
+[-        ] blastall_00000070    -
+[-        ] blastall_00000101    -
+[-        ] blastall_00000039    -
+[-        ] blastall_00000071    -
+[-        ] blastall_00000102    -
+[-        ] blastall_00000009    -
+[-        ] blastall_00000040    -
+[-        ] blastall_00000072    -
+[-        ] blastall_00000103    -
+[-        ] blastall_00000010    -
+[-        ] blastall_00000041    -
+[-        ] blastall_00000073    -
+[-        ] blastall_00000004    -
+[-        ] blastall_00000104    -
+[-        ] blastall_00000011    -
+[-        ] blastall_00000074    -
+[-        ] blastall_00000105    -
+[-        ] blastall_00000005    -
+[-        ] blastall_00000012    -
+[-        ] blastall_00000075    -
+[-        ] blastall_00000106    -
+[-        ] blastall_00000002    -
+[-        ] blastall_00000013    -
+[-        ] blastall_00000044    -
+[-        ] blastall_00000076    -
+[-        ] blastall_00000107    -
+Plus 76 more processes waiting for tasks…
+
+[-        ] split_fasta_00000001 -
+[-        ] blastall_00000008    -
+[-        ] blastall_00000034    -
+[-        ] blastall_00000066    -
+[-        ] blastall_00000097    -
+[-        ] blastall_00000035    -
+[-        ] blastall_00000067    -
+[-        ] blastall_00000098    -
+[-        ] blastall_00000036    -
+[-        ] blastall_00000068    -
+[-        ] blastall_00000099    -
+[-        ] blastall_00000037    -
+[-        ] blastall_00000069    -
+[-        ] blastall_00000100    -
+[-        ] blastall_00000038    -
+[-        ] blastall_00000070    -
+[-        ] blastall_00000101    -
+[-        ] blastall_00000039    -
+[-        ] blastall_00000071    -
+[-        ] blastall_00000102    -
+[-        ] blastall_00000009    -
+[-        ] blastall_00000040    -
+[-        ] blastall_00000072    -
+[-        ] blastall_00000103    -
+[-        ] blastall_00000010    -
+[-        ] blastall_00000041    -
+[-        ] blastall_00000073    -
+[-        ] blastall_00000004    -
+[-        ] blastall_00000104    -
+[-        ] blastall_00000011    -
+[-        ] blastall_00000074    -
+[-        ] blastall_00000105    -
+[-        ] blastall_00000005    -
+[-        ] blastall_00000012    -
+[-        ] blastall_00000075    -
+[-        ] blastall_00000106    -
+[-        ] blastall_00000002    -
+[-        ] blastall_00000013    -
+[-        ] blastall_00000044    -
+[-        ] blastall_00000076    -
+[-        ] blastall_00000107    -
+Plus 77 more processes waiting for tasks…
+
+executor >  local (1)
+[5f/645651] split_fasta_00000001 | 0 of 1
+[-        ] blastall_00000008    -
+[-        ] blastall_00000034    -
+[-        ] blastall_00000066    -
+[-        ] blastall_00000097    -
+[-        ] blastall_00000035    -
+[-        ] blastall_00000067    -
+[-        ] blastall_00000098    -
+[-        ] blastall_00000036    -
+[-        ] blastall_00000068    -
+[-        ] blastall_00000099    -
+[-        ] blastall_00000037    -
+[-        ] blastall_00000069    -
+[-        ] blastall_00000100    -
+[-        ] blastall_00000038    -
+[-        ] blastall_00000070    -
+[-        ] blastall_00000101    -
+[-        ] blastall_00000039    -
+[-        ] blastall_00000071    -
+[-        ] blastall_00000102    -
+[-        ] blastall_00000009    -
+[-        ] blastall_00000040    -
+[-        ] blastall_00000072    -
+[-        ] blastall_00000103    -
+[-        ] blastall_00000010    -
+[-        ] blastall_00000041    -
+[-        ] blastall_00000073    -
+[-        ] blastall_00000004    -
+[-        ] blastall_00000104    -
+[-        ] blastall_00000011    -
+[-        ] blastall_00000074    -
+[-        ] blastall_00000105    -
+[-        ] blastall_00000005    -
+[-        ] blastall_00000012    -
+[-        ] blastall_00000075    -
+[-        ] blastall_00000106    -
+[-        ] blastall_00000002    -
+[-        ] blastall_00000013    -
+[-        ] blastall_00000044    -
+[-        ] blastall_00000076    -
+[-        ] blastall_00000107    -
+Plus 77 more processes waiting for tasks…
+
+executor >  local (1)
+[5f/645651] split_fasta_00000001 | 0 of 1 ✔
+[-        ] blastall_00000008    -
+[-        ] blastall_00000034    -
+[-        ] blastall_00000066    -
+[-        ] blastall_00000097    -
+[-        ] blastall_00000035    -
+[-        ] blastall_00000067    -
+[-        ] blastall_00000098    -
+[-        ] blastall_00000036    -
+[-        ] blastall_00000068    -
+[-        ] blastall_00000099    -
+[-        ] blastall_00000037    -
+[-        ] blastall_00000069    -
+[-        ] blastall_00000100    -
+[-        ] blastall_00000038    -
+[-        ] blastall_00000070    -
+[-        ] blastall_00000101    -
+[-        ] blastall_00000039    -
+[-        ] blastall_00000071    -
+[-        ] blastall_00000102    -
+[-        ] blastall_00000009    -
+[-        ] blastall_00000040    -
+[-        ] blastall_00000072    -
+[-        ] blastall_00000103    -
+[-        ] blastall_00000010    -
+[-        ] blastall_00000041    -
+[-        ] blastall_00000073    -
+[-        ] blastall_00000004    -
+[-        ] blastall_00000104    -
+[-        ] blastall_00000011    -
+[-        ] blastall_00000074    -
+[-        ] blastall_00000105    -
+[-        ] blastall_00000005    -
+[-        ] blastall_00000012    -
+[-        ] blastall_00000075    -
+[-        ] blastall_00000106    -
+[-        ] blastall_00000002    -
+[-        ] blastall_00000013    -
+[-        ] blastall_00000044    -
+[-        ] blastall_00000076    -
+[-        ] blastall_00000107    -
+Plus 77 more processes waiting for tasks…
+
+executor >  local (15)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[-        ] blastall_00000008    -
+[-        ] blastall_00000034    -
+[-        ] blastall_00000066    -
+[-        ] blastall_00000097    -
+[-        ] blastall_00000035    -
+[-        ] blastall_00000067    -
+[-        ] blastall_00000098    -
+[-        ] blastall_00000036    -
+[-        ] blastall_00000068    -
+[-        ] blastall_00000099    -
+[-        ] blastall_00000037    -
+[-        ] blastall_00000069    -
+[-        ] blastall_00000100    -
+[-        ] blastall_00000038    -
+[-        ] blastall_00000070    -
+[-        ] blastall_00000101    -
+[-        ] blastall_00000039    -
+[-        ] blastall_00000071    -
+[-        ] blastall_00000102    -
+[-        ] blastall_00000009    -
+[-        ] blastall_00000040    -
+[-        ] blastall_00000072    -
+[-        ] blastall_00000103    -
+[-        ] blastall_00000010    -
+[-        ] blastall_00000041    | 0 of 1
+[-        ] blastall_00000073    -
+[-        ] blastall_00000004    -
+[-        ] blastall_00000104    -
+[-        ] blastall_00000011    -
+[-        ] blastall_00000074    | 0 of 1
+[-        ] blastall_00000105    | 0 of 1
+[-        ] blastall_00000005    | 0 of 1
+[-        ] blastall_00000012    | 0 of 1
+[-        ] blastall_00000075    | 0 of 1
+[-        ] blastall_00000106    | 0 of 1
+[-        ] blastall_00000002    | 0 of 1
+[-        ] blastall_00000013    | 0 of 1
+[-        ] blastall_00000044    | 0 of 1
+[95/d19984] blastall_00000076    | 0 of 1
+[-        ] blastall_00000107    -
+[-        ] blastall_00000014    | 0 of 1
+[13/aed26a] blastall_00000077    | 0 of 1
+[-        ] blastall_00000108    | 0 of 1
+[-        ] blastall_00000046    | 0 of 1
+[-        ] blastall_00000078    | 0 of 1
+[-        ] blastall_00000109    | 0 of 1
+[-        ] blastall_00000016    | 0 of 1
+[-        ] blastall_00000079    | 0 of 1
+[-        ] blastall_00000080    | 0 of 1
+[-        ] blastall_00000017    | 0 of 1
+[-        ] blastall_00000006    | 0 of 1
+[-        ] blastall_00000111    | 0 of 1
+[-        ] blastall_00000018    | 0 of 1
+[db/62d7f1] blastall_00000049    | 0 of 1
+[-        ] blastall_00000081    | 0 of 1
+[-        ] blastall_00000112    | 0 of 1
+[-        ] blastall_00000050    | 0 of 1
+[-        ] blastall_00000082    | 0 of 1
+[-        ] blastall_00000113    | 0 of 1
+[-        ] blastall_00000051    | 0 of 1
+[-        ] blastall_00000052    | 0 of 1
+[-        ] blastall_00000115    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 0 of 1
+[-        ] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 0 of 1
+[43/3f2118] blastall_00000023    | 0 of 1
+[92/474eba] blastall_00000054    | 0 of 1
+[-        ] blastall_00000117    | 0 of 1
+[-        ] blastall_00000024    | 0 of 1
+[b1/565c1a] blastall_00000087    | 0 of 1
+[-        ] blastall_00000025    | 0 of 1
+[-        ] blastall_00000088    | 0 of 1
+[-        ] blastall_00000026    | 0 of 1
+[-        ] blastall_00000057    | 0 of 1
+[-        ] blastall_00000027    | 0 of 1
+[-        ] blastall_00000058    | 0 of 1
+[49/f256c4] blastall_00000090    | 0 of 1
+[-        ] blastall_00000059    | 0 of 1
+[-        ] blastall_00000091    | 0 of 1
+[-        ] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 0 of 1
+[-        ] blastall_00000030    | 0 of 1
+[9d/4f286d] blastall_00000061    | 0 of 1
+[5e/a90fd7] blastall_00000093    | 0 of 1
+[-        ] blastall_00000031    | 0 of 1
+[-        ] blastall_00000062    | 0 of 1
+[-        ] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 0 of 1
+[d2/6a35e3] blastall_00000063    | 0 of 1
+[-        ] blastall_00000095    | 0 of 1
+[-        ] blastall_00000065    | 0 of 1
+Plus 26 more processes waiting for tasks…
+
+executor >  local (25)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[-        ] blastall_00000008    -
+[-        ] blastall_00000034    | 0 of 1
+[-        ] blastall_00000066    -
+[-        ] blastall_00000097    -
+[-        ] blastall_00000035    | 0 of 1
+[-        ] blastall_00000067    -
+[-        ] blastall_00000098    -
+[-        ] blastall_00000036    | 0 of 1
+[-        ] blastall_00000068    -
+[-        ] blastall_00000099    | 0 of 1
+[-        ] blastall_00000037    -
+[-        ] blastall_00000069    -
+[-        ] blastall_00000100    -
+[-        ] blastall_00000038    | 0 of 1
+[-        ] blastall_00000070    -
+[-        ] blastall_00000101    -
+[-        ] blastall_00000039    | 0 of 1
+[-        ] blastall_00000071    | 0 of 1
+[-        ] blastall_00000102    -
+[-        ] blastall_00000009    -
+[-        ] blastall_00000040    | 0 of 1
+[-        ] blastall_00000072    | 0 of 1
+[-        ] blastall_00000103    | 0 of 1
+[-        ] blastall_00000010    | 0 of 1
+[-        ] blastall_00000041    | 0 of 1
+[-        ] blastall_00000073    | 0 of 1
+[-        ] blastall_00000004    | 0 of 1
+[-        ] blastall_00000104    -
+[-        ] blastall_00000011    | 0 of 1
+[-        ] blastall_00000074    | 0 of 1
+[-        ] blastall_00000105    | 0 of 1
+[-        ] blastall_00000005    | 0 of 1
+[49/a4645e] blastall_00000012    | 0 of 1
+[72/7c21ae] blastall_00000075    | 0 of 1
+[00/eb5350] blastall_00000106    | 0 of 1
+[-        ] blastall_00000002    | 0 of 1
+[-        ] blastall_00000013    | 0 of 1
+[-        ] blastall_00000044    | 0 of 1
+[95/d19984] blastall_00000076    | 0 of 1
+[-        ] blastall_00000107    -
+[-        ] blastall_00000014    | 0 of 1
+[-        ] blastall_00000045    | 0 of 1
+[13/aed26a] blastall_00000077    | 0 of 1
+[-        ] blastall_00000108    | 0 of 1
+[-        ] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 0 of 1
+[-        ] blastall_00000078    | 0 of 1
+[-        ] blastall_00000109    | 0 of 1
+[-        ] blastall_00000016    | 0 of 1
+[-        ] blastall_00000079    | 0 of 1
+[1d/b5047f] blastall_00000080    | 0 of 1
+[-        ] blastall_00000017    | 0 of 1
+[-        ] blastall_00000006    | 0 of 1
+[-        ] blastall_00000048    | 0 of 1
+[-        ] blastall_00000111    | 0 of 1
+[-        ] blastall_00000018    | 0 of 1
+[db/62d7f1] blastall_00000049    | 0 of 1
+[-        ] blastall_00000081    | 0 of 1
+[45/75c185] blastall_00000112    | 0 of 1
+[-        ] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 0 of 1
+[-        ] blastall_00000082    | 0 of 1
+[-        ] blastall_00000113    | 0 of 1
+[-        ] blastall_00000020    | 0 of 1
+[-        ] blastall_00000051    | 0 of 1
+[-        ] blastall_00000083    | 0 of 1
+[-        ] blastall_00000021    | 0 of 1
+[-        ] blastall_00000052    | 0 of 1
+[-        ] blastall_00000115    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 0 of 1
+[-        ] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 0 of 1
+[43/3f2118] blastall_00000023    | 0 of 1
+[92/474eba] blastall_00000054    | 0 of 1
+[-        ] blastall_00000086    | 0 of 1
+[-        ] blastall_00000117    | 0 of 1
+[-        ] blastall_00000024    | 0 of 1
+[b1/565c1a] blastall_00000087    | 0 of 1
+[-        ] blastall_00000118    | 0 of 1
+[-        ] blastall_00000025    | 0 of 1
+[-        ] blastall_00000056    | 0 of 1
+[-        ] blastall_00000088    | 0 of 1
+[60/4fdc30] blastall_00000026    | 0 of 1
+[-        ] blastall_00000057    | 0 of 1
+[-        ] blastall_00000089    | 0 of 1
+[-        ] blastall_00000027    | 0 of 1
+[-        ] blastall_00000058    | 0 of 1
+[49/f256c4] blastall_00000090    | 0 of 1
+[-        ] blastall_00000028    | 0 of 1
+[-        ] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 0 of 1
+[-        ] blastall_00000007    | 0 of 1
+[-        ] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 0 of 1
+[-        ] blastall_00000030    | 0 of 1
+[9d/4f286d] blastall_00000061    | 0 of 1
+[5e/a90fd7] blastall_00000093    | 0 of 1
+[-        ] blastall_00000031    | 0 of 1
+[-        ] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 0 of 1
+[d2/6a35e3] blastall_00000063    | 0 of 1
+[-        ] blastall_00000095    | 0 of 1
+[-        ] blastall_00000065    | 0 of 1
+Plus 13 more processes waiting for tasks…
+
+executor >  local (36)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[-        ] blastall_00000008    | 0 of 1
+[-        ] blastall_00000034    | 0 of 1
+[-        ] blastall_00000066    | 0 of 1
+[-        ] blastall_00000097    | 0 of 1
+[-        ] blastall_00000035    | 0 of 1
+[-        ] blastall_00000067    | 0 of 1
+[-        ] blastall_00000098    | 0 of 1
+[-        ] blastall_00000036    | 0 of 1
+[-        ] blastall_00000068    | 0 of 1
+[-        ] blastall_00000099    | 0 of 1
+[-        ] blastall_00000037    | 0 of 1
+[-        ] blastall_00000069    | 0 of 1
+[-        ] blastall_00000100    | 0 of 1
+[-        ] blastall_00000038    | 0 of 1
+[-        ] blastall_00000070    | 0 of 1
+[-        ] blastall_00000101    | 0 of 1
+[-        ] blastall_00000039    | 0 of 1
+[-        ] blastall_00000071    | 0 of 1
+[-        ] blastall_00000102    | 0 of 1
+[-        ] blastall_00000009    | 0 of 1
+[-        ] blastall_00000040    | 0 of 1
+[-        ] blastall_00000072    | 0 of 1
+[-        ] blastall_00000103    | 0 of 1
+[-        ] blastall_00000010    | 0 of 1
+[-        ] blastall_00000041    | 0 of 1
+[-        ] blastall_00000073    | 0 of 1
+[-        ] blastall_00000004    | 0 of 1
+[-        ] blastall_00000104    | 0 of 1
+[-        ] blastall_00000011    | 0 of 1
+[-        ] blastall_00000074    | 0 of 1
+[-        ] blastall_00000105    | 0 of 1
+[-        ] blastall_00000005    | 0 of 1
+[49/a4645e] blastall_00000012    | 0 of 1
+[72/7c21ae] blastall_00000075    | 0 of 1
+[00/eb5350] blastall_00000106    | 0 of 1
+[-        ] blastall_00000002    | 0 of 1
+[-        ] blastall_00000013    | 0 of 1
+[-        ] blastall_00000044    | 0 of 1
+[95/d19984] blastall_00000076    | 0 of 1
+[-        ] blastall_00000107    | 0 of 1
+[-        ] blastall_00000014    | 0 of 1
+[-        ] blastall_00000045    | 0 of 1
+[13/aed26a] blastall_00000077    | 0 of 1
+[e7/00d611] blastall_00000108    | 0 of 1
+[-        ] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 0 of 1
+[5c/d2b0a1] blastall_00000078    | 0 of 1
+[-        ] blastall_00000109    | 0 of 1
+[-        ] blastall_00000003    | 0 of 1
+[-        ] blastall_00000016    | 0 of 1
+[-        ] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 0 of 1
+[-        ] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 0 of 1
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 0 of 1
+[-        ] blastall_00000048    | 0 of 1
+[-        ] blastall_00000111    | 0 of 1
+[be/fa1f1b] blastall_00000018    | 0 of 1
+[db/62d7f1] blastall_00000049    | 0 of 1
+[-        ] blastall_00000081    | 0 of 1
+[45/75c185] blastall_00000112    | 0 of 1
+[-        ] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 0 of 1
+[-        ] blastall_00000082    | 0 of 1
+[-        ] blastall_00000113    | 0 of 1
+[-        ] blastall_00000020    | 0 of 1
+[-        ] blastall_00000051    | 0 of 1
+[-        ] blastall_00000083    | 0 of 1
+[-        ] blastall_00000114    | 0 of 1
+[-        ] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 0 of 1
+[-        ] blastall_00000084    | 0 of 1
+[-        ] blastall_00000115    | 0 of 1
+[-        ] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 0 of 1
+[-        ] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 0 of 1
+[43/3f2118] blastall_00000023    | 0 of 1
+[92/474eba] blastall_00000054    | 0 of 1
+[-        ] blastall_00000086    | 0 of 1
+[-        ] blastall_00000117    | 0 of 1
+[-        ] blastall_00000024    | 0 of 1
+[-        ] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 0 of 1
+[-        ] blastall_00000118    | 0 of 1
+[-        ] blastall_00000025    | 0 of 1
+[-        ] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 0 of 1
+[60/4fdc30] blastall_00000026    | 0 of 1
+[-        ] blastall_00000057    | 0 of 1
+[-        ] blastall_00000089    | 0 of 1
+[-        ] blastall_00000027    | 0 of 1
+[-        ] blastall_00000058    | 0 of 1
+[49/f256c4] blastall_00000090    | 0 of 1
+[-        ] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 0 of 1
+[-        ] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 0 of 1
+[-        ] blastall_00000092    | 0 of 1
+[-        ] blastall_00000030    | 0 of 1
+[9d/4f286d] blastall_00000061    | 0 of 1
+[5e/a90fd7] blastall_00000093    | 0 of 1
+[-        ] blastall_00000031    | 0 of 1
+[-        ] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 0 of 1
+[d2/6a35e3] blastall_00000063    | 0 of 1
+[-        ] blastall_00000095    | 0 of 1
+[-        ] blastall_00000033    | 0 of 1
+[-        ] blastall_00000064    | 0 of 1
+[-        ] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (47)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[-        ] blastall_00000008    | 0 of 1
+[-        ] blastall_00000034    | 0 of 1
+[-        ] blastall_00000066    | 0 of 1
+[-        ] blastall_00000097    | 0 of 1
+[-        ] blastall_00000035    | 0 of 1
+[-        ] blastall_00000067    | 0 of 1
+[-        ] blastall_00000098    | 0 of 1
+[-        ] blastall_00000036    | 0 of 1
+[-        ] blastall_00000068    | 0 of 1
+[-        ] blastall_00000099    | 0 of 1
+[-        ] blastall_00000037    | 0 of 1
+[-        ] blastall_00000069    | 0 of 1
+[-        ] blastall_00000100    | 0 of 1
+[-        ] blastall_00000038    | 0 of 1
+[-        ] blastall_00000070    | 0 of 1
+[-        ] blastall_00000101    | 0 of 1
+[-        ] blastall_00000039    | 0 of 1
+[-        ] blastall_00000071    | 0 of 1
+[-        ] blastall_00000102    | 0 of 1
+[-        ] blastall_00000009    | 0 of 1
+[-        ] blastall_00000040    | 0 of 1
+[-        ] blastall_00000072    | 0 of 1
+[-        ] blastall_00000103    | 0 of 1
+[-        ] blastall_00000010    | 0 of 1
+[-        ] blastall_00000041    | 0 of 1
+[-        ] blastall_00000073    | 0 of 1
+[-        ] blastall_00000004    | 0 of 1
+[-        ] blastall_00000104    | 0 of 1
+[-        ] blastall_00000011    | 0 of 1
+[-        ] blastall_00000074    | 0 of 1
+[-        ] blastall_00000105    | 0 of 1
+[-        ] blastall_00000005    | 0 of 1
+[49/a4645e] blastall_00000012    | 0 of 1
+[72/7c21ae] blastall_00000075    | 0 of 1
+[00/eb5350] blastall_00000106    | 0 of 1
+[1f/a16fca] blastall_00000002    | 0 of 1
+[19/363bc0] blastall_00000013    | 0 of 1
+[-        ] blastall_00000044    | 0 of 1
+[95/d19984] blastall_00000076    | 0 of 1
+[-        ] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[-        ] blastall_00000045    | 0 of 1
+[13/aed26a] blastall_00000077    | 0 of 1
+[e7/00d611] blastall_00000108    | 0 of 1
+[-        ] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 0 of 1
+[5c/d2b0a1] blastall_00000078    | 0 of 1
+[-        ] blastall_00000109    | 0 of 1
+[-        ] blastall_00000003    | 0 of 1
+[-        ] blastall_00000016    | 0 of 1
+[-        ] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 0 of 1
+[-        ] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 0 of 1
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 0 of 1
+[-        ] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 0 of 1
+[be/fa1f1b] blastall_00000018    | 0 of 1
+[db/62d7f1] blastall_00000049    | 0 of 1
+[-        ] blastall_00000081    | 0 of 1
+[45/75c185] blastall_00000112    | 0 of 1
+[-        ] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 0 of 1
+[34/c6992a] blastall_00000082    | 0 of 1
+[-        ] blastall_00000113    | 0 of 1
+[-        ] blastall_00000020    | 0 of 1
+[-        ] blastall_00000051    | 0 of 1
+[-        ] blastall_00000083    | 0 of 1
+[-        ] blastall_00000114    | 0 of 1
+[-        ] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 0 of 1
+[-        ] blastall_00000084    | 0 of 1
+[-        ] blastall_00000115    | 0 of 1
+[-        ] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 0 of 1
+[0d/e3c485] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 0 of 1
+[43/3f2118] blastall_00000023    | 0 of 1
+[92/474eba] blastall_00000054    | 0 of 1
+[-        ] blastall_00000086    | 0 of 1
+[-        ] blastall_00000117    | 0 of 1
+[f2/03dba5] blastall_00000024    | 0 of 1
+[-        ] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 0 of 1
+[-        ] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[-        ] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 0 of 1
+[60/4fdc30] blastall_00000026    | 0 of 1
+[0c/66e15a] blastall_00000057    | 0 of 1
+[-        ] blastall_00000089    | 0 of 1
+[-        ] blastall_00000027    | 0 of 1
+[-        ] blastall_00000058    | 0 of 1
+[49/f256c4] blastall_00000090    | 0 of 1
+[-        ] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 0 of 1
+[-        ] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 0 of 1
+[-        ] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 0 of 1
+[9d/4f286d] blastall_00000061    | 0 of 1
+[5e/a90fd7] blastall_00000093    | 0 of 1
+[-        ] blastall_00000031    | 0 of 1
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 0 of 1
+[d2/6a35e3] blastall_00000063    | 0 of 1
+[-        ] blastall_00000095    | 0 of 1
+[-        ] blastall_00000033    | 0 of 1
+[-        ] blastall_00000064    | 0 of 1
+[-        ] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (55)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[-        ] blastall_00000008    | 0 of 1
+[-        ] blastall_00000034    | 0 of 1
+[-        ] blastall_00000066    | 0 of 1
+[-        ] blastall_00000097    | 0 of 1
+[-        ] blastall_00000035    | 0 of 1
+[-        ] blastall_00000067    | 0 of 1
+[-        ] blastall_00000098    | 0 of 1
+[-        ] blastall_00000036    | 0 of 1
+[-        ] blastall_00000068    | 0 of 1
+[-        ] blastall_00000099    | 0 of 1
+[-        ] blastall_00000037    | 0 of 1
+[-        ] blastall_00000069    | 0 of 1
+[-        ] blastall_00000100    | 0 of 1
+[-        ] blastall_00000038    | 0 of 1
+[-        ] blastall_00000070    | 0 of 1
+[-        ] blastall_00000101    | 0 of 1
+[-        ] blastall_00000039    | 0 of 1
+[-        ] blastall_00000071    | 0 of 1
+[-        ] blastall_00000102    | 0 of 1
+[-        ] blastall_00000009    | 0 of 1
+[-        ] blastall_00000040    | 0 of 1
+[-        ] blastall_00000072    | 0 of 1
+[-        ] blastall_00000103    | 0 of 1
+[-        ] blastall_00000010    | 0 of 1
+[3f/7dc177] blastall_00000041    | 0 of 1
+[-        ] blastall_00000073    | 0 of 1
+[-        ] blastall_00000004    | 0 of 1
+[-        ] blastall_00000104    | 0 of 1
+[-        ] blastall_00000011    | 0 of 1
+[-        ] blastall_00000074    | 0 of 1
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[-        ] blastall_00000005    | 0 of 1
+[49/a4645e] blastall_00000012    | 0 of 1
+[72/7c21ae] blastall_00000075    | 0 of 1
+[00/eb5350] blastall_00000106    | 0 of 1
+[1f/a16fca] blastall_00000002    | 0 of 1
+[19/363bc0] blastall_00000013    | 0 of 1
+[-        ] blastall_00000044    | 0 of 1
+[95/d19984] blastall_00000076    | 0 of 1
+[-        ] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[-        ] blastall_00000045    | 0 of 1
+[13/aed26a] blastall_00000077    | 0 of 1
+[e7/00d611] blastall_00000108    | 0 of 1
+[-        ] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 0 of 1
+[5c/d2b0a1] blastall_00000078    | 0 of 1
+[-        ] blastall_00000109    | 0 of 1
+[-        ] blastall_00000003    | 0 of 1
+[be/cd47aa] blastall_00000016    | 0 of 1
+[-        ] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 0 of 1
+[-        ] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 0 of 1
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 0 of 1
+[-        ] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 0 of 1
+[be/fa1f1b] blastall_00000018    | 0 of 1
+[db/62d7f1] blastall_00000049    | 0 of 1
+[d9/44561f] blastall_00000081    | 0 of 1
+[45/75c185] blastall_00000112    | 0 of 1
+[-        ] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 0 of 1
+[34/c6992a] blastall_00000082    | 0 of 1
+[-        ] blastall_00000113    | 0 of 1
+[-        ] blastall_00000020    | 0 of 1
+[66/c49c0b] blastall_00000051    | 0 of 1
+[-        ] blastall_00000083    | 0 of 1
+[-        ] blastall_00000114    | 0 of 1
+[-        ] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 0 of 1
+[-        ] blastall_00000084    | 0 of 1
+[-        ] blastall_00000115    | 0 of 1
+[-        ] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 0 of 1
+[0d/e3c485] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 0 of 1
+[43/3f2118] blastall_00000023    | 0 of 1
+[92/474eba] blastall_00000054    | 0 of 1
+[-        ] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 0 of 1
+[f2/03dba5] blastall_00000024    | 0 of 1
+[-        ] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 0 of 1
+[-        ] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[-        ] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 0 of 1
+[60/4fdc30] blastall_00000026    | 0 of 1
+[0c/66e15a] blastall_00000057    | 0 of 1
+[-        ] blastall_00000089    | 0 of 1
+[-        ] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 0 of 1
+[49/f256c4] blastall_00000090    | 0 of 1
+[-        ] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 0 of 1
+[-        ] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 0 of 1
+[-        ] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 0 of 1
+[9d/4f286d] blastall_00000061    | 0 of 1
+[5e/a90fd7] blastall_00000093    | 0 of 1
+[3b/329f14] blastall_00000031    | 0 of 1
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 0 of 1
+[d2/6a35e3] blastall_00000063    | 0 of 1
+[-        ] blastall_00000095    | 0 of 1
+[-        ] blastall_00000033    | 0 of 1
+[-        ] blastall_00000064    | 0 of 1
+[-        ] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (62)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[-        ] blastall_00000008    | 0 of 1
+[-        ] blastall_00000034    | 0 of 1
+[-        ] blastall_00000066    | 0 of 1
+[-        ] blastall_00000097    | 0 of 1
+[-        ] blastall_00000035    | 0 of 1
+[-        ] blastall_00000067    | 0 of 1
+[-        ] blastall_00000098    | 0 of 1
+[-        ] blastall_00000036    | 0 of 1
+[-        ] blastall_00000068    | 0 of 1
+[-        ] blastall_00000099    | 0 of 1
+[-        ] blastall_00000037    | 0 of 1
+[-        ] blastall_00000069    | 0 of 1
+[-        ] blastall_00000100    | 0 of 1
+[-        ] blastall_00000038    | 0 of 1
+[-        ] blastall_00000070    | 0 of 1
+[-        ] blastall_00000101    | 0 of 1
+[-        ] blastall_00000039    | 0 of 1
+[-        ] blastall_00000071    | 0 of 1
+[-        ] blastall_00000102    | 0 of 1
+[-        ] blastall_00000009    | 0 of 1
+[-        ] blastall_00000040    | 0 of 1
+[-        ] blastall_00000072    | 0 of 1
+[-        ] blastall_00000103    | 0 of 1
+[-        ] blastall_00000010    | 0 of 1
+[3f/7dc177] blastall_00000041    | 0 of 1
+[-        ] blastall_00000073    | 0 of 1
+[-        ] blastall_00000004    | 0 of 1
+[-        ] blastall_00000104    | 0 of 1
+[-        ] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 0 of 1
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 0 of 1
+[49/a4645e] blastall_00000012    | 0 of 1
+[72/7c21ae] blastall_00000075    | 0 of 1
+[00/eb5350] blastall_00000106    | 0 of 1
+[1f/a16fca] blastall_00000002    | 0 of 1
+[19/363bc0] blastall_00000013    | 0 of 1
+[c5/07f23d] blastall_00000044    | 0 of 1
+[95/d19984] blastall_00000076    | 0 of 1
+[-        ] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[-        ] blastall_00000045    | 0 of 1
+[13/aed26a] blastall_00000077    | 0 of 1
+[e7/00d611] blastall_00000108    | 0 of 1
+[-        ] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 0 of 1
+[5c/d2b0a1] blastall_00000078    | 0 of 1
+[f8/fba7e3] blastall_00000109    | 0 of 1
+[-        ] blastall_00000003    | 0 of 1
+[be/cd47aa] blastall_00000016    | 0 of 1
+[-        ] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 0 of 1
+[-        ] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 0 of 1
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 0 of 1
+[-        ] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 0 of 1
+[be/fa1f1b] blastall_00000018    | 0 of 1
+[db/62d7f1] blastall_00000049    | 0 of 1
+[d9/44561f] blastall_00000081    | 0 of 1
+[45/75c185] blastall_00000112    | 0 of 1
+[-        ] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 0 of 1
+[34/c6992a] blastall_00000082    | 0 of 1
+[92/719717] blastall_00000113    | 0 of 1
+[-        ] blastall_00000020    | 0 of 1
+[66/c49c0b] blastall_00000051    | 0 of 1
+[-        ] blastall_00000083    | 0 of 1
+[-        ] blastall_00000114    | 0 of 1
+[-        ] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 0 of 1
+[-        ] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 0 of 1
+[-        ] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 0 of 1
+[0d/e3c485] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 0 of 1
+[43/3f2118] blastall_00000023    | 0 of 1
+[92/474eba] blastall_00000054    | 0 of 1
+[-        ] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 0 of 1
+[f2/03dba5] blastall_00000024    | 0 of 1
+[-        ] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 0 of 1
+[-        ] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[-        ] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 0 of 1
+[60/4fdc30] blastall_00000026    | 0 of 1
+[0c/66e15a] blastall_00000057    | 0 of 1
+[-        ] blastall_00000089    | 0 of 1
+[-        ] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 0 of 1
+[49/f256c4] blastall_00000090    | 0 of 1
+[-        ] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 0 of 1
+[-        ] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 0 of 1
+[-        ] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 0 of 1
+[9d/4f286d] blastall_00000061    | 0 of 1
+[5e/a90fd7] blastall_00000093    | 0 of 1
+[3b/329f14] blastall_00000031    | 0 of 1
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 0 of 1
+[d2/6a35e3] blastall_00000063    | 0 of 1
+[48/6e4e84] blastall_00000095    | 0 of 1
+[-        ] blastall_00000033    | 0 of 1
+[-        ] blastall_00000064    | 0 of 1
+[-        ] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (70)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[-        ] blastall_00000008    | 0 of 1
+[-        ] blastall_00000034    | 0 of 1
+[-        ] blastall_00000066    | 0 of 1
+[-        ] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 0 of 1
+[-        ] blastall_00000067    | 0 of 1
+[-        ] blastall_00000098    | 0 of 1
+[-        ] blastall_00000036    | 0 of 1
+[-        ] blastall_00000068    | 0 of 1
+[-        ] blastall_00000099    | 0 of 1
+[-        ] blastall_00000037    | 0 of 1
+[-        ] blastall_00000069    | 0 of 1
+[-        ] blastall_00000100    | 0 of 1
+[-        ] blastall_00000038    | 0 of 1
+[-        ] blastall_00000070    | 0 of 1
+[-        ] blastall_00000101    | 0 of 1
+[-        ] blastall_00000039    | 0 of 1
+[-        ] blastall_00000071    | 0 of 1
+[-        ] blastall_00000102    | 0 of 1
+[-        ] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 0 of 1
+[-        ] blastall_00000072    | 0 of 1
+[-        ] blastall_00000103    | 0 of 1
+[-        ] blastall_00000010    | 0 of 1
+[3f/7dc177] blastall_00000041    | 0 of 1
+[-        ] blastall_00000073    | 0 of 1
+[b0/11a8e4] blastall_00000004    | 0 of 1
+[-        ] blastall_00000104    | 0 of 1
+[-        ] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 0 of 1
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 0 of 1
+[49/a4645e] blastall_00000012    | 0 of 1
+[72/7c21ae] blastall_00000075    | 0 of 1
+[00/eb5350] blastall_00000106    | 0 of 1
+[1f/a16fca] blastall_00000002    | 0 of 1
+[19/363bc0] blastall_00000013    | 0 of 1
+[c5/07f23d] blastall_00000044    | 0 of 1
+[95/d19984] blastall_00000076    | 0 of 1
+[-        ] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[-        ] blastall_00000045    | 0 of 1
+[13/aed26a] blastall_00000077    | 0 of 1
+[e7/00d611] blastall_00000108    | 0 of 1
+[-        ] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 0 of 1
+[5c/d2b0a1] blastall_00000078    | 0 of 1
+[f8/fba7e3] blastall_00000109    | 0 of 1
+[-        ] blastall_00000003    | 0 of 1
+[be/cd47aa] blastall_00000016    | 0 of 1
+[-        ] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 0 of 1
+[-        ] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 0 of 1
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 0 of 1
+[-        ] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 0 of 1
+[be/fa1f1b] blastall_00000018    | 0 of 1
+[db/62d7f1] blastall_00000049    | 0 of 1
+[d9/44561f] blastall_00000081    | 0 of 1
+[45/75c185] blastall_00000112    | 0 of 1
+[-        ] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 0 of 1
+[34/c6992a] blastall_00000082    | 0 of 1
+[92/719717] blastall_00000113    | 0 of 1
+[ac/878147] blastall_00000020    | 0 of 1
+[66/c49c0b] blastall_00000051    | 0 of 1
+[78/dd71ad] blastall_00000083    | 0 of 1
+[-        ] blastall_00000114    | 0 of 1
+[-        ] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 0 of 1
+[-        ] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 0 of 1
+[-        ] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 0 of 1
+[0d/e3c485] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 0 of 1
+[43/3f2118] blastall_00000023    | 0 of 1
+[92/474eba] blastall_00000054    | 0 of 1
+[5b/030514] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 0 of 1
+[f2/03dba5] blastall_00000024    | 0 of 1
+[-        ] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 0 of 1
+[-        ] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[-        ] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 0 of 1
+[60/4fdc30] blastall_00000026    | 0 of 1
+[0c/66e15a] blastall_00000057    | 0 of 1
+[-        ] blastall_00000089    | 0 of 1
+[5a/072eca] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 0 of 1
+[49/f256c4] blastall_00000090    | 0 of 1
+[-        ] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 0 of 1
+[99/db40e0] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 0 of 1
+[-        ] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 0 of 1
+[9d/4f286d] blastall_00000061    | 0 of 1
+[5e/a90fd7] blastall_00000093    | 0 of 1
+[3b/329f14] blastall_00000031    | 0 of 1
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 0 of 1
+[d2/6a35e3] blastall_00000063    | 0 of 1
+[48/6e4e84] blastall_00000095    | 0 of 1
+[-        ] blastall_00000033    | 0 of 1
+[-        ] blastall_00000064    | 0 of 1
+[-        ] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (76)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[-        ] blastall_00000008    | 0 of 1
+[-        ] blastall_00000034    | 0 of 1
+[-        ] blastall_00000066    | 0 of 1
+[-        ] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 0 of 1
+[-        ] blastall_00000067    | 0 of 1
+[-        ] blastall_00000098    | 0 of 1
+[9c/a36c59] blastall_00000036    | 0 of 1
+[-        ] blastall_00000068    | 0 of 1
+[-        ] blastall_00000099    | 0 of 1
+[-        ] blastall_00000037    | 0 of 1
+[-        ] blastall_00000069    | 0 of 1
+[-        ] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 0 of 1
+[-        ] blastall_00000070    | 0 of 1
+[-        ] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 0 of 1
+[-        ] blastall_00000071    | 0 of 1
+[-        ] blastall_00000102    | 0 of 1
+[-        ] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 0 of 1
+[-        ] blastall_00000072    | 0 of 1
+[-        ] blastall_00000103    | 0 of 1
+[-        ] blastall_00000010    | 0 of 1
+[3f/7dc177] blastall_00000041    | 0 of 1
+[-        ] blastall_00000073    | 0 of 1
+[b0/11a8e4] blastall_00000004    | 0 of 1
+[-        ] blastall_00000104    | 0 of 1
+[-        ] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 0 of 1
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 0 of 1
+[49/a4645e] blastall_00000012    | 0 of 1
+[72/7c21ae] blastall_00000075    | 0 of 1
+[00/eb5350] blastall_00000106    | 0 of 1
+[1f/a16fca] blastall_00000002    | 0 of 1
+[19/363bc0] blastall_00000013    | 0 of 1
+[c5/07f23d] blastall_00000044    | 0 of 1
+[95/d19984] blastall_00000076    | 0 of 1
+[-        ] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[20/41ee9b] blastall_00000045    | 0 of 1
+[13/aed26a] blastall_00000077    | 0 of 1
+[e7/00d611] blastall_00000108    | 0 of 1
+[08/a3135b] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 0 of 1
+[5c/d2b0a1] blastall_00000078    | 0 of 1
+[f8/fba7e3] blastall_00000109    | 0 of 1
+[-        ] blastall_00000003    | 0 of 1
+[be/cd47aa] blastall_00000016    | 0 of 1
+[-        ] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 0 of 1
+[-        ] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 0 of 1
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 0 of 1
+[b8/e103dd] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 0 of 1
+[be/fa1f1b] blastall_00000018    | 0 of 1
+[db/62d7f1] blastall_00000049    | 0 of 1
+[d9/44561f] blastall_00000081    | 0 of 1
+[45/75c185] blastall_00000112    | 0 of 1
+[-        ] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 0 of 1
+[34/c6992a] blastall_00000082    | 0 of 1
+[92/719717] blastall_00000113    | 0 of 1
+[ac/878147] blastall_00000020    | 0 of 1
+[66/c49c0b] blastall_00000051    | 0 of 1
+[78/dd71ad] blastall_00000083    | 0 of 1
+[-        ] blastall_00000114    | 0 of 1
+[-        ] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 0 of 1
+[-        ] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 0 of 1
+[-        ] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 0 of 1
+[0d/e3c485] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 0 of 1
+[43/3f2118] blastall_00000023    | 0 of 1
+[92/474eba] blastall_00000054    | 0 of 1
+[5b/030514] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 0 of 1
+[f2/03dba5] blastall_00000024    | 0 of 1
+[-        ] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 0 of 1
+[-        ] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[-        ] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 0 of 1
+[60/4fdc30] blastall_00000026    | 0 of 1
+[0c/66e15a] blastall_00000057    | 0 of 1
+[-        ] blastall_00000089    | 0 of 1
+[5a/072eca] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 0 of 1
+[49/f256c4] blastall_00000090    | 0 of 1
+[-        ] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 0 of 1
+[99/db40e0] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 0 of 1
+[-        ] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 0 of 1
+[9d/4f286d] blastall_00000061    | 0 of 1
+[5e/a90fd7] blastall_00000093    | 0 of 1
+[3b/329f14] blastall_00000031    | 0 of 1
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 0 of 1
+[d2/6a35e3] blastall_00000063    | 0 of 1
+[48/6e4e84] blastall_00000095    | 0 of 1
+[-        ] blastall_00000033    | 0 of 1
+[-        ] blastall_00000064    | 0 of 1
+[-        ] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (81)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[-        ] blastall_00000008    | 0 of 1
+[-        ] blastall_00000034    | 0 of 1
+[-        ] blastall_00000066    | 0 of 1
+[-        ] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 0 of 1
+[-        ] blastall_00000067    | 0 of 1
+[-        ] blastall_00000098    | 0 of 1
+[9c/a36c59] blastall_00000036    | 0 of 1
+[-        ] blastall_00000068    | 0 of 1
+[-        ] blastall_00000099    | 0 of 1
+[-        ] blastall_00000037    | 0 of 1
+[-        ] blastall_00000069    | 0 of 1
+[-        ] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 0 of 1
+[-        ] blastall_00000070    | 0 of 1
+[-        ] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 0 of 1
+[50/be91cc] blastall_00000071    | 0 of 1
+[-        ] blastall_00000102    | 0 of 1
+[-        ] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 0 of 1
+[c2/d1de6f] blastall_00000072    | 0 of 1
+[-        ] blastall_00000103    | 0 of 1
+[82/3f90a0] blastall_00000010    | 0 of 1
+[3f/7dc177] blastall_00000041    | 0 of 1
+[-        ] blastall_00000073    | 0 of 1
+[b0/11a8e4] blastall_00000004    | 0 of 1
+[-        ] blastall_00000104    | 0 of 1
+[-        ] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 0 of 1
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 0 of 1
+[49/a4645e] blastall_00000012    | 0 of 1
+[72/7c21ae] blastall_00000075    | 0 of 1
+[00/eb5350] blastall_00000106    | 0 of 1
+[1f/a16fca] blastall_00000002    | 0 of 1
+[19/363bc0] blastall_00000013    | 0 of 1
+[c5/07f23d] blastall_00000044    | 0 of 1
+[95/d19984] blastall_00000076    | 0 of 1
+[-        ] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[20/41ee9b] blastall_00000045    | 0 of 1
+[13/aed26a] blastall_00000077    | 0 of 1
+[e7/00d611] blastall_00000108    | 0 of 1
+[08/a3135b] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 0 of 1
+[5c/d2b0a1] blastall_00000078    | 0 of 1
+[f8/fba7e3] blastall_00000109    | 0 of 1
+[-        ] blastall_00000003    | 0 of 1
+[be/cd47aa] blastall_00000016    | 0 of 1
+[-        ] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 0 of 1
+[-        ] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 0 of 1
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 0 of 1
+[b8/e103dd] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 0 of 1
+[be/fa1f1b] blastall_00000018    | 0 of 1
+[db/62d7f1] blastall_00000049    | 0 of 1
+[d9/44561f] blastall_00000081    | 0 of 1
+[45/75c185] blastall_00000112    | 0 of 1
+[fd/735f67] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 0 of 1
+[34/c6992a] blastall_00000082    | 0 of 1
+[92/719717] blastall_00000113    | 0 of 1
+[ac/878147] blastall_00000020    | 0 of 1
+[66/c49c0b] blastall_00000051    | 0 of 1
+[78/dd71ad] blastall_00000083    | 0 of 1
+[-        ] blastall_00000114    | 0 of 1
+[-        ] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 0 of 1
+[-        ] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 0 of 1
+[-        ] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 0 of 1
+[0d/e3c485] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 0 of 1
+[43/3f2118] blastall_00000023    | 0 of 1
+[92/474eba] blastall_00000054    | 0 of 1
+[5b/030514] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 0 of 1
+[f2/03dba5] blastall_00000024    | 0 of 1
+[-        ] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 0 of 1
+[-        ] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[-        ] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 0 of 1
+[60/4fdc30] blastall_00000026    | 0 of 1
+[0c/66e15a] blastall_00000057    | 0 of 1
+[-        ] blastall_00000089    | 0 of 1
+[5a/072eca] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 0 of 1
+[49/f256c4] blastall_00000090    | 0 of 1
+[d3/b47b31] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 0 of 1
+[99/db40e0] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 0 of 1
+[-        ] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 0 of 1
+[9d/4f286d] blastall_00000061    | 0 of 1
+[5e/a90fd7] blastall_00000093    | 0 of 1
+[3b/329f14] blastall_00000031    | 0 of 1
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 0 of 1
+[d2/6a35e3] blastall_00000063    | 0 of 1
+[48/6e4e84] blastall_00000095    | 0 of 1
+[-        ] blastall_00000033    | 0 of 1
+[-        ] blastall_00000064    | 0 of 1
+[-        ] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (84)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[-        ] blastall_00000008    | 0 of 1
+[-        ] blastall_00000034    | 0 of 1
+[-        ] blastall_00000066    | 0 of 1
+[-        ] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 0 of 1
+[-        ] blastall_00000067    | 0 of 1
+[-        ] blastall_00000098    | 0 of 1
+[9c/a36c59] blastall_00000036    | 0 of 1
+[-        ] blastall_00000068    | 0 of 1
+[-        ] blastall_00000099    | 0 of 1
+[-        ] blastall_00000037    | 0 of 1
+[-        ] blastall_00000069    | 0 of 1
+[-        ] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 0 of 1
+[-        ] blastall_00000070    | 0 of 1
+[-        ] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 0 of 1
+[50/be91cc] blastall_00000071    | 0 of 1
+[-        ] blastall_00000102    | 0 of 1
+[-        ] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 0 of 1
+[c2/d1de6f] blastall_00000072    | 0 of 1
+[-        ] blastall_00000103    | 0 of 1
+[82/3f90a0] blastall_00000010    | 0 of 1
+[3f/7dc177] blastall_00000041    | 0 of 1
+[-        ] blastall_00000073    | 0 of 1
+[b0/11a8e4] blastall_00000004    | 0 of 1
+[-        ] blastall_00000104    | 0 of 1
+[23/0527a6] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 0 of 1
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 0 of 1
+[49/a4645e] blastall_00000012    | 0 of 1
+[72/7c21ae] blastall_00000075    | 0 of 1
+[00/eb5350] blastall_00000106    | 0 of 1
+[1f/a16fca] blastall_00000002    | 0 of 1
+[19/363bc0] blastall_00000013    | 0 of 1
+[c5/07f23d] blastall_00000044    | 0 of 1
+[95/d19984] blastall_00000076    | 0 of 1
+[-        ] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[20/41ee9b] blastall_00000045    | 0 of 1
+[13/aed26a] blastall_00000077    | 0 of 1
+[e7/00d611] blastall_00000108    | 0 of 1
+[08/a3135b] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 0 of 1
+[5c/d2b0a1] blastall_00000078    | 0 of 1
+[f8/fba7e3] blastall_00000109    | 0 of 1
+[-        ] blastall_00000003    | 0 of 1
+[be/cd47aa] blastall_00000016    | 0 of 1
+[-        ] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 0 of 1
+[-        ] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 0 of 1
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 0 of 1
+[b8/e103dd] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 0 of 1
+[be/fa1f1b] blastall_00000018    | 0 of 1
+[db/62d7f1] blastall_00000049    | 0 of 1
+[d9/44561f] blastall_00000081    | 0 of 1
+[45/75c185] blastall_00000112    | 0 of 1
+[fd/735f67] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 0 of 1
+[34/c6992a] blastall_00000082    | 0 of 1
+[92/719717] blastall_00000113    | 0 of 1
+[ac/878147] blastall_00000020    | 0 of 1
+[66/c49c0b] blastall_00000051    | 0 of 1
+[78/dd71ad] blastall_00000083    | 0 of 1
+[-        ] blastall_00000114    | 0 of 1
+[-        ] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 0 of 1
+[-        ] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 0 of 1
+[-        ] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 0 of 1
+[0d/e3c485] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 0 of 1
+[43/3f2118] blastall_00000023    | 0 of 1
+[92/474eba] blastall_00000054    | 0 of 1
+[5b/030514] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 0 of 1
+[f2/03dba5] blastall_00000024    | 0 of 1
+[-        ] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 0 of 1
+[fc/7321c7] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[a1/e5747a] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 0 of 1
+[60/4fdc30] blastall_00000026    | 0 of 1
+[0c/66e15a] blastall_00000057    | 0 of 1
+[-        ] blastall_00000089    | 0 of 1
+[5a/072eca] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 0 of 1
+[49/f256c4] blastall_00000090    | 0 of 1
+[d3/b47b31] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 0 of 1
+[99/db40e0] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 0 of 1
+[-        ] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 0 of 1
+[9d/4f286d] blastall_00000061    | 0 of 1
+[5e/a90fd7] blastall_00000093    | 0 of 1
+[3b/329f14] blastall_00000031    | 0 of 1
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 0 of 1
+[d2/6a35e3] blastall_00000063    | 0 of 1
+[48/6e4e84] blastall_00000095    | 0 of 1
+[-        ] blastall_00000033    | 0 of 1
+[-        ] blastall_00000064    | 0 of 1
+[-        ] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (87)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[-        ] blastall_00000008    | 0 of 1
+[-        ] blastall_00000034    | 0 of 1
+[-        ] blastall_00000066    | 0 of 1
+[-        ] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 0 of 1
+[-        ] blastall_00000067    | 0 of 1
+[-        ] blastall_00000098    | 0 of 1
+[9c/a36c59] blastall_00000036    | 0 of 1
+[-        ] blastall_00000068    | 0 of 1
+[36/aa016e] blastall_00000099    | 0 of 1
+[-        ] blastall_00000037    | 0 of 1
+[-        ] blastall_00000069    | 0 of 1
+[-        ] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 0 of 1
+[-        ] blastall_00000070    | 0 of 1
+[-        ] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 0 of 1
+[50/be91cc] blastall_00000071    | 0 of 1
+[-        ] blastall_00000102    | 0 of 1
+[-        ] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 0 of 1
+[c2/d1de6f] blastall_00000072    | 0 of 1
+[8f/209a5e] blastall_00000103    | 0 of 1
+[82/3f90a0] blastall_00000010    | 0 of 1
+[3f/7dc177] blastall_00000041    | 0 of 1
+[c1/c5cef8] blastall_00000073    | 0 of 1
+[b0/11a8e4] blastall_00000004    | 0 of 1
+[-        ] blastall_00000104    | 0 of 1
+[23/0527a6] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 0 of 1
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 0 of 1
+[49/a4645e] blastall_00000012    | 0 of 1
+[72/7c21ae] blastall_00000075    | 0 of 1
+[00/eb5350] blastall_00000106    | 0 of 1
+[1f/a16fca] blastall_00000002    | 0 of 1
+[19/363bc0] blastall_00000013    | 0 of 1
+[c5/07f23d] blastall_00000044    | 0 of 1
+[95/d19984] blastall_00000076    | 0 of 1
+[-        ] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[20/41ee9b] blastall_00000045    | 0 of 1
+[13/aed26a] blastall_00000077    | 0 of 1
+[e7/00d611] blastall_00000108    | 0 of 1
+[08/a3135b] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 0 of 1
+[5c/d2b0a1] blastall_00000078    | 0 of 1
+[f8/fba7e3] blastall_00000109    | 0 of 1
+[-        ] blastall_00000003    | 0 of 1
+[be/cd47aa] blastall_00000016    | 0 of 1
+[-        ] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 0 of 1
+[-        ] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 0 of 1
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 0 of 1
+[b8/e103dd] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 0 of 1
+[be/fa1f1b] blastall_00000018    | 0 of 1
+[db/62d7f1] blastall_00000049    | 0 of 1
+[d9/44561f] blastall_00000081    | 0 of 1
+[45/75c185] blastall_00000112    | 0 of 1
+[fd/735f67] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 0 of 1
+[34/c6992a] blastall_00000082    | 0 of 1
+[92/719717] blastall_00000113    | 0 of 1
+[ac/878147] blastall_00000020    | 0 of 1
+[66/c49c0b] blastall_00000051    | 0 of 1
+[78/dd71ad] blastall_00000083    | 0 of 1
+[-        ] blastall_00000114    | 0 of 1
+[-        ] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 0 of 1
+[-        ] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 0 of 1
+[-        ] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 0 of 1
+[0d/e3c485] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 0 of 1
+[43/3f2118] blastall_00000023    | 0 of 1
+[92/474eba] blastall_00000054    | 0 of 1
+[5b/030514] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 0 of 1
+[f2/03dba5] blastall_00000024    | 0 of 1
+[-        ] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 0 of 1
+[fc/7321c7] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[a1/e5747a] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 0 of 1
+[60/4fdc30] blastall_00000026    | 0 of 1
+[0c/66e15a] blastall_00000057    | 0 of 1
+[-        ] blastall_00000089    | 0 of 1
+[5a/072eca] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 0 of 1
+[49/f256c4] blastall_00000090    | 0 of 1
+[d3/b47b31] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 0 of 1
+[99/db40e0] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 0 of 1
+[-        ] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 0 of 1
+[9d/4f286d] blastall_00000061    | 0 of 1
+[5e/a90fd7] blastall_00000093    | 0 of 1
+[3b/329f14] blastall_00000031    | 0 of 1
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 0 of 1
+[d2/6a35e3] blastall_00000063    | 0 of 1
+[48/6e4e84] blastall_00000095    | 0 of 1
+[-        ] blastall_00000033    | 0 of 1
+[-        ] blastall_00000064    | 0 of 1
+[-        ] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (90)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[-        ] blastall_00000008    | 0 of 1
+[77/81946e] blastall_00000034    | 0 of 1
+[-        ] blastall_00000066    | 0 of 1
+[-        ] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 0 of 1
+[-        ] blastall_00000067    | 0 of 1
+[-        ] blastall_00000098    | 0 of 1
+[9c/a36c59] blastall_00000036    | 0 of 1
+[-        ] blastall_00000068    | 0 of 1
+[36/aa016e] blastall_00000099    | 0 of 1
+[-        ] blastall_00000037    | 0 of 1
+[-        ] blastall_00000069    | 0 of 1
+[-        ] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 0 of 1
+[-        ] blastall_00000070    | 0 of 1
+[-        ] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 0 of 1
+[50/be91cc] blastall_00000071    | 0 of 1
+[-        ] blastall_00000102    | 0 of 1
+[-        ] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 0 of 1
+[c2/d1de6f] blastall_00000072    | 0 of 1
+[8f/209a5e] blastall_00000103    | 0 of 1
+[82/3f90a0] blastall_00000010    | 0 of 1
+[3f/7dc177] blastall_00000041    | 0 of 1
+[c1/c5cef8] blastall_00000073    | 0 of 1
+[b0/11a8e4] blastall_00000004    | 0 of 1
+[-        ] blastall_00000104    | 0 of 1
+[23/0527a6] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 0 of 1
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 0 of 1
+[49/a4645e] blastall_00000012    | 0 of 1
+[72/7c21ae] blastall_00000075    | 0 of 1
+[00/eb5350] blastall_00000106    | 0 of 1
+[1f/a16fca] blastall_00000002    | 0 of 1
+[19/363bc0] blastall_00000013    | 0 of 1
+[c5/07f23d] blastall_00000044    | 0 of 1
+[95/d19984] blastall_00000076    | 0 of 1
+[-        ] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[20/41ee9b] blastall_00000045    | 0 of 1
+[13/aed26a] blastall_00000077    | 0 of 1
+[e7/00d611] blastall_00000108    | 0 of 1
+[08/a3135b] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 0 of 1
+[5c/d2b0a1] blastall_00000078    | 0 of 1
+[f8/fba7e3] blastall_00000109    | 0 of 1
+[-        ] blastall_00000003    | 0 of 1
+[be/cd47aa] blastall_00000016    | 0 of 1
+[-        ] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 0 of 1
+[-        ] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 0 of 1
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 0 of 1
+[b8/e103dd] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 0 of 1
+[be/fa1f1b] blastall_00000018    | 0 of 1
+[db/62d7f1] blastall_00000049    | 0 of 1
+[d9/44561f] blastall_00000081    | 0 of 1
+[45/75c185] blastall_00000112    | 0 of 1
+[fd/735f67] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 0 of 1
+[34/c6992a] blastall_00000082    | 0 of 1
+[92/719717] blastall_00000113    | 0 of 1
+[ac/878147] blastall_00000020    | 0 of 1
+[66/c49c0b] blastall_00000051    | 0 of 1
+[78/dd71ad] blastall_00000083    | 0 of 1
+[-        ] blastall_00000114    | 0 of 1
+[f3/a04960] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 0 of 1
+[-        ] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 0 of 1
+[-        ] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 0 of 1
+[0d/e3c485] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 0 of 1
+[43/3f2118] blastall_00000023    | 0 of 1
+[92/474eba] blastall_00000054    | 0 of 1
+[5b/030514] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 0 of 1
+[f2/03dba5] blastall_00000024    | 0 of 1
+[-        ] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 0 of 1
+[fc/7321c7] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[a1/e5747a] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 0 of 1
+[60/4fdc30] blastall_00000026    | 0 of 1
+[0c/66e15a] blastall_00000057    | 0 of 1
+[da/d405f0] blastall_00000089    | 0 of 1
+[5a/072eca] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 0 of 1
+[49/f256c4] blastall_00000090    | 0 of 1
+[d3/b47b31] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 0 of 1
+[99/db40e0] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 0 of 1
+[-        ] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 0 of 1
+[9d/4f286d] blastall_00000061    | 0 of 1
+[5e/a90fd7] blastall_00000093    | 0 of 1
+[3b/329f14] blastall_00000031    | 0 of 1
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 0 of 1
+[d2/6a35e3] blastall_00000063    | 0 of 1
+[48/6e4e84] blastall_00000095    | 0 of 1
+[-        ] blastall_00000033    | 0 of 1
+[-        ] blastall_00000064    | 0 of 1
+[-        ] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (95)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[-        ] blastall_00000008    | 0 of 1
+[77/81946e] blastall_00000034    | 0 of 1
+[-        ] blastall_00000066    | 0 of 1
+[-        ] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 0 of 1
+[-        ] blastall_00000067    | 0 of 1
+[4d/bfe4e9] blastall_00000098    | 0 of 1
+[9c/a36c59] blastall_00000036    | 0 of 1
+[-        ] blastall_00000068    | 0 of 1
+[36/aa016e] blastall_00000099    | 0 of 1
+[-        ] blastall_00000037    | 0 of 1
+[-        ] blastall_00000069    | 0 of 1
+[-        ] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 0 of 1
+[-        ] blastall_00000070    | 0 of 1
+[-        ] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 0 of 1
+[50/be91cc] blastall_00000071    | 0 of 1
+[-        ] blastall_00000102    | 0 of 1
+[-        ] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 0 of 1
+[c2/d1de6f] blastall_00000072    | 0 of 1
+[8f/209a5e] blastall_00000103    | 0 of 1
+[82/3f90a0] blastall_00000010    | 0 of 1
+[3f/7dc177] blastall_00000041    | 0 of 1
+[c1/c5cef8] blastall_00000073    | 0 of 1
+[b0/11a8e4] blastall_00000004    | 0 of 1
+[1d/4c4e74] blastall_00000104    | 0 of 1
+[23/0527a6] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 0 of 1
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 0 of 1
+[49/a4645e] blastall_00000012    | 0 of 1
+[72/7c21ae] blastall_00000075    | 0 of 1
+[00/eb5350] blastall_00000106    | 0 of 1
+[1f/a16fca] blastall_00000002    | 0 of 1
+[19/363bc0] blastall_00000013    | 0 of 1
+[c5/07f23d] blastall_00000044    | 0 of 1
+[95/d19984] blastall_00000076    | 0 of 1
+[-        ] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[20/41ee9b] blastall_00000045    | 0 of 1
+[13/aed26a] blastall_00000077    | 0 of 1
+[e7/00d611] blastall_00000108    | 0 of 1
+[08/a3135b] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 0 of 1
+[5c/d2b0a1] blastall_00000078    | 0 of 1
+[f8/fba7e3] blastall_00000109    | 0 of 1
+[e0/b77353] blastall_00000003    | 0 of 1
+[be/cd47aa] blastall_00000016    | 0 of 1
+[-        ] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 0 of 1
+[82/d566a7] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 0 of 1
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 0 of 1
+[b8/e103dd] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 0 of 1
+[be/fa1f1b] blastall_00000018    | 0 of 1
+[db/62d7f1] blastall_00000049    | 0 of 1
+[d9/44561f] blastall_00000081    | 0 of 1
+[45/75c185] blastall_00000112    | 0 of 1
+[fd/735f67] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 0 of 1
+[34/c6992a] blastall_00000082    | 0 of 1
+[92/719717] blastall_00000113    | 0 of 1
+[ac/878147] blastall_00000020    | 0 of 1
+[66/c49c0b] blastall_00000051    | 0 of 1
+[78/dd71ad] blastall_00000083    | 0 of 1
+[b7/76f9b5] blastall_00000114    | 0 of 1
+[f3/a04960] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 0 of 1
+[-        ] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 0 of 1
+[-        ] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 0 of 1
+[0d/e3c485] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 0 of 1
+[43/3f2118] blastall_00000023    | 0 of 1
+[92/474eba] blastall_00000054    | 0 of 1
+[5b/030514] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 0 of 1
+[f2/03dba5] blastall_00000024    | 0 of 1
+[-        ] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 0 of 1
+[fc/7321c7] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[a1/e5747a] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 0 of 1
+[60/4fdc30] blastall_00000026    | 0 of 1
+[0c/66e15a] blastall_00000057    | 0 of 1
+[da/d405f0] blastall_00000089    | 0 of 1
+[5a/072eca] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 0 of 1
+[49/f256c4] blastall_00000090    | 0 of 1
+[d3/b47b31] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 0 of 1
+[99/db40e0] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 0 of 1
+[-        ] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 0 of 1
+[9d/4f286d] blastall_00000061    | 0 of 1
+[5e/a90fd7] blastall_00000093    | 0 of 1
+[3b/329f14] blastall_00000031    | 0 of 1
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 0 of 1
+[d2/6a35e3] blastall_00000063    | 0 of 1
+[48/6e4e84] blastall_00000095    | 0 of 1
+[-        ] blastall_00000033    | 0 of 1
+[-        ] blastall_00000064    | 0 of 1
+[-        ] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (97)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[5d/19016d] blastall_00000008    | 0 of 1
+[77/81946e] blastall_00000034    | 0 of 1
+[-        ] blastall_00000066    | 0 of 1
+[-        ] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 0 of 1
+[-        ] blastall_00000067    | 0 of 1
+[4d/bfe4e9] blastall_00000098    | 0 of 1
+[9c/a36c59] blastall_00000036    | 0 of 1
+[-        ] blastall_00000068    | 0 of 1
+[36/aa016e] blastall_00000099    | 0 of 1
+[-        ] blastall_00000037    | 0 of 1
+[-        ] blastall_00000069    | 0 of 1
+[-        ] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 0 of 1
+[-        ] blastall_00000070    | 0 of 1
+[-        ] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 0 of 1
+[50/be91cc] blastall_00000071    | 0 of 1
+[-        ] blastall_00000102    | 0 of 1
+[-        ] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 0 of 1
+[c2/d1de6f] blastall_00000072    | 0 of 1
+[8f/209a5e] blastall_00000103    | 0 of 1
+[82/3f90a0] blastall_00000010    | 0 of 1
+[3f/7dc177] blastall_00000041    | 0 of 1
+[c1/c5cef8] blastall_00000073    | 0 of 1
+[b0/11a8e4] blastall_00000004    | 0 of 1
+[1d/4c4e74] blastall_00000104    | 0 of 1
+[23/0527a6] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 0 of 1
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 0 of 1
+[49/a4645e] blastall_00000012    | 0 of 1
+[72/7c21ae] blastall_00000075    | 0 of 1
+[00/eb5350] blastall_00000106    | 0 of 1
+[1f/a16fca] blastall_00000002    | 0 of 1
+[19/363bc0] blastall_00000013    | 0 of 1
+[c5/07f23d] blastall_00000044    | 0 of 1
+[95/d19984] blastall_00000076    | 0 of 1
+[-        ] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[20/41ee9b] blastall_00000045    | 0 of 1
+[13/aed26a] blastall_00000077    | 0 of 1
+[e7/00d611] blastall_00000108    | 0 of 1
+[08/a3135b] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 0 of 1
+[5c/d2b0a1] blastall_00000078    | 0 of 1
+[f8/fba7e3] blastall_00000109    | 0 of 1
+[e0/b77353] blastall_00000003    | 0 of 1
+[be/cd47aa] blastall_00000016    | 0 of 1
+[-        ] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 0 of 1
+[82/d566a7] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 0 of 1
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 0 of 1
+[b8/e103dd] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 0 of 1
+[be/fa1f1b] blastall_00000018    | 0 of 1
+[db/62d7f1] blastall_00000049    | 0 of 1
+[d9/44561f] blastall_00000081    | 0 of 1
+[45/75c185] blastall_00000112    | 0 of 1
+[fd/735f67] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 0 of 1
+[34/c6992a] blastall_00000082    | 0 of 1
+[92/719717] blastall_00000113    | 0 of 1
+[ac/878147] blastall_00000020    | 0 of 1
+[66/c49c0b] blastall_00000051    | 0 of 1
+[78/dd71ad] blastall_00000083    | 0 of 1
+[b7/76f9b5] blastall_00000114    | 0 of 1
+[f3/a04960] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 0 of 1
+[f8/ef2e41] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 0 of 1
+[-        ] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 0 of 1
+[0d/e3c485] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 0 of 1
+[43/3f2118] blastall_00000023    | 0 of 1
+[92/474eba] blastall_00000054    | 0 of 1
+[5b/030514] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 0 of 1
+[f2/03dba5] blastall_00000024    | 0 of 1
+[-        ] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 0 of 1
+[fc/7321c7] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[a1/e5747a] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 0 of 1
+[60/4fdc30] blastall_00000026    | 0 of 1
+[0c/66e15a] blastall_00000057    | 0 of 1
+[da/d405f0] blastall_00000089    | 0 of 1
+[5a/072eca] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 0 of 1
+[49/f256c4] blastall_00000090    | 0 of 1
+[d3/b47b31] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 0 of 1
+[99/db40e0] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 0 of 1
+[-        ] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 0 of 1
+[9d/4f286d] blastall_00000061    | 0 of 1
+[5e/a90fd7] blastall_00000093    | 0 of 1
+[3b/329f14] blastall_00000031    | 0 of 1
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 0 of 1
+[d2/6a35e3] blastall_00000063    | 0 of 1
+[48/6e4e84] blastall_00000095    | 0 of 1
+[-        ] blastall_00000033    | 0 of 1
+[-        ] blastall_00000064    | 0 of 1
+[-        ] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (98)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[5d/19016d] blastall_00000008    | 0 of 1
+[77/81946e] blastall_00000034    | 0 of 1
+[-        ] blastall_00000066    | 0 of 1
+[-        ] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 0 of 1
+[-        ] blastall_00000067    | 0 of 1
+[4d/bfe4e9] blastall_00000098    | 0 of 1
+[9c/a36c59] blastall_00000036    | 0 of 1
+[-        ] blastall_00000068    | 0 of 1
+[36/aa016e] blastall_00000099    | 0 of 1
+[-        ] blastall_00000037    | 0 of 1
+[-        ] blastall_00000069    | 0 of 1
+[-        ] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 0 of 1
+[-        ] blastall_00000070    | 0 of 1
+[-        ] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 0 of 1
+[50/be91cc] blastall_00000071    | 0 of 1
+[-        ] blastall_00000102    | 0 of 1
+[-        ] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 0 of 1
+[c2/d1de6f] blastall_00000072    | 0 of 1
+[8f/209a5e] blastall_00000103    | 0 of 1
+[82/3f90a0] blastall_00000010    | 0 of 1
+[3f/7dc177] blastall_00000041    | 0 of 1
+[c1/c5cef8] blastall_00000073    | 0 of 1
+[b0/11a8e4] blastall_00000004    | 0 of 1
+[1d/4c4e74] blastall_00000104    | 0 of 1
+[23/0527a6] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 0 of 1
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 0 of 1
+[49/a4645e] blastall_00000012    | 0 of 1
+[72/7c21ae] blastall_00000075    | 0 of 1
+[00/eb5350] blastall_00000106    | 0 of 1
+[1f/a16fca] blastall_00000002    | 0 of 1
+[19/363bc0] blastall_00000013    | 0 of 1
+[c5/07f23d] blastall_00000044    | 0 of 1
+[95/d19984] blastall_00000076    | 0 of 1
+[-        ] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[20/41ee9b] blastall_00000045    | 0 of 1
+[13/aed26a] blastall_00000077    | 0 of 1
+[e7/00d611] blastall_00000108    | 0 of 1
+[08/a3135b] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 0 of 1
+[5c/d2b0a1] blastall_00000078    | 0 of 1
+[f8/fba7e3] blastall_00000109    | 0 of 1
+[e0/b77353] blastall_00000003    | 0 of 1
+[be/cd47aa] blastall_00000016    | 0 of 1
+[-        ] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 0 of 1
+[82/d566a7] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 0 of 1
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 0 of 1
+[b8/e103dd] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 0 of 1
+[be/fa1f1b] blastall_00000018    | 0 of 1
+[db/62d7f1] blastall_00000049    | 0 of 1
+[d9/44561f] blastall_00000081    | 0 of 1
+[45/75c185] blastall_00000112    | 0 of 1
+[fd/735f67] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 0 of 1
+[34/c6992a] blastall_00000082    | 0 of 1
+[92/719717] blastall_00000113    | 0 of 1
+[ac/878147] blastall_00000020    | 0 of 1
+[66/c49c0b] blastall_00000051    | 0 of 1
+[78/dd71ad] blastall_00000083    | 0 of 1
+[b7/76f9b5] blastall_00000114    | 0 of 1
+[f3/a04960] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 0 of 1
+[f8/ef2e41] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 0 of 1
+[4d/c9a94e] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 0 of 1
+[0d/e3c485] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 0 of 1
+[43/3f2118] blastall_00000023    | 0 of 1
+[92/474eba] blastall_00000054    | 0 of 1
+[5b/030514] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 0 of 1
+[f2/03dba5] blastall_00000024    | 0 of 1
+[-        ] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 0 of 1
+[fc/7321c7] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[a1/e5747a] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 0 of 1
+[60/4fdc30] blastall_00000026    | 0 of 1
+[0c/66e15a] blastall_00000057    | 0 of 1
+[da/d405f0] blastall_00000089    | 0 of 1
+[5a/072eca] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 0 of 1
+[49/f256c4] blastall_00000090    | 0 of 1
+[d3/b47b31] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 0 of 1
+[99/db40e0] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 0 of 1
+[-        ] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 0 of 1
+[9d/4f286d] blastall_00000061    | 0 of 1
+[5e/a90fd7] blastall_00000093    | 0 of 1
+[3b/329f14] blastall_00000031    | 0 of 1
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 0 of 1
+[d2/6a35e3] blastall_00000063    | 1 of 1 ✔
+[48/6e4e84] blastall_00000095    | 0 of 1
+[-        ] blastall_00000033    | 0 of 1
+[-        ] blastall_00000064    | 0 of 1
+[-        ] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (102)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[5d/19016d] blastall_00000008    | 0 of 1
+[77/81946e] blastall_00000034    | 0 of 1
+[-        ] blastall_00000066    | 0 of 1
+[-        ] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 0 of 1
+[13/fc8688] blastall_00000067    | 0 of 1
+[4d/bfe4e9] blastall_00000098    | 0 of 1
+[9c/a36c59] blastall_00000036    | 0 of 1
+[0c/2e6f65] blastall_00000068    | 0 of 1
+[36/aa016e] blastall_00000099    | 0 of 1
+[-        ] blastall_00000037    | 0 of 1
+[-        ] blastall_00000069    | 0 of 1
+[-        ] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 0 of 1
+[-        ] blastall_00000070    | 0 of 1
+[66/738d4c] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 0 of 1
+[50/be91cc] blastall_00000071    | 0 of 1
+[-        ] blastall_00000102    | 0 of 1
+[-        ] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 0 of 1
+[c2/d1de6f] blastall_00000072    | 0 of 1
+[8f/209a5e] blastall_00000103    | 0 of 1
+[82/3f90a0] blastall_00000010    | 0 of 1
+[3f/7dc177] blastall_00000041    | 0 of 1
+[c1/c5cef8] blastall_00000073    | 0 of 1
+[b0/11a8e4] blastall_00000004    | 0 of 1
+[1d/4c4e74] blastall_00000104    | 0 of 1
+[23/0527a6] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 0 of 1
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 0 of 1
+[49/a4645e] blastall_00000012    | 0 of 1
+[72/7c21ae] blastall_00000075    | 0 of 1
+[00/eb5350] blastall_00000106    | 0 of 1
+[1f/a16fca] blastall_00000002    | 0 of 1
+[19/363bc0] blastall_00000013    | 0 of 1
+[c5/07f23d] blastall_00000044    | 0 of 1
+[95/d19984] blastall_00000076    | 1 of 1 ✔
+[-        ] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[20/41ee9b] blastall_00000045    | 0 of 1
+[13/aed26a] blastall_00000077    | 0 of 1
+[e7/00d611] blastall_00000108    | 0 of 1
+[08/a3135b] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 0 of 1
+[5c/d2b0a1] blastall_00000078    | 0 of 1
+[f8/fba7e3] blastall_00000109    | 0 of 1
+[e0/b77353] blastall_00000003    | 0 of 1
+[be/cd47aa] blastall_00000016    | 0 of 1
+[-        ] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 1 of 1 ✔
+[82/d566a7] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 0 of 1
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 0 of 1
+[b8/e103dd] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 0 of 1
+[be/fa1f1b] blastall_00000018    | 0 of 1
+[db/62d7f1] blastall_00000049    | 0 of 1
+[d9/44561f] blastall_00000081    | 0 of 1
+[45/75c185] blastall_00000112    | 1 of 1 ✔
+[fd/735f67] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 0 of 1
+[34/c6992a] blastall_00000082    | 0 of 1
+[92/719717] blastall_00000113    | 0 of 1
+[ac/878147] blastall_00000020    | 0 of 1
+[66/c49c0b] blastall_00000051    | 0 of 1
+[78/dd71ad] blastall_00000083    | 0 of 1
+[b7/76f9b5] blastall_00000114    | 0 of 1
+[f3/a04960] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 1 of 1 ✔
+[f8/ef2e41] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 0 of 1
+[4d/c9a94e] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 0 of 1
+[0d/e3c485] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 0 of 1
+[43/3f2118] blastall_00000023    | 0 of 1
+[92/474eba] blastall_00000054    | 0 of 1
+[5b/030514] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 0 of 1
+[f2/03dba5] blastall_00000024    | 0 of 1
+[cd/ff666a] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 1 of 1 ✔
+[fc/7321c7] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[a1/e5747a] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 0 of 1
+[60/4fdc30] blastall_00000026    | 0 of 1
+[0c/66e15a] blastall_00000057    | 0 of 1
+[da/d405f0] blastall_00000089    | 0 of 1
+[5a/072eca] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 0 of 1
+[49/f256c4] blastall_00000090    | 0 of 1
+[d3/b47b31] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 0 of 1
+[99/db40e0] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 0 of 1
+[-        ] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 0 of 1
+[9d/4f286d] blastall_00000061    | 0 of 1
+[5e/a90fd7] blastall_00000093    | 0 of 1
+[3b/329f14] blastall_00000031    | 0 of 1
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 0 of 1
+[d2/6a35e3] blastall_00000063    | 1 of 1 ✔
+[48/6e4e84] blastall_00000095    | 0 of 1
+[-        ] blastall_00000033    | 0 of 1
+[-        ] blastall_00000064    | 0 of 1
+[-        ] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (107)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[5d/19016d] blastall_00000008    | 0 of 1
+[77/81946e] blastall_00000034    | 0 of 1
+[f7/315cb7] blastall_00000066    | 0 of 1
+[10/e121ca] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 0 of 1
+[13/fc8688] blastall_00000067    | 0 of 1
+[4d/bfe4e9] blastall_00000098    | 0 of 1
+[9c/a36c59] blastall_00000036    | 0 of 1
+[0c/2e6f65] blastall_00000068    | 0 of 1
+[36/aa016e] blastall_00000099    | 0 of 1
+[-        ] blastall_00000037    | 0 of 1
+[-        ] blastall_00000069    | 0 of 1
+[-        ] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 0 of 1
+[f2/0067e5] blastall_00000070    | 0 of 1
+[66/738d4c] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 0 of 1
+[50/be91cc] blastall_00000071    | 0 of 1
+[-        ] blastall_00000102    | 0 of 1
+[-        ] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 0 of 1
+[c2/d1de6f] blastall_00000072    | 0 of 1
+[8f/209a5e] blastall_00000103    | 0 of 1
+[82/3f90a0] blastall_00000010    | 0 of 1
+[3f/7dc177] blastall_00000041    | 0 of 1
+[c1/c5cef8] blastall_00000073    | 0 of 1
+[b0/11a8e4] blastall_00000004    | 0 of 1
+[1d/4c4e74] blastall_00000104    | 0 of 1
+[23/0527a6] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 0 of 1
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 0 of 1
+[49/a4645e] blastall_00000012    | 1 of 1 ✔
+[72/7c21ae] blastall_00000075    | 0 of 1
+[00/eb5350] blastall_00000106    | 0 of 1
+[1f/a16fca] blastall_00000002    | 0 of 1
+[19/363bc0] blastall_00000013    | 1 of 1 ✔
+[c5/07f23d] blastall_00000044    | 0 of 1
+[95/d19984] blastall_00000076    | 1 of 1 ✔
+[-        ] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[20/41ee9b] blastall_00000045    | 0 of 1
+[13/aed26a] blastall_00000077    | 0 of 1
+[e7/00d611] blastall_00000108    | 0 of 1
+[08/a3135b] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 0 of 1
+[5c/d2b0a1] blastall_00000078    | 0 of 1
+[f8/fba7e3] blastall_00000109    | 0 of 1
+[e0/b77353] blastall_00000003    | 0 of 1
+[be/cd47aa] blastall_00000016    | 0 of 1
+[a3/b0fb14] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 1 of 1 ✔
+[82/d566a7] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 0 of 1
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 1 of 1 ✔
+[b8/e103dd] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 0 of 1
+[be/fa1f1b] blastall_00000018    | 0 of 1
+[db/62d7f1] blastall_00000049    | 0 of 1
+[d9/44561f] blastall_00000081    | 0 of 1
+[45/75c185] blastall_00000112    | 1 of 1 ✔
+[fd/735f67] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 0 of 1
+[34/c6992a] blastall_00000082    | 1 of 1 ✔
+[92/719717] blastall_00000113    | 0 of 1
+[ac/878147] blastall_00000020    | 0 of 1
+[66/c49c0b] blastall_00000051    | 0 of 1
+[78/dd71ad] blastall_00000083    | 0 of 1
+[b7/76f9b5] blastall_00000114    | 0 of 1
+[f3/a04960] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 1 of 1 ✔
+[f8/ef2e41] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 0 of 1
+[4d/c9a94e] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 0 of 1
+[0d/e3c485] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 0 of 1
+[43/3f2118] blastall_00000023    | 0 of 1
+[92/474eba] blastall_00000054    | 1 of 1 ✔
+[5b/030514] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 0 of 1
+[f2/03dba5] blastall_00000024    | 0 of 1
+[cd/ff666a] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 1 of 1 ✔
+[fc/7321c7] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[a1/e5747a] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 1 of 1 ✔
+[60/4fdc30] blastall_00000026    | 0 of 1
+[0c/66e15a] blastall_00000057    | 0 of 1
+[da/d405f0] blastall_00000089    | 0 of 1
+[5a/072eca] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 0 of 1
+[49/f256c4] blastall_00000090    | 0 of 1
+[d3/b47b31] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 0 of 1
+[99/db40e0] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 0 of 1
+[-        ] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 1 of 1 ✔
+[9d/4f286d] blastall_00000061    | 0 of 1
+[5e/a90fd7] blastall_00000093    | 0 of 1
+[3b/329f14] blastall_00000031    | 0 of 1
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 0 of 1
+[d2/6a35e3] blastall_00000063    | 1 of 1 ✔
+[48/6e4e84] blastall_00000095    | 0 of 1
+[15/ceaa45] blastall_00000033    | 0 of 1
+[16/8af68c] blastall_00000064    | 0 of 1
+[-        ] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (112)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[5d/19016d] blastall_00000008    | 0 of 1
+[77/81946e] blastall_00000034    | 0 of 1
+[f7/315cb7] blastall_00000066    | 0 of 1
+[10/e121ca] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 0 of 1
+[13/fc8688] blastall_00000067    | 0 of 1
+[4d/bfe4e9] blastall_00000098    | 0 of 1
+[9c/a36c59] blastall_00000036    | 0 of 1
+[0c/2e6f65] blastall_00000068    | 0 of 1
+[36/aa016e] blastall_00000099    | 0 of 1
+[-        ] blastall_00000037    | 0 of 1
+[4a/4f2597] blastall_00000069    | 0 of 1
+[a2/8e5226] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 0 of 1
+[f2/0067e5] blastall_00000070    | 0 of 1
+[66/738d4c] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 0 of 1
+[50/be91cc] blastall_00000071    | 0 of 1
+[-        ] blastall_00000102    | 0 of 1
+[-        ] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 0 of 1
+[c2/d1de6f] blastall_00000072    | 0 of 1
+[8f/209a5e] blastall_00000103    | 0 of 1
+[82/3f90a0] blastall_00000010    | 0 of 1
+[3f/7dc177] blastall_00000041    | 0 of 1
+[c1/c5cef8] blastall_00000073    | 0 of 1
+[b0/11a8e4] blastall_00000004    | 0 of 1
+[1d/4c4e74] blastall_00000104    | 0 of 1
+[23/0527a6] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 0 of 1
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 0 of 1
+[49/a4645e] blastall_00000012    | 1 of 1 ✔
+[72/7c21ae] blastall_00000075    | 0 of 1
+[00/eb5350] blastall_00000106    | 0 of 1
+[1f/a16fca] blastall_00000002    | 0 of 1
+[19/363bc0] blastall_00000013    | 1 of 1 ✔
+[c5/07f23d] blastall_00000044    | 0 of 1
+[95/d19984] blastall_00000076    | 1 of 1 ✔
+[53/6851e0] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[20/41ee9b] blastall_00000045    | 0 of 1
+[13/aed26a] blastall_00000077    | 0 of 1
+[e7/00d611] blastall_00000108    | 1 of 1 ✔
+[08/a3135b] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 0 of 1
+[5c/d2b0a1] blastall_00000078    | 0 of 1
+[f8/fba7e3] blastall_00000109    | 0 of 1
+[e0/b77353] blastall_00000003    | 0 of 1
+[be/cd47aa] blastall_00000016    | 0 of 1
+[a3/b0fb14] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 1 of 1 ✔
+[82/d566a7] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 0 of 1
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 1 of 1 ✔
+[b8/e103dd] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 0 of 1
+[be/fa1f1b] blastall_00000018    | 0 of 1
+[db/62d7f1] blastall_00000049    | 0 of 1
+[d9/44561f] blastall_00000081    | 0 of 1
+[45/75c185] blastall_00000112    | 1 of 1 ✔
+[fd/735f67] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 1 of 1 ✔
+[34/c6992a] blastall_00000082    | 1 of 1 ✔
+[92/719717] blastall_00000113    | 0 of 1
+[ac/878147] blastall_00000020    | 0 of 1
+[66/c49c0b] blastall_00000051    | 0 of 1
+[78/dd71ad] blastall_00000083    | 0 of 1
+[b7/76f9b5] blastall_00000114    | 0 of 1
+[f3/a04960] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 1 of 1 ✔
+[f8/ef2e41] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 0 of 1
+[4d/c9a94e] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 0 of 1
+[0d/e3c485] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 0 of 1
+[43/3f2118] blastall_00000023    | 0 of 1
+[92/474eba] blastall_00000054    | 1 of 1 ✔
+[5b/030514] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 0 of 1
+[f2/03dba5] blastall_00000024    | 0 of 1
+[cd/ff666a] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 1 of 1 ✔
+[fc/7321c7] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[a1/e5747a] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 1 of 1 ✔
+[60/4fdc30] blastall_00000026    | 0 of 1
+[0c/66e15a] blastall_00000057    | 0 of 1
+[da/d405f0] blastall_00000089    | 0 of 1
+[5a/072eca] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 0 of 1
+[49/f256c4] blastall_00000090    | 0 of 1
+[d3/b47b31] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 0 of 1
+[99/db40e0] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 0 of 1
+[70/9e1d2e] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 1 of 1 ✔
+[9d/4f286d] blastall_00000061    | 0 of 1
+[5e/a90fd7] blastall_00000093    | 0 of 1
+[3b/329f14] blastall_00000031    | 0 of 1
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 0 of 1
+[d2/6a35e3] blastall_00000063    | 1 of 1 ✔
+[48/6e4e84] blastall_00000095    | 0 of 1
+[15/ceaa45] blastall_00000033    | 0 of 1
+[16/8af68c] blastall_00000064    | 0 of 1
+[-        ] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (116)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[5d/19016d] blastall_00000008    | 0 of 1
+[77/81946e] blastall_00000034    | 0 of 1
+[f7/315cb7] blastall_00000066    | 0 of 1
+[10/e121ca] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 0 of 1
+[13/fc8688] blastall_00000067    | 0 of 1
+[4d/bfe4e9] blastall_00000098    | 0 of 1
+[9c/a36c59] blastall_00000036    | 0 of 1
+[0c/2e6f65] blastall_00000068    | 0 of 1
+[36/aa016e] blastall_00000099    | 0 of 1
+[d3/db6123] blastall_00000037    | 0 of 1
+[4a/4f2597] blastall_00000069    | 0 of 1
+[a2/8e5226] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 0 of 1
+[f2/0067e5] blastall_00000070    | 0 of 1
+[66/738d4c] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 0 of 1
+[50/be91cc] blastall_00000071    | 0 of 1
+[f3/e26d87] blastall_00000102    | 0 of 1
+[20/5423a5] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 0 of 1
+[c2/d1de6f] blastall_00000072    | 0 of 1
+[8f/209a5e] blastall_00000103    | 0 of 1
+[82/3f90a0] blastall_00000010    | 0 of 1
+[3f/7dc177] blastall_00000041    | 0 of 1
+[c1/c5cef8] blastall_00000073    | 0 of 1
+[b0/11a8e4] blastall_00000004    | 0 of 1
+[1d/4c4e74] blastall_00000104    | 0 of 1
+[23/0527a6] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 0 of 1
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 0 of 1
+[49/a4645e] blastall_00000012    | 1 of 1 ✔
+[72/7c21ae] blastall_00000075    | 0 of 1
+[00/eb5350] blastall_00000106    | 0 of 1
+[1f/a16fca] blastall_00000002    | 0 of 1
+[19/363bc0] blastall_00000013    | 1 of 1 ✔
+[c5/07f23d] blastall_00000044    | 1 of 1 ✔
+[95/d19984] blastall_00000076    | 1 of 1 ✔
+[53/6851e0] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[20/41ee9b] blastall_00000045    | 0 of 1
+[13/aed26a] blastall_00000077    | 1 of 1 ✔
+[e7/00d611] blastall_00000108    | 1 of 1 ✔
+[08/a3135b] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 0 of 1
+[5c/d2b0a1] blastall_00000078    | 0 of 1
+[f8/fba7e3] blastall_00000109    | 0 of 1
+[e0/b77353] blastall_00000003    | 0 of 1
+[be/cd47aa] blastall_00000016    | 1 of 1 ✔
+[a3/b0fb14] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 1 of 1 ✔
+[82/d566a7] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 0 of 1
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 1 of 1 ✔
+[b8/e103dd] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 0 of 1
+[be/fa1f1b] blastall_00000018    | 0 of 1
+[db/62d7f1] blastall_00000049    | 0 of 1
+[d9/44561f] blastall_00000081    | 0 of 1
+[45/75c185] blastall_00000112    | 1 of 1 ✔
+[fd/735f67] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 1 of 1 ✔
+[34/c6992a] blastall_00000082    | 1 of 1 ✔
+[92/719717] blastall_00000113    | 0 of 1
+[ac/878147] blastall_00000020    | 0 of 1
+[66/c49c0b] blastall_00000051    | 0 of 1
+[78/dd71ad] blastall_00000083    | 0 of 1
+[b7/76f9b5] blastall_00000114    | 0 of 1
+[f3/a04960] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 1 of 1 ✔
+[f8/ef2e41] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 0 of 1
+[4d/c9a94e] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 0 of 1
+[0d/e3c485] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 0 of 1
+[43/3f2118] blastall_00000023    | 1 of 1 ✔
+[92/474eba] blastall_00000054    | 1 of 1 ✔
+[5b/030514] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 1 of 1 ✔
+[f2/03dba5] blastall_00000024    | 1 of 1 ✔
+[cd/ff666a] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 1 of 1 ✔
+[fc/7321c7] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[a1/e5747a] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 1 of 1 ✔
+[60/4fdc30] blastall_00000026    | 0 of 1
+[0c/66e15a] blastall_00000057    | 0 of 1
+[da/d405f0] blastall_00000089    | 0 of 1
+[5a/072eca] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 1 of 1 ✔
+[49/f256c4] blastall_00000090    | 1 of 1 ✔
+[d3/b47b31] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 0 of 1
+[99/db40e0] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 1 of 1 ✔
+[70/9e1d2e] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 1 of 1 ✔
+[9d/4f286d] blastall_00000061    | 0 of 1
+[5e/a90fd7] blastall_00000093    | 1 of 1 ✔
+[3b/329f14] blastall_00000031    | 1 of 1 ✔
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 0 of 1
+[d2/6a35e3] blastall_00000063    | 1 of 1 ✔
+[48/6e4e84] blastall_00000095    | 0 of 1
+[15/ceaa45] blastall_00000033    | 0 of 1
+[16/8af68c] blastall_00000064    | 0 of 1
+[a3/7e194d] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (116)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[5d/19016d] blastall_00000008    | 0 of 1
+[77/81946e] blastall_00000034    | 0 of 1
+[f7/315cb7] blastall_00000066    | 0 of 1
+[10/e121ca] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 0 of 1
+[13/fc8688] blastall_00000067    | 0 of 1
+[4d/bfe4e9] blastall_00000098    | 0 of 1
+[9c/a36c59] blastall_00000036    | 0 of 1
+[0c/2e6f65] blastall_00000068    | 0 of 1
+[36/aa016e] blastall_00000099    | 0 of 1
+[d3/db6123] blastall_00000037    | 0 of 1
+[4a/4f2597] blastall_00000069    | 0 of 1
+[a2/8e5226] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 0 of 1
+[f2/0067e5] blastall_00000070    | 0 of 1
+[66/738d4c] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 0 of 1
+[50/be91cc] blastall_00000071    | 0 of 1
+[f3/e26d87] blastall_00000102    | 0 of 1
+[20/5423a5] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 0 of 1
+[c2/d1de6f] blastall_00000072    | 0 of 1
+[8f/209a5e] blastall_00000103    | 0 of 1
+[82/3f90a0] blastall_00000010    | 0 of 1
+[3f/7dc177] blastall_00000041    | 1 of 1 ✔
+[c1/c5cef8] blastall_00000073    | 0 of 1
+[b0/11a8e4] blastall_00000004    | 0 of 1
+[1d/4c4e74] blastall_00000104    | 0 of 1
+[23/0527a6] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 0 of 1
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 1 of 1 ✔
+[49/a4645e] blastall_00000012    | 1 of 1 ✔
+[72/7c21ae] blastall_00000075    | 0 of 1
+[00/eb5350] blastall_00000106    | 0 of 1
+[1f/a16fca] blastall_00000002    | 1 of 1 ✔
+[19/363bc0] blastall_00000013    | 1 of 1 ✔
+[c5/07f23d] blastall_00000044    | 1 of 1 ✔
+[95/d19984] blastall_00000076    | 1 of 1 ✔
+[53/6851e0] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[20/41ee9b] blastall_00000045    | 0 of 1
+[13/aed26a] blastall_00000077    | 1 of 1 ✔
+[e7/00d611] blastall_00000108    | 1 of 1 ✔
+[08/a3135b] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 0 of 1
+[5c/d2b0a1] blastall_00000078    | 1 of 1 ✔
+[f8/fba7e3] blastall_00000109    | 0 of 1
+[e0/b77353] blastall_00000003    | 0 of 1
+[be/cd47aa] blastall_00000016    | 1 of 1 ✔
+[a3/b0fb14] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 1 of 1 ✔
+[82/d566a7] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 0 of 1
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 1 of 1 ✔
+[b8/e103dd] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 0 of 1
+[be/fa1f1b] blastall_00000018    | 0 of 1
+[db/62d7f1] blastall_00000049    | 0 of 1
+[d9/44561f] blastall_00000081    | 0 of 1
+[45/75c185] blastall_00000112    | 1 of 1 ✔
+[fd/735f67] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 1 of 1 ✔
+[34/c6992a] blastall_00000082    | 1 of 1 ✔
+[92/719717] blastall_00000113    | 0 of 1
+[ac/878147] blastall_00000020    | 0 of 1
+[66/c49c0b] blastall_00000051    | 0 of 1
+[78/dd71ad] blastall_00000083    | 0 of 1
+[b7/76f9b5] blastall_00000114    | 0 of 1
+[f3/a04960] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 1 of 1 ✔
+[f8/ef2e41] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 1 of 1 ✔
+[4d/c9a94e] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 0 of 1
+[0d/e3c485] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 0 of 1
+[43/3f2118] blastall_00000023    | 1 of 1 ✔
+[92/474eba] blastall_00000054    | 1 of 1 ✔
+[5b/030514] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 1 of 1 ✔
+[f2/03dba5] blastall_00000024    | 1 of 1 ✔
+[cd/ff666a] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 1 of 1 ✔
+[fc/7321c7] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[a1/e5747a] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 1 of 1 ✔
+[60/4fdc30] blastall_00000026    | 0 of 1
+[0c/66e15a] blastall_00000057    | 0 of 1
+[da/d405f0] blastall_00000089    | 0 of 1
+[5a/072eca] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 1 of 1 ✔
+[49/f256c4] blastall_00000090    | 1 of 1 ✔
+[d3/b47b31] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 1 of 1 ✔
+[99/db40e0] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 1 of 1 ✔
+[70/9e1d2e] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 1 of 1 ✔
+[9d/4f286d] blastall_00000061    | 0 of 1
+[5e/a90fd7] blastall_00000093    | 1 of 1 ✔
+[3b/329f14] blastall_00000031    | 1 of 1 ✔
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 0 of 1
+[d2/6a35e3] blastall_00000063    | 1 of 1 ✔
+[48/6e4e84] blastall_00000095    | 0 of 1
+[15/ceaa45] blastall_00000033    | 0 of 1
+[16/8af68c] blastall_00000064    | 0 of 1
+[a3/7e194d] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (116)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[5d/19016d] blastall_00000008    | 0 of 1
+[77/81946e] blastall_00000034    | 0 of 1
+[f7/315cb7] blastall_00000066    | 0 of 1
+[10/e121ca] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 0 of 1
+[13/fc8688] blastall_00000067    | 0 of 1
+[4d/bfe4e9] blastall_00000098    | 0 of 1
+[9c/a36c59] blastall_00000036    | 0 of 1
+[0c/2e6f65] blastall_00000068    | 0 of 1
+[36/aa016e] blastall_00000099    | 0 of 1
+[d3/db6123] blastall_00000037    | 0 of 1
+[4a/4f2597] blastall_00000069    | 0 of 1
+[a2/8e5226] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 0 of 1
+[f2/0067e5] blastall_00000070    | 0 of 1
+[66/738d4c] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 0 of 1
+[50/be91cc] blastall_00000071    | 0 of 1
+[f3/e26d87] blastall_00000102    | 0 of 1
+[20/5423a5] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 0 of 1
+[c2/d1de6f] blastall_00000072    | 0 of 1
+[8f/209a5e] blastall_00000103    | 0 of 1
+[82/3f90a0] blastall_00000010    | 0 of 1
+[3f/7dc177] blastall_00000041    | 1 of 1 ✔
+[c1/c5cef8] blastall_00000073    | 0 of 1
+[b0/11a8e4] blastall_00000004    | 0 of 1
+[1d/4c4e74] blastall_00000104    | 0 of 1
+[23/0527a6] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 0 of 1
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 1 of 1 ✔
+[49/a4645e] blastall_00000012    | 1 of 1 ✔
+[72/7c21ae] blastall_00000075    | 1 of 1 ✔
+[00/eb5350] blastall_00000106    | 1 of 1 ✔
+[1f/a16fca] blastall_00000002    | 1 of 1 ✔
+[19/363bc0] blastall_00000013    | 1 of 1 ✔
+[c5/07f23d] blastall_00000044    | 1 of 1 ✔
+[95/d19984] blastall_00000076    | 1 of 1 ✔
+[53/6851e0] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[20/41ee9b] blastall_00000045    | 0 of 1
+[13/aed26a] blastall_00000077    | 1 of 1 ✔
+[e7/00d611] blastall_00000108    | 1 of 1 ✔
+[08/a3135b] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 1 of 1 ✔
+[5c/d2b0a1] blastall_00000078    | 1 of 1 ✔
+[f8/fba7e3] blastall_00000109    | 0 of 1
+[e0/b77353] blastall_00000003    | 0 of 1
+[be/cd47aa] blastall_00000016    | 1 of 1 ✔
+[a3/b0fb14] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 1 of 1 ✔
+[82/d566a7] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 0 of 1
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 1 of 1 ✔
+[b8/e103dd] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 0 of 1
+[be/fa1f1b] blastall_00000018    | 1 of 1 ✔
+[db/62d7f1] blastall_00000049    | 1 of 1 ✔
+[d9/44561f] blastall_00000081    | 1 of 1 ✔
+[45/75c185] blastall_00000112    | 1 of 1 ✔
+[fd/735f67] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 1 of 1 ✔
+[34/c6992a] blastall_00000082    | 1 of 1 ✔
+[92/719717] blastall_00000113    | 0 of 1
+[ac/878147] blastall_00000020    | 0 of 1
+[66/c49c0b] blastall_00000051    | 0 of 1
+[78/dd71ad] blastall_00000083    | 0 of 1
+[b7/76f9b5] blastall_00000114    | 0 of 1
+[f3/a04960] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 1 of 1 ✔
+[f8/ef2e41] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 1 of 1 ✔
+[4d/c9a94e] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 1 of 1 ✔
+[0d/e3c485] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 1 of 1 ✔
+[43/3f2118] blastall_00000023    | 1 of 1 ✔
+[92/474eba] blastall_00000054    | 1 of 1 ✔
+[5b/030514] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 1 of 1 ✔
+[f2/03dba5] blastall_00000024    | 1 of 1 ✔
+[cd/ff666a] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 1 of 1 ✔
+[fc/7321c7] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[a1/e5747a] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 1 of 1 ✔
+[60/4fdc30] blastall_00000026    | 1 of 1 ✔
+[0c/66e15a] blastall_00000057    | 0 of 1
+[da/d405f0] blastall_00000089    | 0 of 1
+[5a/072eca] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 1 of 1 ✔
+[49/f256c4] blastall_00000090    | 1 of 1 ✔
+[d3/b47b31] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 1 of 1 ✔
+[99/db40e0] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 1 of 1 ✔
+[70/9e1d2e] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 1 of 1 ✔
+[9d/4f286d] blastall_00000061    | 1 of 1 ✔
+[5e/a90fd7] blastall_00000093    | 1 of 1 ✔
+[3b/329f14] blastall_00000031    | 1 of 1 ✔
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 1 of 1 ✔
+[d2/6a35e3] blastall_00000063    | 1 of 1 ✔
+[48/6e4e84] blastall_00000095    | 0 of 1
+[15/ceaa45] blastall_00000033    | 0 of 1
+[16/8af68c] blastall_00000064    | 0 of 1
+[a3/7e194d] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (116)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[5d/19016d] blastall_00000008    | 0 of 1
+[77/81946e] blastall_00000034    | 0 of 1
+[f7/315cb7] blastall_00000066    | 0 of 1
+[10/e121ca] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 0 of 1
+[13/fc8688] blastall_00000067    | 0 of 1
+[4d/bfe4e9] blastall_00000098    | 0 of 1
+[9c/a36c59] blastall_00000036    | 0 of 1
+[0c/2e6f65] blastall_00000068    | 0 of 1
+[36/aa016e] blastall_00000099    | 0 of 1
+[d3/db6123] blastall_00000037    | 0 of 1
+[4a/4f2597] blastall_00000069    | 0 of 1
+[a2/8e5226] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 1 of 1 ✔
+[f2/0067e5] blastall_00000070    | 0 of 1
+[66/738d4c] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 0 of 1
+[50/be91cc] blastall_00000071    | 0 of 1
+[f3/e26d87] blastall_00000102    | 0 of 1
+[20/5423a5] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 0 of 1
+[c2/d1de6f] blastall_00000072    | 0 of 1
+[8f/209a5e] blastall_00000103    | 0 of 1
+[82/3f90a0] blastall_00000010    | 0 of 1
+[3f/7dc177] blastall_00000041    | 1 of 1 ✔
+[c1/c5cef8] blastall_00000073    | 0 of 1
+[b0/11a8e4] blastall_00000004    | 1 of 1 ✔
+[1d/4c4e74] blastall_00000104    | 0 of 1
+[23/0527a6] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 0 of 1
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 1 of 1 ✔
+[49/a4645e] blastall_00000012    | 1 of 1 ✔
+[72/7c21ae] blastall_00000075    | 1 of 1 ✔
+[00/eb5350] blastall_00000106    | 1 of 1 ✔
+[1f/a16fca] blastall_00000002    | 1 of 1 ✔
+[19/363bc0] blastall_00000013    | 1 of 1 ✔
+[c5/07f23d] blastall_00000044    | 1 of 1 ✔
+[95/d19984] blastall_00000076    | 1 of 1 ✔
+[53/6851e0] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[20/41ee9b] blastall_00000045    | 0 of 1 ✔
+[13/aed26a] blastall_00000077    | 1 of 1 ✔
+[e7/00d611] blastall_00000108    | 1 of 1 ✔
+[08/a3135b] blastall_00000015    | 0 of 1
+[09/ce618d] blastall_00000046    | 1 of 1 ✔
+[5c/d2b0a1] blastall_00000078    | 1 of 1 ✔
+[f8/fba7e3] blastall_00000109    | 0 of 1
+[e0/b77353] blastall_00000003    | 0 of 1
+[be/cd47aa] blastall_00000016    | 1 of 1 ✔
+[a3/b0fb14] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 1 of 1 ✔
+[82/d566a7] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 1 of 1 ✔
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 1 of 1 ✔
+[b8/e103dd] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 1 of 1 ✔
+[be/fa1f1b] blastall_00000018    | 1 of 1 ✔
+[db/62d7f1] blastall_00000049    | 1 of 1 ✔
+[d9/44561f] blastall_00000081    | 1 of 1 ✔
+[45/75c185] blastall_00000112    | 1 of 1 ✔
+[fd/735f67] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 1 of 1 ✔
+[34/c6992a] blastall_00000082    | 1 of 1 ✔
+[92/719717] blastall_00000113    | 0 of 1
+[ac/878147] blastall_00000020    | 1 of 1 ✔
+[66/c49c0b] blastall_00000051    | 1 of 1 ✔
+[78/dd71ad] blastall_00000083    | 0 of 1
+[b7/76f9b5] blastall_00000114    | 0 of 1
+[f3/a04960] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 1 of 1 ✔
+[f8/ef2e41] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 1 of 1 ✔
+[4d/c9a94e] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 1 of 1 ✔
+[0d/e3c485] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 1 of 1 ✔
+[43/3f2118] blastall_00000023    | 1 of 1 ✔
+[92/474eba] blastall_00000054    | 1 of 1 ✔
+[5b/030514] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 1 of 1 ✔
+[f2/03dba5] blastall_00000024    | 1 of 1 ✔
+[cd/ff666a] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 1 of 1 ✔
+[fc/7321c7] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[a1/e5747a] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 1 of 1 ✔
+[60/4fdc30] blastall_00000026    | 1 of 1 ✔
+[0c/66e15a] blastall_00000057    | 1 of 1 ✔
+[da/d405f0] blastall_00000089    | 0 of 1
+[5a/072eca] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 1 of 1 ✔
+[49/f256c4] blastall_00000090    | 1 of 1 ✔
+[d3/b47b31] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 1 of 1 ✔
+[99/db40e0] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 1 of 1 ✔
+[70/9e1d2e] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 1 of 1 ✔
+[9d/4f286d] blastall_00000061    | 1 of 1 ✔
+[5e/a90fd7] blastall_00000093    | 1 of 1 ✔
+[3b/329f14] blastall_00000031    | 1 of 1 ✔
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 0 of 1
+[4b/9261ee] blastall_00000032    | 1 of 1 ✔
+[d2/6a35e3] blastall_00000063    | 1 of 1 ✔
+[48/6e4e84] blastall_00000095    | 0 of 1
+[15/ceaa45] blastall_00000033    | 0 of 1
+[16/8af68c] blastall_00000064    | 0 of 1
+[a3/7e194d] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (116)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[5d/19016d] blastall_00000008    | 0 of 1
+[77/81946e] blastall_00000034    | 0 of 1
+[f7/315cb7] blastall_00000066    | 0 of 1
+[10/e121ca] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 1 of 1 ✔
+[13/fc8688] blastall_00000067    | 0 of 1
+[4d/bfe4e9] blastall_00000098    | 0 of 1
+[9c/a36c59] blastall_00000036    | 1 of 1 ✔
+[0c/2e6f65] blastall_00000068    | 0 of 1
+[36/aa016e] blastall_00000099    | 0 of 1 ✔
+[d3/db6123] blastall_00000037    | 0 of 1
+[4a/4f2597] blastall_00000069    | 0 of 1
+[a2/8e5226] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 1 of 1 ✔
+[f2/0067e5] blastall_00000070    | 0 of 1
+[66/738d4c] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 0 of 1
+[50/be91cc] blastall_00000071    | 1 of 1 ✔
+[f3/e26d87] blastall_00000102    | 0 of 1
+[20/5423a5] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 0 of 1
+[c2/d1de6f] blastall_00000072    | 1 of 1 ✔
+[8f/209a5e] blastall_00000103    | 0 of 1
+[82/3f90a0] blastall_00000010    | 1 of 1 ✔
+[3f/7dc177] blastall_00000041    | 1 of 1 ✔
+[c1/c5cef8] blastall_00000073    | 0 of 1
+[b0/11a8e4] blastall_00000004    | 1 of 1 ✔
+[1d/4c4e74] blastall_00000104    | 0 of 1
+[23/0527a6] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 0 of 1
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 1 of 1 ✔
+[49/a4645e] blastall_00000012    | 1 of 1 ✔
+[72/7c21ae] blastall_00000075    | 1 of 1 ✔
+[00/eb5350] blastall_00000106    | 1 of 1 ✔
+[1f/a16fca] blastall_00000002    | 1 of 1 ✔
+[19/363bc0] blastall_00000013    | 1 of 1 ✔
+[c5/07f23d] blastall_00000044    | 1 of 1 ✔
+[95/d19984] blastall_00000076    | 1 of 1 ✔
+[53/6851e0] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[20/41ee9b] blastall_00000045    | 1 of 1 ✔
+[13/aed26a] blastall_00000077    | 1 of 1 ✔
+[e7/00d611] blastall_00000108    | 1 of 1 ✔
+[08/a3135b] blastall_00000015    | 1 of 1 ✔
+[09/ce618d] blastall_00000046    | 1 of 1 ✔
+[5c/d2b0a1] blastall_00000078    | 1 of 1 ✔
+[f8/fba7e3] blastall_00000109    | 0 of 1
+[e0/b77353] blastall_00000003    | 0 of 1
+[be/cd47aa] blastall_00000016    | 1 of 1 ✔
+[a3/b0fb14] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 1 of 1 ✔
+[82/d566a7] blastall_00000110    | 0 of 1
+[1d/b5047f] blastall_00000080    | 1 of 1 ✔
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 1 of 1 ✔
+[b8/e103dd] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 1 of 1 ✔
+[be/fa1f1b] blastall_00000018    | 1 of 1 ✔
+[db/62d7f1] blastall_00000049    | 1 of 1 ✔
+[d9/44561f] blastall_00000081    | 1 of 1 ✔
+[45/75c185] blastall_00000112    | 1 of 1 ✔
+[fd/735f67] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 1 of 1 ✔
+[34/c6992a] blastall_00000082    | 1 of 1 ✔
+[92/719717] blastall_00000113    | 0 of 1
+[ac/878147] blastall_00000020    | 1 of 1 ✔
+[66/c49c0b] blastall_00000051    | 1 of 1 ✔
+[78/dd71ad] blastall_00000083    | 1 of 1 ✔
+[b7/76f9b5] blastall_00000114    | 0 of 1
+[f3/a04960] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 1 of 1 ✔
+[f8/ef2e41] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 1 of 1 ✔
+[4d/c9a94e] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 1 of 1 ✔
+[0d/e3c485] blastall_00000085    | 0 of 1
+[8b/0df406] blastall_00000116    | 1 of 1 ✔
+[43/3f2118] blastall_00000023    | 1 of 1 ✔
+[92/474eba] blastall_00000054    | 1 of 1 ✔
+[5b/030514] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 1 of 1 ✔
+[f2/03dba5] blastall_00000024    | 1 of 1 ✔
+[cd/ff666a] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 1 of 1 ✔
+[fc/7321c7] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[a1/e5747a] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 1 of 1 ✔
+[60/4fdc30] blastall_00000026    | 1 of 1 ✔
+[0c/66e15a] blastall_00000057    | 1 of 1 ✔
+[da/d405f0] blastall_00000089    | 1 of 1 ✔
+[5a/072eca] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 1 of 1 ✔
+[49/f256c4] blastall_00000090    | 1 of 1 ✔
+[d3/b47b31] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 1 of 1 ✔
+[99/db40e0] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 1 of 1 ✔
+[70/9e1d2e] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 1 of 1 ✔
+[9d/4f286d] blastall_00000061    | 1 of 1 ✔
+[5e/a90fd7] blastall_00000093    | 1 of 1 ✔
+[3b/329f14] blastall_00000031    | 1 of 1 ✔
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 1 of 1 ✔
+[4b/9261ee] blastall_00000032    | 1 of 1 ✔
+[d2/6a35e3] blastall_00000063    | 1 of 1 ✔
+[48/6e4e84] blastall_00000095    | 0 of 1
+[15/ceaa45] blastall_00000033    | 0 of 1
+[16/8af68c] blastall_00000064    | 0 of 1
+[a3/7e194d] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (116)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[5d/19016d] blastall_00000008    | 1 of 1 ✔
+[77/81946e] blastall_00000034    | 0 of 1
+[f7/315cb7] blastall_00000066    | 0 of 1
+[10/e121ca] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 1 of 1 ✔
+[13/fc8688] blastall_00000067    | 0 of 1
+[4d/bfe4e9] blastall_00000098    | 0 of 1
+[9c/a36c59] blastall_00000036    | 1 of 1 ✔
+[0c/2e6f65] blastall_00000068    | 0 of 1
+[36/aa016e] blastall_00000099    | 1 of 1 ✔
+[d3/db6123] blastall_00000037    | 0 of 1
+[4a/4f2597] blastall_00000069    | 0 of 1
+[a2/8e5226] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 1 of 1 ✔
+[f2/0067e5] blastall_00000070    | 0 of 1
+[66/738d4c] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 0 of 1
+[50/be91cc] blastall_00000071    | 1 of 1 ✔
+[f3/e26d87] blastall_00000102    | 0 of 1
+[20/5423a5] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 0 of 1
+[c2/d1de6f] blastall_00000072    | 1 of 1 ✔
+[8f/209a5e] blastall_00000103    | 1 of 1 ✔
+[82/3f90a0] blastall_00000010    | 1 of 1 ✔
+[3f/7dc177] blastall_00000041    | 1 of 1 ✔
+[c1/c5cef8] blastall_00000073    | 1 of 1 ✔
+[b0/11a8e4] blastall_00000004    | 1 of 1 ✔
+[1d/4c4e74] blastall_00000104    | 0 of 1
+[23/0527a6] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 0 of 1
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 1 of 1 ✔
+[49/a4645e] blastall_00000012    | 1 of 1 ✔
+[72/7c21ae] blastall_00000075    | 1 of 1 ✔
+[00/eb5350] blastall_00000106    | 1 of 1 ✔
+[1f/a16fca] blastall_00000002    | 1 of 1 ✔
+[19/363bc0] blastall_00000013    | 1 of 1 ✔
+[c5/07f23d] blastall_00000044    | 1 of 1 ✔
+[95/d19984] blastall_00000076    | 1 of 1 ✔
+[53/6851e0] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[20/41ee9b] blastall_00000045    | 1 of 1 ✔
+[13/aed26a] blastall_00000077    | 1 of 1 ✔
+[e7/00d611] blastall_00000108    | 1 of 1 ✔
+[08/a3135b] blastall_00000015    | 1 of 1 ✔
+[09/ce618d] blastall_00000046    | 1 of 1 ✔
+[5c/d2b0a1] blastall_00000078    | 1 of 1 ✔
+[f8/fba7e3] blastall_00000109    | 0 of 1
+[e0/b77353] blastall_00000003    | 0 of 1
+[be/cd47aa] blastall_00000016    | 1 of 1 ✔
+[a3/b0fb14] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 1 of 1 ✔
+[82/d566a7] blastall_00000110    | 1 of 1 ✔
+[1d/b5047f] blastall_00000080    | 1 of 1 ✔
+[10/61db60] blastall_00000017    | 0 of 1
+[b6/fbaaa9] blastall_00000006    | 1 of 1 ✔
+[b8/e103dd] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 1 of 1 ✔
+[be/fa1f1b] blastall_00000018    | 1 of 1 ✔
+[db/62d7f1] blastall_00000049    | 1 of 1 ✔
+[d9/44561f] blastall_00000081    | 1 of 1 ✔
+[45/75c185] blastall_00000112    | 1 of 1 ✔
+[fd/735f67] blastall_00000019    | 0 of 1
+[4a/227f42] blastall_00000050    | 1 of 1 ✔
+[34/c6992a] blastall_00000082    | 1 of 1 ✔
+[92/719717] blastall_00000113    | 0 of 1
+[ac/878147] blastall_00000020    | 1 of 1 ✔
+[66/c49c0b] blastall_00000051    | 1 of 1 ✔
+[78/dd71ad] blastall_00000083    | 1 of 1 ✔
+[b7/76f9b5] blastall_00000114    | 0 of 1
+[f3/a04960] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 1 of 1 ✔
+[f8/ef2e41] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 1 of 1 ✔
+[4d/c9a94e] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 1 of 1 ✔
+[0d/e3c485] blastall_00000085    | 1 of 1 ✔
+[8b/0df406] blastall_00000116    | 1 of 1 ✔
+[43/3f2118] blastall_00000023    | 1 of 1 ✔
+[92/474eba] blastall_00000054    | 1 of 1 ✔
+[5b/030514] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 1 of 1 ✔
+[f2/03dba5] blastall_00000024    | 1 of 1 ✔
+[cd/ff666a] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 1 of 1 ✔
+[fc/7321c7] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 0 of 1
+[a1/e5747a] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 1 of 1 ✔
+[60/4fdc30] blastall_00000026    | 1 of 1 ✔
+[0c/66e15a] blastall_00000057    | 1 of 1 ✔
+[da/d405f0] blastall_00000089    | 1 of 1 ✔
+[5a/072eca] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 1 of 1 ✔
+[49/f256c4] blastall_00000090    | 1 of 1 ✔
+[d3/b47b31] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 0 of 1
+[94/e55ff5] blastall_00000091    | 1 of 1 ✔
+[99/db40e0] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 1 of 1 ✔
+[70/9e1d2e] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 1 of 1 ✔
+[9d/4f286d] blastall_00000061    | 1 of 1 ✔
+[5e/a90fd7] blastall_00000093    | 1 of 1 ✔
+[3b/329f14] blastall_00000031    | 1 of 1 ✔
+[94/b7cc8a] blastall_00000062    | 0 of 1
+[ac/3f0bd9] blastall_00000094    | 1 of 1 ✔
+[4b/9261ee] blastall_00000032    | 1 of 1 ✔
+[d2/6a35e3] blastall_00000063    | 1 of 1 ✔
+[48/6e4e84] blastall_00000095    | 0 of 1
+[15/ceaa45] blastall_00000033    | 0 of 1
+[16/8af68c] blastall_00000064    | 0 of 1
+[a3/7e194d] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (116)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[5d/19016d] blastall_00000008    | 1 of 1 ✔
+[77/81946e] blastall_00000034    | 0 of 1
+[f7/315cb7] blastall_00000066    | 0 of 1
+[10/e121ca] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 1 of 1 ✔
+[13/fc8688] blastall_00000067    | 0 of 1
+[4d/bfe4e9] blastall_00000098    | 0 of 1
+[9c/a36c59] blastall_00000036    | 1 of 1 ✔
+[0c/2e6f65] blastall_00000068    | 0 of 1
+[36/aa016e] blastall_00000099    | 1 of 1 ✔
+[d3/db6123] blastall_00000037    | 0 of 1
+[4a/4f2597] blastall_00000069    | 0 of 1
+[a2/8e5226] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 1 of 1 ✔
+[f2/0067e5] blastall_00000070    | 0 of 1
+[66/738d4c] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 0 of 1
+[50/be91cc] blastall_00000071    | 1 of 1 ✔
+[f3/e26d87] blastall_00000102    | 0 of 1
+[20/5423a5] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 0 of 1
+[c2/d1de6f] blastall_00000072    | 1 of 1 ✔
+[8f/209a5e] blastall_00000103    | 1 of 1 ✔
+[82/3f90a0] blastall_00000010    | 1 of 1 ✔
+[3f/7dc177] blastall_00000041    | 1 of 1 ✔
+[c1/c5cef8] blastall_00000073    | 1 of 1 ✔
+[b0/11a8e4] blastall_00000004    | 1 of 1 ✔
+[1d/4c4e74] blastall_00000104    | 0 of 1
+[23/0527a6] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 1 of 1 ✔
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 1 of 1 ✔
+[49/a4645e] blastall_00000012    | 1 of 1 ✔
+[72/7c21ae] blastall_00000075    | 1 of 1 ✔
+[00/eb5350] blastall_00000106    | 1 of 1 ✔
+[1f/a16fca] blastall_00000002    | 1 of 1 ✔
+[19/363bc0] blastall_00000013    | 1 of 1 ✔
+[c5/07f23d] blastall_00000044    | 1 of 1 ✔
+[95/d19984] blastall_00000076    | 1 of 1 ✔
+[53/6851e0] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 0 of 1
+[20/41ee9b] blastall_00000045    | 1 of 1 ✔
+[13/aed26a] blastall_00000077    | 1 of 1 ✔
+[e7/00d611] blastall_00000108    | 1 of 1 ✔
+[08/a3135b] blastall_00000015    | 1 of 1 ✔
+[09/ce618d] blastall_00000046    | 1 of 1 ✔
+[5c/d2b0a1] blastall_00000078    | 1 of 1 ✔
+[f8/fba7e3] blastall_00000109    | 1 of 1 ✔
+[e0/b77353] blastall_00000003    | 1 of 1 ✔
+[be/cd47aa] blastall_00000016    | 1 of 1 ✔
+[a3/b0fb14] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 1 of 1 ✔
+[82/d566a7] blastall_00000110    | 1 of 1 ✔
+[1d/b5047f] blastall_00000080    | 1 of 1 ✔
+[10/61db60] blastall_00000017    | 1 of 1 ✔
+[b6/fbaaa9] blastall_00000006    | 1 of 1 ✔
+[b8/e103dd] blastall_00000048    | 0 of 1
+[af/5b0c0d] blastall_00000111    | 1 of 1 ✔
+[be/fa1f1b] blastall_00000018    | 1 of 1 ✔
+[db/62d7f1] blastall_00000049    | 1 of 1 ✔
+[d9/44561f] blastall_00000081    | 1 of 1 ✔
+[45/75c185] blastall_00000112    | 1 of 1 ✔
+[fd/735f67] blastall_00000019    | 0 of 1 ✔
+[4a/227f42] blastall_00000050    | 1 of 1 ✔
+[34/c6992a] blastall_00000082    | 1 of 1 ✔
+[92/719717] blastall_00000113    | 0 of 1
+[ac/878147] blastall_00000020    | 1 of 1 ✔
+[66/c49c0b] blastall_00000051    | 1 of 1 ✔
+[78/dd71ad] blastall_00000083    | 1 of 1 ✔
+[b7/76f9b5] blastall_00000114    | 1 of 1 ✔
+[f3/a04960] blastall_00000021    | 0 of 1
+[82/7f2074] blastall_00000052    | 1 of 1 ✔
+[f8/ef2e41] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 1 of 1 ✔
+[4d/c9a94e] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 1 of 1 ✔
+[0d/e3c485] blastall_00000085    | 1 of 1 ✔
+[8b/0df406] blastall_00000116    | 1 of 1 ✔
+[43/3f2118] blastall_00000023    | 1 of 1 ✔
+[92/474eba] blastall_00000054    | 1 of 1 ✔
+[5b/030514] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 1 of 1 ✔
+[f2/03dba5] blastall_00000024    | 1 of 1 ✔
+[cd/ff666a] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 1 of 1 ✔
+[fc/7321c7] blastall_00000118    | 0 of 1
+[0d/3095f7] blastall_00000025    | 1 of 1 ✔
+[a1/e5747a] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 1 of 1 ✔
+[60/4fdc30] blastall_00000026    | 1 of 1 ✔
+[0c/66e15a] blastall_00000057    | 1 of 1 ✔
+[da/d405f0] blastall_00000089    | 1 of 1 ✔
+[5a/072eca] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 1 of 1 ✔
+[49/f256c4] blastall_00000090    | 1 of 1 ✔
+[d3/b47b31] blastall_00000028    | 0 of 1
+[8b/6d075e] blastall_00000059    | 1 of 1 ✔
+[94/e55ff5] blastall_00000091    | 1 of 1 ✔
+[99/db40e0] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 1 of 1 ✔
+[70/9e1d2e] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 1 of 1 ✔
+[9d/4f286d] blastall_00000061    | 1 of 1 ✔
+[5e/a90fd7] blastall_00000093    | 1 of 1 ✔
+[3b/329f14] blastall_00000031    | 1 of 1 ✔
+[94/b7cc8a] blastall_00000062    | 1 of 1 ✔
+[ac/3f0bd9] blastall_00000094    | 1 of 1 ✔
+[4b/9261ee] blastall_00000032    | 1 of 1 ✔
+[d2/6a35e3] blastall_00000063    | 1 of 1 ✔
+[48/6e4e84] blastall_00000095    | 0 of 1
+[15/ceaa45] blastall_00000033    | 0 of 1
+[16/8af68c] blastall_00000064    | 0 of 1
+[a3/7e194d] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 0 of 1
+Plus 2 more processes waiting for tasks…
+
+executor >  local (116)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[5d/19016d] blastall_00000008    | 1 of 1 ✔
+[77/81946e] blastall_00000034    | 1 of 1 ✔
+[f7/315cb7] blastall_00000066    | 0 of 1
+[10/e121ca] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 1 of 1 ✔
+[13/fc8688] blastall_00000067    | 0 of 1
+[4d/bfe4e9] blastall_00000098    | 1 of 1 ✔
+[9c/a36c59] blastall_00000036    | 1 of 1 ✔
+[0c/2e6f65] blastall_00000068    | 0 of 1
+[36/aa016e] blastall_00000099    | 1 of 1 ✔
+[d3/db6123] blastall_00000037    | 0 of 1
+[4a/4f2597] blastall_00000069    | 0 of 1
+[a2/8e5226] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 1 of 1 ✔
+[f2/0067e5] blastall_00000070    | 0 of 1
+[66/738d4c] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 0 of 1
+[50/be91cc] blastall_00000071    | 1 of 1 ✔
+[f3/e26d87] blastall_00000102    | 0 of 1
+[20/5423a5] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 0 of 1
+[c2/d1de6f] blastall_00000072    | 1 of 1 ✔
+[8f/209a5e] blastall_00000103    | 1 of 1 ✔
+[82/3f90a0] blastall_00000010    | 1 of 1 ✔
+[3f/7dc177] blastall_00000041    | 1 of 1 ✔
+[c1/c5cef8] blastall_00000073    | 1 of 1 ✔
+[b0/11a8e4] blastall_00000004    | 1 of 1 ✔
+[1d/4c4e74] blastall_00000104    | 1 of 1 ✔
+[23/0527a6] blastall_00000011    | 0 of 1
+[4c/ac2074] blastall_00000074    | 1 of 1 ✔
+[d9/ad7c6d] blastall_00000105    | 0 of 1
+[21/e5edbe] blastall_00000005    | 1 of 1 ✔
+[49/a4645e] blastall_00000012    | 1 of 1 ✔
+[72/7c21ae] blastall_00000075    | 1 of 1 ✔
+[00/eb5350] blastall_00000106    | 1 of 1 ✔
+[1f/a16fca] blastall_00000002    | 1 of 1 ✔
+[19/363bc0] blastall_00000013    | 1 of 1 ✔
+[c5/07f23d] blastall_00000044    | 1 of 1 ✔
+[95/d19984] blastall_00000076    | 1 of 1 ✔
+[53/6851e0] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 1 of 1 ✔
+[20/41ee9b] blastall_00000045    | 1 of 1 ✔
+[13/aed26a] blastall_00000077    | 1 of 1 ✔
+[e7/00d611] blastall_00000108    | 1 of 1 ✔
+[08/a3135b] blastall_00000015    | 1 of 1 ✔
+[09/ce618d] blastall_00000046    | 1 of 1 ✔
+[5c/d2b0a1] blastall_00000078    | 1 of 1 ✔
+[f8/fba7e3] blastall_00000109    | 1 of 1 ✔
+[e0/b77353] blastall_00000003    | 1 of 1 ✔
+[be/cd47aa] blastall_00000016    | 1 of 1 ✔
+[a3/b0fb14] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 1 of 1 ✔
+[82/d566a7] blastall_00000110    | 1 of 1 ✔
+[1d/b5047f] blastall_00000080    | 1 of 1 ✔
+[10/61db60] blastall_00000017    | 1 of 1 ✔
+[b6/fbaaa9] blastall_00000006    | 1 of 1 ✔
+[b8/e103dd] blastall_00000048    | 1 of 1 ✔
+[af/5b0c0d] blastall_00000111    | 1 of 1 ✔
+[be/fa1f1b] blastall_00000018    | 1 of 1 ✔
+[db/62d7f1] blastall_00000049    | 1 of 1 ✔
+[d9/44561f] blastall_00000081    | 1 of 1 ✔
+[45/75c185] blastall_00000112    | 1 of 1 ✔
+[fd/735f67] blastall_00000019    | 1 of 1 ✔
+[4a/227f42] blastall_00000050    | 1 of 1 ✔
+[34/c6992a] blastall_00000082    | 1 of 1 ✔
+[92/719717] blastall_00000113    | 0 of 1
+[ac/878147] blastall_00000020    | 1 of 1 ✔
+[66/c49c0b] blastall_00000051    | 1 of 1 ✔
+[78/dd71ad] blastall_00000083    | 1 of 1 ✔
+[b7/76f9b5] blastall_00000114    | 1 of 1 ✔
+[f3/a04960] blastall_00000021    | 1 of 1 ✔
+[82/7f2074] blastall_00000052    | 1 of 1 ✔
+[f8/ef2e41] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 1 of 1 ✔
+[4d/c9a94e] blastall_00000022    | 0 of 1
+[f0/8d2e85] blastall_00000053    | 1 of 1 ✔
+[0d/e3c485] blastall_00000085    | 1 of 1 ✔
+[8b/0df406] blastall_00000116    | 1 of 1 ✔
+[43/3f2118] blastall_00000023    | 1 of 1 ✔
+[92/474eba] blastall_00000054    | 1 of 1 ✔
+[5b/030514] blastall_00000086    | 0 of 1
+[77/2aa13b] blastall_00000117    | 1 of 1 ✔
+[f2/03dba5] blastall_00000024    | 1 of 1 ✔
+[cd/ff666a] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 1 of 1 ✔
+[fc/7321c7] blastall_00000118    | 1 of 1 ✔
+[0d/3095f7] blastall_00000025    | 1 of 1 ✔
+[a1/e5747a] blastall_00000056    | 0 of 1
+[1a/8aa163] blastall_00000088    | 1 of 1 ✔
+[60/4fdc30] blastall_00000026    | 1 of 1 ✔
+[0c/66e15a] blastall_00000057    | 1 of 1 ✔
+[da/d405f0] blastall_00000089    | 1 of 1 ✔
+[5a/072eca] blastall_00000027    | 0 of 1
+[6b/aafe6d] blastall_00000058    | 1 of 1 ✔
+[49/f256c4] blastall_00000090    | 1 of 1 ✔
+[d3/b47b31] blastall_00000028    | 1 of 1 ✔
+[8b/6d075e] blastall_00000059    | 1 of 1 ✔
+[94/e55ff5] blastall_00000091    | 1 of 1 ✔
+[99/db40e0] blastall_00000007    | 0 of 1
+[82/774279] blastall_00000029    | 0 of 1
+[8c/6cdd16] blastall_00000060    | 1 of 1 ✔
+[70/9e1d2e] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 1 of 1 ✔
+[9d/4f286d] blastall_00000061    | 1 of 1 ✔
+[5e/a90fd7] blastall_00000093    | 1 of 1 ✔
+[3b/329f14] blastall_00000031    | 1 of 1 ✔
+[94/b7cc8a] blastall_00000062    | 1 of 1 ✔
+[ac/3f0bd9] blastall_00000094    | 1 of 1 ✔
+[4b/9261ee] blastall_00000032    | 1 of 1 ✔
+[d2/6a35e3] blastall_00000063    | 1 of 1 ✔
+[48/6e4e84] blastall_00000095    | 0 of 1
+[15/ceaa45] blastall_00000033    | 0 of 1
+[16/8af68c] blastall_00000064    | 0 of 1
+[a3/7e194d] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 1 of 1 ✔
+Plus 2 more processes waiting for tasks…
+
+executor >  local (116)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[5d/19016d] blastall_00000008    | 1 of 1 ✔
+[77/81946e] blastall_00000034    | 1 of 1 ✔
+[f7/315cb7] blastall_00000066    | 0 of 1
+[10/e121ca] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 1 of 1 ✔
+[13/fc8688] blastall_00000067    | 0 of 1
+[4d/bfe4e9] blastall_00000098    | 1 of 1 ✔
+[9c/a36c59] blastall_00000036    | 1 of 1 ✔
+[0c/2e6f65] blastall_00000068    | 0 of 1
+[36/aa016e] blastall_00000099    | 1 of 1 ✔
+[d3/db6123] blastall_00000037    | 0 of 1
+[4a/4f2597] blastall_00000069    | 0 of 1
+[a2/8e5226] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 1 of 1 ✔
+[f2/0067e5] blastall_00000070    | 0 of 1
+[66/738d4c] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 1 of 1 ✔
+[50/be91cc] blastall_00000071    | 1 of 1 ✔
+[f3/e26d87] blastall_00000102    | 0 of 1
+[20/5423a5] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 1 of 1 ✔
+[c2/d1de6f] blastall_00000072    | 1 of 1 ✔
+[8f/209a5e] blastall_00000103    | 1 of 1 ✔
+[82/3f90a0] blastall_00000010    | 1 of 1 ✔
+[3f/7dc177] blastall_00000041    | 1 of 1 ✔
+[c1/c5cef8] blastall_00000073    | 1 of 1 ✔
+[b0/11a8e4] blastall_00000004    | 1 of 1 ✔
+[1d/4c4e74] blastall_00000104    | 1 of 1 ✔
+[23/0527a6] blastall_00000011    | 1 of 1 ✔
+[4c/ac2074] blastall_00000074    | 1 of 1 ✔
+[d9/ad7c6d] blastall_00000105    | 1 of 1 ✔
+[21/e5edbe] blastall_00000005    | 1 of 1 ✔
+[49/a4645e] blastall_00000012    | 1 of 1 ✔
+[72/7c21ae] blastall_00000075    | 1 of 1 ✔
+[00/eb5350] blastall_00000106    | 1 of 1 ✔
+[1f/a16fca] blastall_00000002    | 1 of 1 ✔
+[19/363bc0] blastall_00000013    | 1 of 1 ✔
+[c5/07f23d] blastall_00000044    | 1 of 1 ✔
+[95/d19984] blastall_00000076    | 1 of 1 ✔
+[53/6851e0] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 1 of 1 ✔
+[20/41ee9b] blastall_00000045    | 1 of 1 ✔
+[13/aed26a] blastall_00000077    | 1 of 1 ✔
+[e7/00d611] blastall_00000108    | 1 of 1 ✔
+[08/a3135b] blastall_00000015    | 1 of 1 ✔
+[09/ce618d] blastall_00000046    | 1 of 1 ✔
+[5c/d2b0a1] blastall_00000078    | 1 of 1 ✔
+[f8/fba7e3] blastall_00000109    | 1 of 1 ✔
+[e0/b77353] blastall_00000003    | 1 of 1 ✔
+[be/cd47aa] blastall_00000016    | 1 of 1 ✔
+[a3/b0fb14] blastall_00000047    | 0 of 1
+[4d/4f4063] blastall_00000079    | 1 of 1 ✔
+[82/d566a7] blastall_00000110    | 1 of 1 ✔
+[1d/b5047f] blastall_00000080    | 1 of 1 ✔
+[10/61db60] blastall_00000017    | 1 of 1 ✔
+[b6/fbaaa9] blastall_00000006    | 1 of 1 ✔
+[b8/e103dd] blastall_00000048    | 1 of 1 ✔
+[af/5b0c0d] blastall_00000111    | 1 of 1 ✔
+[be/fa1f1b] blastall_00000018    | 1 of 1 ✔
+[db/62d7f1] blastall_00000049    | 1 of 1 ✔
+[d9/44561f] blastall_00000081    | 1 of 1 ✔
+[45/75c185] blastall_00000112    | 1 of 1 ✔
+[fd/735f67] blastall_00000019    | 1 of 1 ✔
+[4a/227f42] blastall_00000050    | 1 of 1 ✔
+[34/c6992a] blastall_00000082    | 1 of 1 ✔
+[92/719717] blastall_00000113    | 1 of 1 ✔
+[ac/878147] blastall_00000020    | 1 of 1 ✔
+[66/c49c0b] blastall_00000051    | 1 of 1 ✔
+[78/dd71ad] blastall_00000083    | 1 of 1 ✔
+[b7/76f9b5] blastall_00000114    | 1 of 1 ✔
+[f3/a04960] blastall_00000021    | 1 of 1 ✔
+[82/7f2074] blastall_00000052    | 1 of 1 ✔
+[f8/ef2e41] blastall_00000084    | 0 of 1
+[6a/bb3ed5] blastall_00000115    | 1 of 1 ✔
+[4d/c9a94e] blastall_00000022    | 1 of 1 ✔
+[f0/8d2e85] blastall_00000053    | 1 of 1 ✔
+[0d/e3c485] blastall_00000085    | 1 of 1 ✔
+[8b/0df406] blastall_00000116    | 1 of 1 ✔
+[43/3f2118] blastall_00000023    | 1 of 1 ✔
+[92/474eba] blastall_00000054    | 1 of 1 ✔
+[5b/030514] blastall_00000086    | 1 of 1 ✔
+[77/2aa13b] blastall_00000117    | 1 of 1 ✔
+[f2/03dba5] blastall_00000024    | 1 of 1 ✔
+[cd/ff666a] blastall_00000055    | 0 of 1
+[b1/565c1a] blastall_00000087    | 1 of 1 ✔
+[fc/7321c7] blastall_00000118    | 1 of 1 ✔
+[0d/3095f7] blastall_00000025    | 1 of 1 ✔
+[a1/e5747a] blastall_00000056    | 1 of 1 ✔
+[1a/8aa163] blastall_00000088    | 1 of 1 ✔
+[60/4fdc30] blastall_00000026    | 1 of 1 ✔
+[0c/66e15a] blastall_00000057    | 1 of 1 ✔
+[da/d405f0] blastall_00000089    | 1 of 1 ✔
+[5a/072eca] blastall_00000027    | 1 of 1 ✔
+[6b/aafe6d] blastall_00000058    | 1 of 1 ✔
+[49/f256c4] blastall_00000090    | 1 of 1 ✔
+[d3/b47b31] blastall_00000028    | 1 of 1 ✔
+[8b/6d075e] blastall_00000059    | 1 of 1 ✔
+[94/e55ff5] blastall_00000091    | 1 of 1 ✔
+[99/db40e0] blastall_00000007    | 1 of 1 ✔
+[82/774279] blastall_00000029    | 1 of 1 ✔
+[8c/6cdd16] blastall_00000060    | 1 of 1 ✔
+[70/9e1d2e] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 1 of 1 ✔
+[9d/4f286d] blastall_00000061    | 1 of 1 ✔
+[5e/a90fd7] blastall_00000093    | 1 of 1 ✔
+[3b/329f14] blastall_00000031    | 1 of 1 ✔
+[94/b7cc8a] blastall_00000062    | 1 of 1 ✔
+[ac/3f0bd9] blastall_00000094    | 1 of 1 ✔
+[4b/9261ee] blastall_00000032    | 1 of 1 ✔
+[d2/6a35e3] blastall_00000063    | 1 of 1 ✔
+[48/6e4e84] blastall_00000095    | 1 of 1 ✔
+[15/ceaa45] blastall_00000033    | 0 of 1
+[16/8af68c] blastall_00000064    | 0 of 1
+[a3/7e194d] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 1 of 1 ✔
+Plus 2 more processes waiting for tasks…
+
+executor >  local (116)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[5d/19016d] blastall_00000008    | 1 of 1 ✔
+[77/81946e] blastall_00000034    | 1 of 1 ✔
+[f7/315cb7] blastall_00000066    | 0 of 1
+[10/e121ca] blastall_00000097    | 0 of 1
+[51/5f0cdd] blastall_00000035    | 1 of 1 ✔
+[13/fc8688] blastall_00000067    | 0 of 1
+[4d/bfe4e9] blastall_00000098    | 1 of 1 ✔
+[9c/a36c59] blastall_00000036    | 1 of 1 ✔
+[0c/2e6f65] blastall_00000068    | 0 of 1
+[36/aa016e] blastall_00000099    | 1 of 1 ✔
+[d3/db6123] blastall_00000037    | 0 of 1
+[4a/4f2597] blastall_00000069    | 0 of 1
+[a2/8e5226] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 1 of 1 ✔
+[f2/0067e5] blastall_00000070    | 0 of 1
+[66/738d4c] blastall_00000101    | 0 of 1
+[a5/2dd9b9] blastall_00000039    | 1 of 1 ✔
+[50/be91cc] blastall_00000071    | 1 of 1 ✔
+[f3/e26d87] blastall_00000102    | 0 of 1
+[20/5423a5] blastall_00000009    | 0 of 1
+[aa/c257a2] blastall_00000040    | 1 of 1 ✔
+[c2/d1de6f] blastall_00000072    | 1 of 1 ✔
+[8f/209a5e] blastall_00000103    | 1 of 1 ✔
+[82/3f90a0] blastall_00000010    | 1 of 1 ✔
+[3f/7dc177] blastall_00000041    | 1 of 1 ✔
+[c1/c5cef8] blastall_00000073    | 1 of 1 ✔
+[b0/11a8e4] blastall_00000004    | 1 of 1 ✔
+[1d/4c4e74] blastall_00000104    | 1 of 1 ✔
+[23/0527a6] blastall_00000011    | 1 of 1 ✔
+[4c/ac2074] blastall_00000074    | 1 of 1 ✔
+[d9/ad7c6d] blastall_00000105    | 1 of 1 ✔
+[21/e5edbe] blastall_00000005    | 1 of 1 ✔
+[49/a4645e] blastall_00000012    | 1 of 1 ✔
+[72/7c21ae] blastall_00000075    | 1 of 1 ✔
+[00/eb5350] blastall_00000106    | 1 of 1 ✔
+[1f/a16fca] blastall_00000002    | 1 of 1 ✔
+[19/363bc0] blastall_00000013    | 1 of 1 ✔
+[c5/07f23d] blastall_00000044    | 1 of 1 ✔
+[95/d19984] blastall_00000076    | 1 of 1 ✔
+[53/6851e0] blastall_00000107    | 0 of 1
+[8a/b50ef3] blastall_00000014    | 1 of 1 ✔
+[20/41ee9b] blastall_00000045    | 1 of 1 ✔
+[13/aed26a] blastall_00000077    | 1 of 1 ✔
+[e7/00d611] blastall_00000108    | 1 of 1 ✔
+[08/a3135b] blastall_00000015    | 1 of 1 ✔
+[09/ce618d] blastall_00000046    | 1 of 1 ✔
+[5c/d2b0a1] blastall_00000078    | 1 of 1 ✔
+[f8/fba7e3] blastall_00000109    | 1 of 1 ✔
+[e0/b77353] blastall_00000003    | 1 of 1 ✔
+[be/cd47aa] blastall_00000016    | 1 of 1 ✔
+[a3/b0fb14] blastall_00000047    | 1 of 1 ✔
+[4d/4f4063] blastall_00000079    | 1 of 1 ✔
+[82/d566a7] blastall_00000110    | 1 of 1 ✔
+[1d/b5047f] blastall_00000080    | 1 of 1 ✔
+[10/61db60] blastall_00000017    | 1 of 1 ✔
+[b6/fbaaa9] blastall_00000006    | 1 of 1 ✔
+[b8/e103dd] blastall_00000048    | 1 of 1 ✔
+[af/5b0c0d] blastall_00000111    | 1 of 1 ✔
+[be/fa1f1b] blastall_00000018    | 1 of 1 ✔
+[db/62d7f1] blastall_00000049    | 1 of 1 ✔
+[d9/44561f] blastall_00000081    | 1 of 1 ✔
+[45/75c185] blastall_00000112    | 1 of 1 ✔
+[fd/735f67] blastall_00000019    | 1 of 1 ✔
+[4a/227f42] blastall_00000050    | 1 of 1 ✔
+[34/c6992a] blastall_00000082    | 1 of 1 ✔
+[92/719717] blastall_00000113    | 1 of 1 ✔
+[ac/878147] blastall_00000020    | 1 of 1 ✔
+[66/c49c0b] blastall_00000051    | 1 of 1 ✔
+[78/dd71ad] blastall_00000083    | 1 of 1 ✔
+[b7/76f9b5] blastall_00000114    | 1 of 1 ✔
+[f3/a04960] blastall_00000021    | 1 of 1 ✔
+[82/7f2074] blastall_00000052    | 1 of 1 ✔
+[f8/ef2e41] blastall_00000084    | 1 of 1 ✔
+[6a/bb3ed5] blastall_00000115    | 1 of 1 ✔
+[4d/c9a94e] blastall_00000022    | 1 of 1 ✔
+[f0/8d2e85] blastall_00000053    | 1 of 1 ✔
+[0d/e3c485] blastall_00000085    | 1 of 1 ✔
+[8b/0df406] blastall_00000116    | 1 of 1 ✔
+[43/3f2118] blastall_00000023    | 1 of 1 ✔
+[92/474eba] blastall_00000054    | 1 of 1 ✔
+[5b/030514] blastall_00000086    | 1 of 1 ✔
+[77/2aa13b] blastall_00000117    | 1 of 1 ✔
+[f2/03dba5] blastall_00000024    | 1 of 1 ✔
+[cd/ff666a] blastall_00000055    | 1 of 1 ✔
+[b1/565c1a] blastall_00000087    | 1 of 1 ✔
+[fc/7321c7] blastall_00000118    | 1 of 1 ✔
+[0d/3095f7] blastall_00000025    | 1 of 1 ✔
+[a1/e5747a] blastall_00000056    | 1 of 1 ✔
+[1a/8aa163] blastall_00000088    | 1 of 1 ✔
+[60/4fdc30] blastall_00000026    | 1 of 1 ✔
+[0c/66e15a] blastall_00000057    | 1 of 1 ✔
+[da/d405f0] blastall_00000089    | 1 of 1 ✔
+[5a/072eca] blastall_00000027    | 1 of 1 ✔
+[6b/aafe6d] blastall_00000058    | 1 of 1 ✔
+[49/f256c4] blastall_00000090    | 1 of 1 ✔
+[d3/b47b31] blastall_00000028    | 1 of 1 ✔
+[8b/6d075e] blastall_00000059    | 1 of 1 ✔
+[94/e55ff5] blastall_00000091    | 1 of 1 ✔
+[99/db40e0] blastall_00000007    | 1 of 1 ✔
+[82/774279] blastall_00000029    | 1 of 1 ✔
+[8c/6cdd16] blastall_00000060    | 1 of 1 ✔
+[70/9e1d2e] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 1 of 1 ✔
+[9d/4f286d] blastall_00000061    | 1 of 1 ✔
+[5e/a90fd7] blastall_00000093    | 1 of 1 ✔
+[3b/329f14] blastall_00000031    | 1 of 1 ✔
+[94/b7cc8a] blastall_00000062    | 1 of 1 ✔
+[ac/3f0bd9] blastall_00000094    | 1 of 1 ✔
+[4b/9261ee] blastall_00000032    | 1 of 1 ✔
+[d2/6a35e3] blastall_00000063    | 1 of 1 ✔
+[48/6e4e84] blastall_00000095    | 1 of 1 ✔
+[15/ceaa45] blastall_00000033    | 0 of 1
+[16/8af68c] blastall_00000064    | 0 of 1
+[a3/7e194d] blastall_00000096    | 0 of 1
+[cc/e57588] blastall_00000065    | 1 of 1 ✔
+Plus 2 more processes waiting for tasks…
+
+executor >  local (116)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[5d/19016d] blastall_00000008    | 1 of 1 ✔
+[77/81946e] blastall_00000034    | 1 of 1 ✔
+[f7/315cb7] blastall_00000066    | 0 of 1
+[10/e121ca] blastall_00000097    | 1 of 1 ✔
+[51/5f0cdd] blastall_00000035    | 1 of 1 ✔
+[13/fc8688] blastall_00000067    | 1 of 1 ✔
+[4d/bfe4e9] blastall_00000098    | 1 of 1 ✔
+[9c/a36c59] blastall_00000036    | 1 of 1 ✔
+[0c/2e6f65] blastall_00000068    | 0 of 1
+[36/aa016e] blastall_00000099    | 1 of 1 ✔
+[d3/db6123] blastall_00000037    | 0 of 1
+[4a/4f2597] blastall_00000069    | 0 of 1
+[a2/8e5226] blastall_00000100    | 0 of 1
+[4a/0be145] blastall_00000038    | 1 of 1 ✔
+[f2/0067e5] blastall_00000070    | 0 of 1
+[66/738d4c] blastall_00000101    | 1 of 1 ✔
+[a5/2dd9b9] blastall_00000039    | 1 of 1 ✔
+[50/be91cc] blastall_00000071    | 1 of 1 ✔
+[f3/e26d87] blastall_00000102    | 1 of 1 ✔
+[20/5423a5] blastall_00000009    | 1 of 1 ✔
+[aa/c257a2] blastall_00000040    | 1 of 1 ✔
+[c2/d1de6f] blastall_00000072    | 1 of 1 ✔
+[8f/209a5e] blastall_00000103    | 1 of 1 ✔
+[82/3f90a0] blastall_00000010    | 1 of 1 ✔
+[3f/7dc177] blastall_00000041    | 1 of 1 ✔
+[c1/c5cef8] blastall_00000073    | 1 of 1 ✔
+[b0/11a8e4] blastall_00000004    | 1 of 1 ✔
+[1d/4c4e74] blastall_00000104    | 1 of 1 ✔
+[23/0527a6] blastall_00000011    | 1 of 1 ✔
+[4c/ac2074] blastall_00000074    | 1 of 1 ✔
+[d9/ad7c6d] blastall_00000105    | 1 of 1 ✔
+[21/e5edbe] blastall_00000005    | 1 of 1 ✔
+[49/a4645e] blastall_00000012    | 1 of 1 ✔
+[72/7c21ae] blastall_00000075    | 1 of 1 ✔
+[00/eb5350] blastall_00000106    | 1 of 1 ✔
+[1f/a16fca] blastall_00000002    | 1 of 1 ✔
+[19/363bc0] blastall_00000013    | 1 of 1 ✔
+[c5/07f23d] blastall_00000044    | 1 of 1 ✔
+[95/d19984] blastall_00000076    | 1 of 1 ✔
+[53/6851e0] blastall_00000107    | 1 of 1 ✔
+[8a/b50ef3] blastall_00000014    | 1 of 1 ✔
+[20/41ee9b] blastall_00000045    | 1 of 1 ✔
+[13/aed26a] blastall_00000077    | 1 of 1 ✔
+[e7/00d611] blastall_00000108    | 1 of 1 ✔
+[08/a3135b] blastall_00000015    | 1 of 1 ✔
+[09/ce618d] blastall_00000046    | 1 of 1 ✔
+[5c/d2b0a1] blastall_00000078    | 1 of 1 ✔
+[f8/fba7e3] blastall_00000109    | 1 of 1 ✔
+[e0/b77353] blastall_00000003    | 1 of 1 ✔
+[be/cd47aa] blastall_00000016    | 1 of 1 ✔
+[a3/b0fb14] blastall_00000047    | 1 of 1 ✔
+[4d/4f4063] blastall_00000079    | 1 of 1 ✔
+[82/d566a7] blastall_00000110    | 1 of 1 ✔
+[1d/b5047f] blastall_00000080    | 1 of 1 ✔
+[10/61db60] blastall_00000017    | 1 of 1 ✔
+[b6/fbaaa9] blastall_00000006    | 1 of 1 ✔
+[b8/e103dd] blastall_00000048    | 1 of 1 ✔
+[af/5b0c0d] blastall_00000111    | 1 of 1 ✔
+[be/fa1f1b] blastall_00000018    | 1 of 1 ✔
+[db/62d7f1] blastall_00000049    | 1 of 1 ✔
+[d9/44561f] blastall_00000081    | 1 of 1 ✔
+[45/75c185] blastall_00000112    | 1 of 1 ✔
+[fd/735f67] blastall_00000019    | 1 of 1 ✔
+[4a/227f42] blastall_00000050    | 1 of 1 ✔
+[34/c6992a] blastall_00000082    | 1 of 1 ✔
+[92/719717] blastall_00000113    | 1 of 1 ✔
+[ac/878147] blastall_00000020    | 1 of 1 ✔
+[66/c49c0b] blastall_00000051    | 1 of 1 ✔
+[78/dd71ad] blastall_00000083    | 1 of 1 ✔
+[b7/76f9b5] blastall_00000114    | 1 of 1 ✔
+[f3/a04960] blastall_00000021    | 1 of 1 ✔
+[82/7f2074] blastall_00000052    | 1 of 1 ✔
+[f8/ef2e41] blastall_00000084    | 1 of 1 ✔
+[6a/bb3ed5] blastall_00000115    | 1 of 1 ✔
+[4d/c9a94e] blastall_00000022    | 1 of 1 ✔
+[f0/8d2e85] blastall_00000053    | 1 of 1 ✔
+[0d/e3c485] blastall_00000085    | 1 of 1 ✔
+[8b/0df406] blastall_00000116    | 1 of 1 ✔
+[43/3f2118] blastall_00000023    | 1 of 1 ✔
+[92/474eba] blastall_00000054    | 1 of 1 ✔
+[5b/030514] blastall_00000086    | 1 of 1 ✔
+[77/2aa13b] blastall_00000117    | 1 of 1 ✔
+[f2/03dba5] blastall_00000024    | 1 of 1 ✔
+[cd/ff666a] blastall_00000055    | 1 of 1 ✔
+[b1/565c1a] blastall_00000087    | 1 of 1 ✔
+[fc/7321c7] blastall_00000118    | 1 of 1 ✔
+[0d/3095f7] blastall_00000025    | 1 of 1 ✔
+[a1/e5747a] blastall_00000056    | 1 of 1 ✔
+[1a/8aa163] blastall_00000088    | 1 of 1 ✔
+[60/4fdc30] blastall_00000026    | 1 of 1 ✔
+[0c/66e15a] blastall_00000057    | 1 of 1 ✔
+[da/d405f0] blastall_00000089    | 1 of 1 ✔
+[5a/072eca] blastall_00000027    | 1 of 1 ✔
+[6b/aafe6d] blastall_00000058    | 1 of 1 ✔
+[49/f256c4] blastall_00000090    | 1 of 1 ✔
+[d3/b47b31] blastall_00000028    | 1 of 1 ✔
+[8b/6d075e] blastall_00000059    | 1 of 1 ✔
+[94/e55ff5] blastall_00000091    | 1 of 1 ✔
+[99/db40e0] blastall_00000007    | 1 of 1 ✔
+[82/774279] blastall_00000029    | 1 of 1 ✔
+[8c/6cdd16] blastall_00000060    | 1 of 1 ✔
+[70/9e1d2e] blastall_00000092    | 0 of 1
+[a0/727775] blastall_00000030    | 1 of 1 ✔
+[9d/4f286d] blastall_00000061    | 1 of 1 ✔
+[5e/a90fd7] blastall_00000093    | 1 of 1 ✔
+[3b/329f14] blastall_00000031    | 1 of 1 ✔
+[94/b7cc8a] blastall_00000062    | 1 of 1 ✔
+[ac/3f0bd9] blastall_00000094    | 1 of 1 ✔
+[4b/9261ee] blastall_00000032    | 1 of 1 ✔
+[d2/6a35e3] blastall_00000063    | 1 of 1 ✔
+[48/6e4e84] blastall_00000095    | 1 of 1 ✔
+[15/ceaa45] blastall_00000033    | 0 of 1
+[16/8af68c] blastall_00000064    | 0 of 1
+[a3/7e194d] blastall_00000096    | 1 of 1 ✔
+[cc/e57588] blastall_00000065    | 1 of 1 ✔
+Plus 2 more processes waiting for tasks…
+
+executor >  local (118)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[5d/19016d] blastall_00000008    | 1 of 1 ✔
+[77/81946e] blastall_00000034    | 1 of 1 ✔
+[f7/315cb7] blastall_00000066    | 1 of 1 ✔
+[10/e121ca] blastall_00000097    | 1 of 1 ✔
+[51/5f0cdd] blastall_00000035    | 1 of 1 ✔
+[13/fc8688] blastall_00000067    | 1 of 1 ✔
+[4d/bfe4e9] blastall_00000098    | 1 of 1 ✔
+[9c/a36c59] blastall_00000036    | 1 of 1 ✔
+[0c/2e6f65] blastall_00000068    | 1 of 1 ✔
+[36/aa016e] blastall_00000099    | 1 of 1 ✔
+[d3/db6123] blastall_00000037    | 1 of 1 ✔
+[4a/4f2597] blastall_00000069    | 1 of 1 ✔
+[a2/8e5226] blastall_00000100    | 1 of 1 ✔
+[4a/0be145] blastall_00000038    | 1 of 1 ✔
+[f2/0067e5] blastall_00000070    | 1 of 1 ✔
+[66/738d4c] blastall_00000101    | 1 of 1 ✔
+[a5/2dd9b9] blastall_00000039    | 1 of 1 ✔
+[50/be91cc] blastall_00000071    | 1 of 1 ✔
+[f3/e26d87] blastall_00000102    | 1 of 1 ✔
+[20/5423a5] blastall_00000009    | 1 of 1 ✔
+[aa/c257a2] blastall_00000040    | 1 of 1 ✔
+[c2/d1de6f] blastall_00000072    | 1 of 1 ✔
+[8f/209a5e] blastall_00000103    | 1 of 1 ✔
+[82/3f90a0] blastall_00000010    | 1 of 1 ✔
+[3f/7dc177] blastall_00000041    | 1 of 1 ✔
+[c1/c5cef8] blastall_00000073    | 1 of 1 ✔
+[b0/11a8e4] blastall_00000004    | 1 of 1 ✔
+[1d/4c4e74] blastall_00000104    | 1 of 1 ✔
+[23/0527a6] blastall_00000011    | 1 of 1 ✔
+[4c/ac2074] blastall_00000074    | 1 of 1 ✔
+[d9/ad7c6d] blastall_00000105    | 1 of 1 ✔
+[21/e5edbe] blastall_00000005    | 1 of 1 ✔
+[49/a4645e] blastall_00000012    | 1 of 1 ✔
+[72/7c21ae] blastall_00000075    | 1 of 1 ✔
+[00/eb5350] blastall_00000106    | 1 of 1 ✔
+[1f/a16fca] blastall_00000002    | 1 of 1 ✔
+[19/363bc0] blastall_00000013    | 1 of 1 ✔
+[c5/07f23d] blastall_00000044    | 1 of 1 ✔
+[95/d19984] blastall_00000076    | 1 of 1 ✔
+[53/6851e0] blastall_00000107    | 1 of 1 ✔
+[8a/b50ef3] blastall_00000014    | 1 of 1 ✔
+[20/41ee9b] blastall_00000045    | 1 of 1 ✔
+[13/aed26a] blastall_00000077    | 1 of 1 ✔
+[e7/00d611] blastall_00000108    | 1 of 1 ✔
+[08/a3135b] blastall_00000015    | 1 of 1 ✔
+[09/ce618d] blastall_00000046    | 1 of 1 ✔
+[5c/d2b0a1] blastall_00000078    | 1 of 1 ✔
+[f8/fba7e3] blastall_00000109    | 1 of 1 ✔
+[e0/b77353] blastall_00000003    | 1 of 1 ✔
+[be/cd47aa] blastall_00000016    | 1 of 1 ✔
+[a3/b0fb14] blastall_00000047    | 1 of 1 ✔
+[4d/4f4063] blastall_00000079    | 1 of 1 ✔
+[82/d566a7] blastall_00000110    | 1 of 1 ✔
+[1d/b5047f] blastall_00000080    | 1 of 1 ✔
+[10/61db60] blastall_00000017    | 1 of 1 ✔
+[b6/fbaaa9] blastall_00000006    | 1 of 1 ✔
+[b8/e103dd] blastall_00000048    | 1 of 1 ✔
+[af/5b0c0d] blastall_00000111    | 1 of 1 ✔
+[be/fa1f1b] blastall_00000018    | 1 of 1 ✔
+[db/62d7f1] blastall_00000049    | 1 of 1 ✔
+[d9/44561f] blastall_00000081    | 1 of 1 ✔
+[45/75c185] blastall_00000112    | 1 of 1 ✔
+[fd/735f67] blastall_00000019    | 1 of 1 ✔
+[4a/227f42] blastall_00000050    | 1 of 1 ✔
+[34/c6992a] blastall_00000082    | 1 of 1 ✔
+[92/719717] blastall_00000113    | 1 of 1 ✔
+[ac/878147] blastall_00000020    | 1 of 1 ✔
+[66/c49c0b] blastall_00000051    | 1 of 1 ✔
+[78/dd71ad] blastall_00000083    | 1 of 1 ✔
+[b7/76f9b5] blastall_00000114    | 1 of 1 ✔
+[f3/a04960] blastall_00000021    | 1 of 1 ✔
+[82/7f2074] blastall_00000052    | 1 of 1 ✔
+[f8/ef2e41] blastall_00000084    | 1 of 1 ✔
+[6a/bb3ed5] blastall_00000115    | 1 of 1 ✔
+[4d/c9a94e] blastall_00000022    | 1 of 1 ✔
+[f0/8d2e85] blastall_00000053    | 1 of 1 ✔
+[0d/e3c485] blastall_00000085    | 1 of 1 ✔
+[8b/0df406] blastall_00000116    | 1 of 1 ✔
+[43/3f2118] blastall_00000023    | 1 of 1 ✔
+[92/474eba] blastall_00000054    | 1 of 1 ✔
+[5b/030514] blastall_00000086    | 1 of 1 ✔
+[77/2aa13b] blastall_00000117    | 1 of 1 ✔
+[f2/03dba5] blastall_00000024    | 1 of 1 ✔
+[cd/ff666a] blastall_00000055    | 1 of 1 ✔
+[b1/565c1a] blastall_00000087    | 1 of 1 ✔
+[fc/7321c7] blastall_00000118    | 1 of 1 ✔
+[0d/3095f7] blastall_00000025    | 1 of 1 ✔
+[a1/e5747a] blastall_00000056    | 1 of 1 ✔
+[1a/8aa163] blastall_00000088    | 1 of 1 ✔
+[60/4fdc30] blastall_00000026    | 1 of 1 ✔
+[0c/66e15a] blastall_00000057    | 1 of 1 ✔
+[da/d405f0] blastall_00000089    | 1 of 1 ✔
+[5a/072eca] blastall_00000027    | 1 of 1 ✔
+[6b/aafe6d] blastall_00000058    | 1 of 1 ✔
+[49/f256c4] blastall_00000090    | 1 of 1 ✔
+[d3/b47b31] blastall_00000028    | 1 of 1 ✔
+[8b/6d075e] blastall_00000059    | 1 of 1 ✔
+[94/e55ff5] blastall_00000091    | 1 of 1 ✔
+[99/db40e0] blastall_00000007    | 1 of 1 ✔
+[82/774279] blastall_00000029    | 1 of 1 ✔
+[8c/6cdd16] blastall_00000060    | 1 of 1 ✔
+[70/9e1d2e] blastall_00000092    | 1 of 1 ✔
+[a0/727775] blastall_00000030    | 1 of 1 ✔
+[9d/4f286d] blastall_00000061    | 1 of 1 ✔
+[5e/a90fd7] blastall_00000093    | 1 of 1 ✔
+[3b/329f14] blastall_00000031    | 1 of 1 ✔
+[94/b7cc8a] blastall_00000062    | 1 of 1 ✔
+[ac/3f0bd9] blastall_00000094    | 1 of 1 ✔
+[4b/9261ee] blastall_00000032    | 1 of 1 ✔
+[d2/6a35e3] blastall_00000063    | 1 of 1 ✔
+[48/6e4e84] blastall_00000095    | 1 of 1 ✔
+[15/ceaa45] blastall_00000033    | 1 of 1 ✔
+[16/8af68c] blastall_00000064    | 1 of 1 ✔
+[a3/7e194d] blastall_00000096    | 1 of 1 ✔
+[cc/e57588] blastall_00000065    | 1 of 1 ✔
+[57/cefdb7] cat_blast_00000042   | 0 of 1
+[ff/229da2] cat_00000043         | 0 of 1
+
+executor >  local (118)
+[5f/645651] split_fasta_00000001 | 1 of 1 ✔
+[5d/19016d] blastall_00000008    | 1 of 1 ✔
+[77/81946e] blastall_00000034    | 1 of 1 ✔
+[f7/315cb7] blastall_00000066    | 1 of 1 ✔
+[10/e121ca] blastall_00000097    | 1 of 1 ✔
+[51/5f0cdd] blastall_00000035    | 1 of 1 ✔
+[13/fc8688] blastall_00000067    | 1 of 1 ✔
+[4d/bfe4e9] blastall_00000098    | 1 of 1 ✔
+[9c/a36c59] blastall_00000036    | 1 of 1 ✔
+[0c/2e6f65] blastall_00000068    | 1 of 1 ✔
+[36/aa016e] blastall_00000099    | 1 of 1 ✔
+[d3/db6123] blastall_00000037    | 1 of 1 ✔
+[4a/4f2597] blastall_00000069    | 1 of 1 ✔
+[a2/8e5226] blastall_00000100    | 1 of 1 ✔
+[4a/0be145] blastall_00000038    | 1 of 1 ✔
+[f2/0067e5] blastall_00000070    | 1 of 1 ✔
+[66/738d4c] blastall_00000101    | 1 of 1 ✔
+[a5/2dd9b9] blastall_00000039    | 1 of 1 ✔
+[50/be91cc] blastall_00000071    | 1 of 1 ✔
+[f3/e26d87] blastall_00000102    | 1 of 1 ✔
+[20/5423a5] blastall_00000009    | 1 of 1 ✔
+[aa/c257a2] blastall_00000040    | 1 of 1 ✔
+[c2/d1de6f] blastall_00000072    | 1 of 1 ✔
+[8f/209a5e] blastall_00000103    | 1 of 1 ✔
+[82/3f90a0] blastall_00000010    | 1 of 1 ✔
+[3f/7dc177] blastall_00000041    | 1 of 1 ✔
+[c1/c5cef8] blastall_00000073    | 1 of 1 ✔
+[b0/11a8e4] blastall_00000004    | 1 of 1 ✔
+[1d/4c4e74] blastall_00000104    | 1 of 1 ✔
+[23/0527a6] blastall_00000011    | 1 of 1 ✔
+[4c/ac2074] blastall_00000074    | 1 of 1 ✔
+[d9/ad7c6d] blastall_00000105    | 1 of 1 ✔
+[21/e5edbe] blastall_00000005    | 1 of 1 ✔
+[49/a4645e] blastall_00000012    | 1 of 1 ✔
+[72/7c21ae] blastall_00000075    | 1 of 1 ✔
+[00/eb5350] blastall_00000106    | 1 of 1 ✔
+[1f/a16fca] blastall_00000002    | 1 of 1 ✔
+[19/363bc0] blastall_00000013    | 1 of 1 ✔
+[c5/07f23d] blastall_00000044    | 1 of 1 ✔
+[95/d19984] blastall_00000076    | 1 of 1 ✔
+[53/6851e0] blastall_00000107    | 1 of 1 ✔
+[8a/b50ef3] blastall_00000014    | 1 of 1 ✔
+[20/41ee9b] blastall_00000045    | 1 of 1 ✔
+[13/aed26a] blastall_00000077    | 1 of 1 ✔
+[e7/00d611] blastall_00000108    | 1 of 1 ✔
+[08/a3135b] blastall_00000015    | 1 of 1 ✔
+[09/ce618d] blastall_00000046    | 1 of 1 ✔
+[5c/d2b0a1] blastall_00000078    | 1 of 1 ✔
+[f8/fba7e3] blastall_00000109    | 1 of 1 ✔
+[e0/b77353] blastall_00000003    | 1 of 1 ✔
+[be/cd47aa] blastall_00000016    | 1 of 1 ✔
+[a3/b0fb14] blastall_00000047    | 1 of 1 ✔
+[4d/4f4063] blastall_00000079    | 1 of 1 ✔
+[82/d566a7] blastall_00000110    | 1 of 1 ✔
+[1d/b5047f] blastall_00000080    | 1 of 1 ✔
+[10/61db60] blastall_00000017    | 1 of 1 ✔
+[b6/fbaaa9] blastall_00000006    | 1 of 1 ✔
+[b8/e103dd] blastall_00000048    | 1 of 1 ✔
+[af/5b0c0d] blastall_00000111    | 1 of 1 ✔
+[be/fa1f1b] blastall_00000018    | 1 of 1 ✔
+[db/62d7f1] blastall_00000049    | 1 of 1 ✔
+[d9/44561f] blastall_00000081    | 1 of 1 ✔
+[45/75c185] blastall_00000112    | 1 of 1 ✔
+[fd/735f67] blastall_00000019    | 1 of 1 ✔
+[4a/227f42] blastall_00000050    | 1 of 1 ✔
+[34/c6992a] blastall_00000082    | 1 of 1 ✔
+[92/719717] blastall_00000113    | 1 of 1 ✔
+[ac/878147] blastall_00000020    | 1 of 1 ✔
+[66/c49c0b] blastall_00000051    | 1 of 1 ✔
+[78/dd71ad] blastall_00000083    | 1 of 1 ✔
+[b7/76f9b5] blastall_00000114    | 1 of 1 ✔
+[f3/a04960] blastall_00000021    | 1 of 1 ✔
+[82/7f2074] blastall_00000052    | 1 of 1 ✔
+[f8/ef2e41] blastall_00000084    | 1 of 1 ✔
+[6a/bb3ed5] blastall_00000115    | 1 of 1 ✔
+[4d/c9a94e] blastall_00000022    | 1 of 1 ✔
+[f0/8d2e85] blastall_00000053    | 1 of 1 ✔
+[0d/e3c485] blastall_00000085    | 1 of 1 ✔
+[8b/0df406] blastall_00000116    | 1 of 1 ✔
+[43/3f2118] blastall_00000023    | 1 of 1 ✔
+[92/474eba] blastall_00000054    | 1 of 1 ✔
+[5b/030514] blastall_00000086    | 1 of 1 ✔
+[77/2aa13b] blastall_00000117    | 1 of 1 ✔
+[f2/03dba5] blastall_00000024    | 1 of 1 ✔
+[cd/ff666a] blastall_00000055    | 1 of 1 ✔
+[b1/565c1a] blastall_00000087    | 1 of 1 ✔
+[fc/7321c7] blastall_00000118    | 1 of 1 ✔
+[0d/3095f7] blastall_00000025    | 1 of 1 ✔
+[a1/e5747a] blastall_00000056    | 1 of 1 ✔
+[1a/8aa163] blastall_00000088    | 1 of 1 ✔
+[60/4fdc30] blastall_00000026    | 1 of 1 ✔
+[0c/66e15a] blastall_00000057    | 1 of 1 ✔
+[da/d405f0] blastall_00000089    | 1 of 1 ✔
+[5a/072eca] blastall_00000027    | 1 of 1 ✔
+[6b/aafe6d] blastall_00000058    | 1 of 1 ✔
+[49/f256c4] blastall_00000090    | 1 of 1 ✔
+[d3/b47b31] blastall_00000028    | 1 of 1 ✔
+[8b/6d075e] blastall_00000059    | 1 of 1 ✔
+[94/e55ff5] blastall_00000091    | 1 of 1 ✔
+[99/db40e0] blastall_00000007    | 1 of 1 ✔
+[82/774279] blastall_00000029    | 1 of 1 ✔
+[8c/6cdd16] blastall_00000060    | 1 of 1 ✔
+[70/9e1d2e] blastall_00000092    | 1 of 1 ✔
+[a0/727775] blastall_00000030    | 1 of 1 ✔
+[9d/4f286d] blastall_00000061    | 1 of 1 ✔
+[5e/a90fd7] blastall_00000093    | 1 of 1 ✔
+[3b/329f14] blastall_00000031    | 1 of 1 ✔
+[94/b7cc8a] blastall_00000062    | 1 of 1 ✔
+[ac/3f0bd9] blastall_00000094    | 1 of 1 ✔
+[4b/9261ee] blastall_00000032    | 1 of 1 ✔
+[d2/6a35e3] blastall_00000063    | 1 of 1 ✔
+[48/6e4e84] blastall_00000095    | 1 of 1 ✔
+[15/ceaa45] blastall_00000033    | 1 of 1 ✔
+[16/8af68c] blastall_00000064    | 1 of 1 ✔
+[a3/7e194d] blastall_00000096    | 1 of 1 ✔
+[cc/e57588] blastall_00000065    | 1 of 1 ✔
+[57/cefdb7] cat_blast_00000042   | 1 of 1 ✔
+[ff/229da2] cat_00000043         | 1 of 1 ✔
+

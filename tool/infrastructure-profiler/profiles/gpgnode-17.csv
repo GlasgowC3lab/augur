@@ -1,0 +1,2 @@
+node,ram,cores,io_read,io_write,sysbench,z7b,bench_time
+gpgnode-17,64,32,107,90.0,308.63,1782,210.249

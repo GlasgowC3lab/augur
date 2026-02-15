@@ -1,0 +1,21 @@
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_GB.UTF-8,Utf16=on,HugeFiles=on,64 bits,32 CPUs Intel(R) Xeon(R) CPU E5-2640 v2 @ 2.00GHz (306E4),ASM,AES-NI)
+
+      Intel(R) Xeon(R) CPU E5-2640 v2 @ 2.00GHz (306E4)
+CPU Freq: - 64000000 - - - - - - -
+
+RAM size:   64341 MB,  # CPU hardware threads:  32
+RAM usage:   7060 MB,  # Benchmark threads:     32
+
+                       Compressing  |                  Decompressing
+Dict     Speed Usage    R/U Rating  |      Speed Usage    R/U Rating
+         KiB/s     %   MIPS   MIPS  |      KiB/s     %   MIPS   MIPS
+
+22:      51395  2658   1881  49997  |     624602  3183   1673  53265
+23:      48200  2681   1832  49110  |     611103  3154   1677  52880
+24:      48527  2718   1920  52176  |     605890  3174   1676  53181
+25:      46913  2785   1923  53564  |     589037  3143   1668  52420
+----------------------------------  | ------------------------------
+Avr:            2711   1889  51212  |             3164   1673  52937
+Tot:            2937   1781  52074

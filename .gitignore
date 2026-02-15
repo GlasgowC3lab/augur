@@ -6,7 +6,7 @@ py-lotaru
 *.zip
 energy_evaluation.py 
 */fixers/*/*
-temp/*
+*temp/*
 
 # Local python environment
 .venv/
