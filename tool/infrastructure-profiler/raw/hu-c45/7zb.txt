@@ -1,0 +1,21 @@
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=de_DE.UTF-8,Utf16=on,HugeFiles=on,64 bits,32 CPUs Intel(R) Xeon(R) Silver 4314 CPU @ 2.40GHz (606A6),ASM,AES-NI)
+
+Intel(R) Xeon(R) Silver 4314 CPU @ 2.40GHz (606A6)
+CPU Freq: - - - - - - - - -
+
+RAM size:  257384 MB,  # CPU hardware threads:  32
+RAM usage:   7060 MB,  # Benchmark threads:     32
+
+                       Compressing  |                  Decompressing
+Dict     Speed Usage    R/U Rating  |      Speed Usage    R/U Rating
+         KiB/s     %   MIPS   MIPS  |      KiB/s     %   MIPS   MIPS
+
+22:      83616  2575   3158  81342  |     833122  3149   2256  71048
+23:      80127  2632   3102  81640  |     825314  3153   2265  71415
+24:      78526  2727   3096  84432  |     814652  3152   2269  71504
+25:      77317  2827   3123  88278  |     800977  3144   2267  71282
+----------------------------------  | ------------------------------
+Avr:            2690   3120  83923  |             3150   2264  71312
+Tot:            2920   2692  77618

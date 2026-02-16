@@ -1,1 +1,0 @@
-for runs on TU-06 the node is an AMD EPYC -- there's no dram to log so it's just a cpu entry, that's why it's only tu06 -- i had a bit of a panic thinking i forgot to record a bunch of data!
