@@ -1,1 +1,2 @@
-need to verify how to get RAPL readings - i.e. the right directory
+able to do infrastructure profiling
+not enough memory on WSL2 to actually run the profiling jobs -- assumption of the devices that scientists have access to? 

@@ -1,4 +1,0 @@
-root@hu-worker-c42:~# free -g
-               total        used        free      shared  buff/cache   available
-Mem:             251          12          32           0         206         236
-Swap:              0           0           0

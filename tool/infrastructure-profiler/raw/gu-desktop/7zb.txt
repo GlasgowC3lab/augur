@@ -1,0 +1,26 @@
+
+7-Zip 23.01 (x64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit locale=C.UTF-8 Threads:24 OPEN_MAX:10240
+
+Compiler: 13.2.0 GCC 13.2.0: SSE2
+Linux : 6.6.87.2-microsoft-standard-WSL2 : #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 : x86_64 : Microsoft Hv : Hv#1 : 10.0.26100.4.0.4946
+PageSize:4KB THP:madvise hwcap:2 hwcap2:2
+13th Gen Intel(R) Core(TM) i7-13700 (B0671) 
+
+1T CPU Freq (MHz):  5394  5464  5498  5520  5438  5473  5474
+12T CPU Freq (MHz): 1143% 4519   1214% 4761  
+
+RAM size:   15862 MB,  # CPU hardware threads:  24
+RAM usage:   5339 MB,  # Benchmark threads:     24
+
+                       Compressing  |                  Decompressing
+Dict     Speed Usage    R/U Rating  |      Speed Usage    R/U Rating
+         KiB/s     %   MIPS   MIPS  |      KiB/s     %   MIPS   MIPS
+
+22:     148482  2453   5889 144444  |    1277002  2535   4296 108879
+23:     133279  2443   5559 135795  |    1135143  2541   3865  98193
+24:      41821  1018   4416  44967  |     866362  2518   3019  76017
+25:      90085  2359   4359 102856  |     815857  2559   2837  72589
+----------------------------------  | ------------------------------
+Avr:    103417  2068   5056 107015  |    1023591  2538   3504  88919
+Tot:            2303   4280  97967
