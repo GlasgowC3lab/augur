@@ -1,0 +1,25 @@
+workflow,cluster,workflow-profiled?
+
+GPG cluster - infrastructure is profiled 
+-- rnaseq ??
+-- chipseq ??
+-- nanoseq ??
+profiling to be completed 
+other workflows to run: sarek, rangeland 
+-- sarek needs to be profiled as well 
+
+HU cluster - infrastructure is profiled 
+-- rnaseq is done
+-- chipseq is done 
+-- nanoseq is being executed, and then needs to be profiled 
+-- sarek is run, then needs to be profiled 
+
+AWS metal node 
+-- nanoseq profiling is pending 
+-- sarek profiling is pending 
+
+AWS 'local machine' nodes 
+-- all workflows to be profiled 
+
+
+>> make scripts to automate the process of running all profiling and updating scripts as needed for all workflows and test data
