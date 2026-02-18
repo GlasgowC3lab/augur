@@ -14,11 +14,13 @@ HU cluster - infrastructure is profiled
 -- nanoseq is being executed, and then needs to be profiled 
 -- sarek is run, then needs to be profiled 
 
-AWS metal node 
+AWS metal node (aws-metal-c5d) + 192GB disk
 -- nanoseq profiling is pending 
 -- sarek profiling is pending 
 
 AWS 'local machine' nodes 
+t3.2xlarge has 8 vCPUs and 32GB RAM, would load in a disk of ~72GB (?) 
+
 -- all workflows to be profiled 
 
 
