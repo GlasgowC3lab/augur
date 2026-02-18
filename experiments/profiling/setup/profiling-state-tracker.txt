@@ -1,9 +1,9 @@
 workflow,cluster,workflow-profiled?
 
 GPG cluster - infrastructure is profiled 
--- rnaseq ??
+-- rnaseq is in progress
 -- chipseq ??
--- nanoseq ??
+-- nanoseq is done 
 profiling to be completed 
 other workflows to run: sarek, rangeland 
 -- sarek needs to be profiled as well 
@@ -23,3 +23,7 @@ AWS 'local machine' nodes
 
 
 >> make scripts to automate the process of running all profiling and updating scripts as needed for all workflows and test data
+
+to downsample data for -- start from GPG 
+https://raw.githubusercontent.com/nf-core/test-datasets/sarek/testdata/csv/HCC1395_WXS_somatic_full_test.csv
+- used for the full sized sarek run 
