@@ -1,0 +1,3 @@
+sample,barcode,input_file,fasta,gtf,is_transcripts,nanopolish_fast5
+sample_l_R1,,/root/rnaseq-mini/sample_l.fastq.gz,GRCh38,,0,
+sample_l_2_R1,,/root/rnaseq-mini/sample_l_2.fastq.gz,GRCh38,,0,
