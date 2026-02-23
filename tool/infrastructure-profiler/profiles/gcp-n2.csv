@@ -1,2 +1,0 @@
-node,ram,cores,io_read,io_write,sysbench,z7b,bench_time
-gcp-n2,32,4,162,162,425.22,3970,306.22633333333334

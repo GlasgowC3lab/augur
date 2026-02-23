@@ -1,2 +1,0 @@
-node,ram,cores,io_read,io_write,sysbench,z7b,bench_time
-aws-metal-z1d,32,48,130,130,534.15,2970,28.528666666666666
