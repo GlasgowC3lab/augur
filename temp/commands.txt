@@ -16,6 +16,10 @@ python3 -m src.scripts.IchnosCF hu-rangeland-3 1.0 schedutil_linear 60 1.0 0.392
 python3 -m src.scripts.IchnosCF hu-nanoseq-1 1.0 performance_linear 60 1.0 0.392 256 4
 python3 -m src.scripts.IchnosCF hu-nanoseq-2 1.0 performance_linear 60 1.0 0.392 256 4
 python3 -m src.scripts.IchnosCF hu-nanoseq-3 1.0 performance_linear 60 1.0 0.392 256 4
+...
+python3 -m src.scripts.IchnosCF hu-atacseq-1 1.0 performance_linear 60 1.0 0.392 256 4
+python3 -m src.scripts.IchnosCF hu-atacseq-2 1.0 performance_linear 60 1.0 0.392 256 4
+python3 -m src.scripts.IchnosCF hu-atacseq-3 1.0 performance_linear 60 1.0 0.392 256 4
 
 # gu - ondemand (mem draw, mem GB, no. nodes = 4)
 python3 -m src.scripts.IchnosCF gu-chipseq-1 1.0 ondemand_linear 60 1.0 0.392 64 4
