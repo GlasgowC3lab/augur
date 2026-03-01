@@ -1,0 +1,169 @@
+name;hash;path;type;size
+NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FQ_LINT (sample_e);06bbf9bafb7e4ac4e35cf71727685772;/home/ubuntu/profiling/work/06/bbf9bafb7e4ac4e35cf71727685772/sample_e.fq_lint.txt;f;1441
+NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FQ_LINT (sample_e);06bbf9bafb7e4ac4e35cf71727685772;/home/ubuntu/profiling/work/06/bbf9bafb7e4ac4e35cf71727685772/versions.yml;f;97
+NFCORE_RNASEQ:PREPARE_GENOME:CUSTOM_GETCHROMSIZES (genome.fa);22d1c1e39e936adc7f25fda856279ae1;/home/ubuntu/profiling/work/22/d1c1e39e936adc7f25fda856279ae1/genome.fa.sizes;f;302
+NFCORE_RNASEQ:PREPARE_GENOME:CUSTOM_GETCHROMSIZES (genome.fa);22d1c1e39e936adc7f25fda856279ae1;/home/ubuntu/profiling/work/22/d1c1e39e936adc7f25fda856279ae1/genome.fa.fai;f;714
+NFCORE_RNASEQ:PREPARE_GENOME:CUSTOM_GETCHROMSIZES (genome.fa);22d1c1e39e936adc7f25fda856279ae1;/home/ubuntu/profiling/work/22/d1c1e39e936adc7f25fda856279ae1/versions.yml;f;78
+NFCORE_RNASEQ:PREPARE_GENOME:GTF_FILTER (genome.fa);64d96073cc9c9933a3b96a814505afe2;/home/ubuntu/profiling/work/64/d96073cc9c9933a3b96a814505afe2/genes.filtered.gtf;f;838278262
+NFCORE_RNASEQ:PREPARE_GENOME:GTF_FILTER (genome.fa);64d96073cc9c9933a3b96a814505afe2;/home/ubuntu/profiling/work/64/d96073cc9c9933a3b96a814505afe2/versions.yml;f;61
+NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (sample_e);9776521d479efcb4466d56420686b796;/home/ubuntu/profiling/work/97/76521d479efcb4466d56420686b796/sample_e_trimmed_1_val_1.fq.gz;f;148953823
+NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (sample_e);9776521d479efcb4466d56420686b796;/home/ubuntu/profiling/work/97/76521d479efcb4466d56420686b796/sample_e_trimmed_2_val_2.fq.gz;f;158157476
+NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (sample_e);9776521d479efcb4466d56420686b796;/home/ubuntu/profiling/work/97/76521d479efcb4466d56420686b796/sample_e_trimmed_1.fastq.gz_trimming_report.txt;f;4898
+NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (sample_e);9776521d479efcb4466d56420686b796;/home/ubuntu/profiling/work/97/76521d479efcb4466d56420686b796/sample_e_trimmed_2.fastq.gz_trimming_report.txt;f;5103
+NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (sample_e);9776521d479efcb4466d56420686b796;/home/ubuntu/profiling/work/97/76521d479efcb4466d56420686b796/sample_e_trimmed_1_val_1_fastqc.html;f;613236
+NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (sample_e);9776521d479efcb4466d56420686b796;/home/ubuntu/profiling/work/97/76521d479efcb4466d56420686b796/sample_e_trimmed_2_val_2_fastqc.html;f;609228
+NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (sample_e);9776521d479efcb4466d56420686b796;/home/ubuntu/profiling/work/97/76521d479efcb4466d56420686b796/sample_e_trimmed_1_val_1_fastqc.zip;f;354890
+NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (sample_e);9776521d479efcb4466d56420686b796;/home/ubuntu/profiling/work/97/76521d479efcb4466d56420686b796/sample_e_trimmed_2_val_2_fastqc.zip;f;352481
+NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (sample_e);9776521d479efcb4466d56420686b796;/home/ubuntu/profiling/work/97/76521d479efcb4466d56420686b796/versions.yml;f;161
+NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FQ_LINT_AFTER_TRIMMING (sample_e);49b688868dc0d8ba087ed9eff82bbf6b;/home/ubuntu/profiling/work/49/b688868dc0d8ba087ed9eff82bbf6b/sample_e.fq_lint.txt;f;1441
+NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FQ_LINT_AFTER_TRIMMING (sample_e);49b688868dc0d8ba087ed9eff82bbf6b;/home/ubuntu/profiling/work/49/b688868dc0d8ba087ed9eff82bbf6b/versions.yml;f;112
+NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (sample_e);3902c73164b337464c0638b7bfa6da94;/home/ubuntu/profiling/work/39/02c73164b337464c0638b7bfa6da94/sample_e_raw_1_fastqc.html;f;591826
+NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (sample_e);3902c73164b337464c0638b7bfa6da94;/home/ubuntu/profiling/work/39/02c73164b337464c0638b7bfa6da94/sample_e_raw_2_fastqc.html;f;589158
+NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (sample_e);3902c73164b337464c0638b7bfa6da94;/home/ubuntu/profiling/work/39/02c73164b337464c0638b7bfa6da94/sample_e_raw_1_fastqc.zip;f;362238
+NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (sample_e);3902c73164b337464c0638b7bfa6da94;/home/ubuntu/profiling/work/39/02c73164b337464c0638b7bfa6da94/sample_e_raw_2_fastqc.zip;f;364524
+NFCORE_RNASEQ:RNASEQ:FASTQ_QC_TRIM_FILTER_SETSTRANDEDNESS:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (sample_e);3902c73164b337464c0638b7bfa6da94;/home/ubuntu/profiling/work/39/02c73164b337464c0638b7bfa6da94/versions.yml;f;120
+NFCORE_RNASEQ:PREPARE_GENOME:MAKE_TRANSCRIPTS_FASTA (rsem/genome.fa);e47b88308eac681cf1d9101cb6562d3e;/home/ubuntu/profiling/work/e4/7b88308eac681cf1d9101cb6562d3e/rsem;d;4418780555
+NFCORE_RNASEQ:PREPARE_GENOME:MAKE_TRANSCRIPTS_FASTA (rsem/genome.fa);e47b88308eac681cf1d9101cb6562d3e;/home/ubuntu/profiling/work/e4/7b88308eac681cf1d9101cb6562d3e/genome.transcripts.fa;f;290643355
+NFCORE_RNASEQ:PREPARE_GENOME:MAKE_TRANSCRIPTS_FASTA (rsem/genome.fa);e47b88308eac681cf1d9101cb6562d3e;/home/ubuntu/profiling/work/e4/7b88308eac681cf1d9101cb6562d3e/versions.yml;f;89
+NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:STAR_ALIGN_IGENOMES (sample_e);aec651ca3d5e199cf05954af9cbd273a;/home/ubuntu/profiling/work/ae/c651ca3d5e199cf05954af9cbd273a/sample_e.Log.final.out;f;1854
+NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:STAR_ALIGN_IGENOMES (sample_e);aec651ca3d5e199cf05954af9cbd273a;/home/ubuntu/profiling/work/ae/c651ca3d5e199cf05954af9cbd273a/sample_e.Log.out;f;24101
+NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:STAR_ALIGN_IGENOMES (sample_e);aec651ca3d5e199cf05954af9cbd273a;/home/ubuntu/profiling/work/ae/c651ca3d5e199cf05954af9cbd273a/sample_e.Log.progress.out;f;565
+NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:STAR_ALIGN_IGENOMES (sample_e);aec651ca3d5e199cf05954af9cbd273a;/home/ubuntu/profiling/work/ae/c651ca3d5e199cf05954af9cbd273a/versions.yml;f;108
+NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:STAR_ALIGN_IGENOMES (sample_e);aec651ca3d5e199cf05954af9cbd273a;/home/ubuntu/profiling/work/ae/c651ca3d5e199cf05954af9cbd273a/sample_e.Aligned.out.bam;f;433936087
+NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:STAR_ALIGN_IGENOMES (sample_e);aec651ca3d5e199cf05954af9cbd273a;/home/ubuntu/profiling/work/ae/c651ca3d5e199cf05954af9cbd273a/sample_e.Aligned.toTranscriptome.out.bam;f;498116946
+NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:STAR_ALIGN_IGENOMES (sample_e);aec651ca3d5e199cf05954af9cbd273a;/home/ubuntu/profiling/work/ae/c651ca3d5e199cf05954af9cbd273a/sample_e.SJ.out.tab;f;4469080
+NFCORE_RNASEQ:PREPARE_GENOME:SALMON_INDEX (genome.transcripts.fa);b7d177616ba4c707a4b1751fd074e016;/home/ubuntu/profiling/work/b7/d177616ba4c707a4b1751fd074e016/salmon;d;17677490102
+NFCORE_RNASEQ:PREPARE_GENOME:SALMON_INDEX (genome.transcripts.fa);b7d177616ba4c707a4b1751fd074e016;/home/ubuntu/profiling/work/b7/d177616ba4c707a4b1751fd074e016/versions.yml;f;64
+NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT (sample_e);8768dd900a646cefcf8c73e6e950274a;/home/ubuntu/profiling/work/87/68dd900a646cefcf8c73e6e950274a/sample_e.sorted.bam;f;252886076
+NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT (sample_e);8768dd900a646cefcf8c73e6e950274a;/home/ubuntu/profiling/work/87/68dd900a646cefcf8c73e6e950274a/versions.yml;f;93
+NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX (sample_e);f363fe82c4086e8a5f7af62a343b83cf;/home/ubuntu/profiling/work/f3/63fe82c4086e8a5f7af62a343b83cf/sample_e.sorted.bam.bai;f;1783976
+NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX (sample_e);f363fe82c4086e8a5f7af62a343b83cf;/home/ubuntu/profiling/work/f3/63fe82c4086e8a5f7af62a343b83cf/versions.yml;f;94
+NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (sample_e);6c757ddaee8203655f063f23565095aa;/home/ubuntu/profiling/work/6c/757ddaee8203655f063f23565095aa/sample_e.sorted.bam.idxstats;f;525
+NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (sample_e);6c757ddaee8203655f063f23565095aa;/home/ubuntu/profiling/work/6c/757ddaee8203655f063f23565095aa/versions.yml;f;116
+NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (sample_e);c88a39a861228e22212d95fbfa1da1a9;/home/ubuntu/profiling/work/c8/8a39a861228e22212d95fbfa1da1a9/sample_e.sorted.bam.flagstat;f;518
+NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (sample_e);c88a39a861228e22212d95fbfa1da1a9;/home/ubuntu/profiling/work/c8/8a39a861228e22212d95fbfa1da1a9/versions.yml;f;116
+NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (sample_e);3251318871e7cd6a75de025115cd3b0d;/home/ubuntu/profiling/work/32/51318871e7cd6a75de025115cd3b0d/sample_e.sorted.bam.stats;f;255057
+NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (sample_e);3251318871e7cd6a75de025115cd3b0d;/home/ubuntu/profiling/work/32/51318871e7cd6a75de025115cd3b0d/versions.yml;f;113
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:SALMON_QUANT (sample_e);d2901d3659200702b984ab8d43e48a8c;/home/ubuntu/profiling/work/d2/901d3659200702b984ab8d43e48a8c/sample_e;d;11430331
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:SALMON_QUANT (sample_e);d2901d3659200702b984ab8d43e48a8c;/home/ubuntu/profiling/work/d2/901d3659200702b984ab8d43e48a8c/sample_e_meta_info.json;f;1279
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:SALMON_QUANT (sample_e);d2901d3659200702b984ab8d43e48a8c;/home/ubuntu/profiling/work/d2/901d3659200702b984ab8d43e48a8c/versions.yml;f;77
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:CUSTOM_TX2GENE (null);0270d0a975a473d5216963044de5f61c;/home/ubuntu/profiling/work/02/70d0a975a473d5216963044de5f61c/tx2gene.tsv;f;7775167
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:CUSTOM_TX2GENE (null);0270d0a975a473d5216963044de5f61c;/home/ubuntu/profiling/work/02/70d0a975a473d5216963044de5f61c/versions.yml;f;75
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:SALMON_QUANT (sample_e);c31a156eeb66fc67404a95feda68d783;/home/ubuntu/profiling/work/c3/1a156eeb66fc67404a95feda68d783/sample_e;d;11348833
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:SALMON_QUANT (sample_e);c31a156eeb66fc67404a95feda68d783;/home/ubuntu/profiling/work/c3/1a156eeb66fc67404a95feda68d783/sample_e_meta_info.json;f;1851
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:SALMON_QUANT (sample_e);c31a156eeb66fc67404a95feda68d783;/home/ubuntu/profiling/work/c3/1a156eeb66fc67404a95feda68d783/sample_e_lib_format_counts.json;f;563
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:SALMON_QUANT (sample_e);c31a156eeb66fc67404a95feda68d783;/home/ubuntu/profiling/work/c3/1a156eeb66fc67404a95feda68d783/versions.yml;f;82
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:CUSTOM_TX2GENE (null);c8dd311d71e851161ee9e5a269228f29;/home/ubuntu/profiling/work/c8/dd311d71e851161ee9e5a269228f29/tx2gene.tsv;f;7775167
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:CUSTOM_TX2GENE (null);c8dd311d71e851161ee9e5a269228f29;/home/ubuntu/profiling/work/c8/dd311d71e851161ee9e5a269228f29/versions.yml;f;80
+NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:PICARD_MARKDUPLICATES (sample_e);86568cca53106dcdf56116b6bf6bd0c2;/home/ubuntu/profiling/work/86/568cca53106dcdf56116b6bf6bd0c2/sample_e.markdup.sorted.bam;f;265673117
+NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:PICARD_MARKDUPLICATES (sample_e);86568cca53106dcdf56116b6bf6bd0c2;/home/ubuntu/profiling/work/86/568cca53106dcdf56116b6bf6bd0c2/sample_e.markdup.sorted.MarkDuplicates.metrics.txt;f;3739
+NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:PICARD_MARKDUPLICATES (sample_e);86568cca53106dcdf56116b6bf6bd0c2;/home/ubuntu/profiling/work/86/568cca53106dcdf56116b6bf6bd0c2/versions.yml;f;90
+NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:SAMTOOLS_INDEX (sample_e);326f59676fece582e8225d06fdd7de01;/home/ubuntu/profiling/work/32/6f59676fece582e8225d06fdd7de01/sample_e.markdup.sorted.bam.bai;f;1787744
+NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:SAMTOOLS_INDEX (sample_e);326f59676fece582e8225d06fdd7de01;/home/ubuntu/profiling/work/32/6f59676fece582e8225d06fdd7de01/versions.yml;f;85
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:TXIMETA_TXIMPORT;5bdb38e2158491fd69f4a1393ad9e937;/home/ubuntu/profiling/work/5b/db38e2158491fd69f4a1393ad9e937/salmon.merged.gene_tpm.tsv;f;1695519
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:TXIMETA_TXIMPORT;5bdb38e2158491fd69f4a1393ad9e937;/home/ubuntu/profiling/work/5b/db38e2158491fd69f4a1393ad9e937/salmon.merged.gene_counts.tsv;f;1605253
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:TXIMETA_TXIMPORT;5bdb38e2158491fd69f4a1393ad9e937;/home/ubuntu/profiling/work/5b/db38e2158491fd69f4a1393ad9e937/salmon.merged.gene_counts_length_scaled.tsv;f;1797273
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:TXIMETA_TXIMPORT;5bdb38e2158491fd69f4a1393ad9e937;/home/ubuntu/profiling/work/5b/db38e2158491fd69f4a1393ad9e937/salmon.merged.gene_counts_scaled.tsv;f;1797345
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:TXIMETA_TXIMPORT;5bdb38e2158491fd69f4a1393ad9e937;/home/ubuntu/profiling/work/5b/db38e2158491fd69f4a1393ad9e937/salmon.merged.gene_lengths.tsv;f;2016078
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:TXIMETA_TXIMPORT;5bdb38e2158491fd69f4a1393ad9e937;/home/ubuntu/profiling/work/5b/db38e2158491fd69f4a1393ad9e937/salmon.merged.transcript_tpm.tsv;f;6870379
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:TXIMETA_TXIMPORT;5bdb38e2158491fd69f4a1393ad9e937;/home/ubuntu/profiling/work/5b/db38e2158491fd69f4a1393ad9e937/salmon.merged.transcript_counts.tsv;f;6756280
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:TXIMETA_TXIMPORT;5bdb38e2158491fd69f4a1393ad9e937;/home/ubuntu/profiling/work/5b/db38e2158491fd69f4a1393ad9e937/salmon.merged.transcript_lengths.tsv;f;7886460
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:TXIMETA_TXIMPORT;5bdb38e2158491fd69f4a1393ad9e937;/home/ubuntu/profiling/work/5b/db38e2158491fd69f4a1393ad9e937/versions.yml;f;95
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:TXIMETA_TXIMPORT;18df2be3e8f7e00d15e18b7d9ac895c8;/home/ubuntu/profiling/work/18/df2be3e8f7e00d15e18b7d9ac895c8/salmon.merged.gene_tpm.tsv;f;1684993
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:TXIMETA_TXIMPORT;18df2be3e8f7e00d15e18b7d9ac895c8;/home/ubuntu/profiling/work/18/df2be3e8f7e00d15e18b7d9ac895c8/salmon.merged.gene_counts.tsv;f;1599232
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:TXIMETA_TXIMPORT;18df2be3e8f7e00d15e18b7d9ac895c8;/home/ubuntu/profiling/work/18/df2be3e8f7e00d15e18b7d9ac895c8/salmon.merged.gene_counts_length_scaled.tsv;f;1788764
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:TXIMETA_TXIMPORT;18df2be3e8f7e00d15e18b7d9ac895c8;/home/ubuntu/profiling/work/18/df2be3e8f7e00d15e18b7d9ac895c8/salmon.merged.gene_counts_scaled.tsv;f;1788862
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:TXIMETA_TXIMPORT;18df2be3e8f7e00d15e18b7d9ac895c8;/home/ubuntu/profiling/work/18/df2be3e8f7e00d15e18b7d9ac895c8/salmon.merged.gene_lengths.tsv;f;2002796
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:TXIMETA_TXIMPORT;18df2be3e8f7e00d15e18b7d9ac895c8;/home/ubuntu/profiling/work/18/df2be3e8f7e00d15e18b7d9ac895c8/salmon.merged.transcript_tpm.tsv;f;6826301
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:TXIMETA_TXIMPORT;18df2be3e8f7e00d15e18b7d9ac895c8;/home/ubuntu/profiling/work/18/df2be3e8f7e00d15e18b7d9ac895c8/salmon.merged.transcript_counts.tsv;f;6711998
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:TXIMETA_TXIMPORT;18df2be3e8f7e00d15e18b7d9ac895c8;/home/ubuntu/profiling/work/18/df2be3e8f7e00d15e18b7d9ac895c8/salmon.merged.transcript_lengths.tsv;f;7828656
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:TXIMETA_TXIMPORT;18df2be3e8f7e00d15e18b7d9ac895c8;/home/ubuntu/profiling/work/18/df2be3e8f7e00d15e18b7d9ac895c8/versions.yml;f;100
+NFCORE_RNASEQ:RNASEQ:BEDTOOLS_GENOMECOV_REV (sample_e);0be310820d93cacdd7cbbd3a4df34562;/home/ubuntu/profiling/work/0b/e310820d93cacdd7cbbd3a4df34562/sample_e.forward.bedGraph;f;57609701
+NFCORE_RNASEQ:RNASEQ:BEDTOOLS_GENOMECOV_REV (sample_e);0be310820d93cacdd7cbbd3a4df34562;/home/ubuntu/profiling/work/0b/e310820d93cacdd7cbbd3a4df34562/versions.yml;f;68
+NFCORE_RNASEQ:RNASEQ:SUBREAD_FEATURECOUNTS (sample_e);a8f10b7519ab17f8e96486477ab8b166;/home/ubuntu/profiling/work/a8/f10b7519ab17f8e96486477ab8b166/sample_e.featureCounts.tsv;f;27340994
+NFCORE_RNASEQ:RNASEQ:SUBREAD_FEATURECOUNTS (sample_e);a8f10b7519ab17f8e96486477ab8b166;/home/ubuntu/profiling/work/a8/f10b7519ab17f8e96486477ab8b166/sample_e.featureCounts.tsv.summary;f;385
+NFCORE_RNASEQ:RNASEQ:SUBREAD_FEATURECOUNTS (sample_e);a8f10b7519ab17f8e96486477ab8b166;/home/ubuntu/profiling/work/a8/f10b7519ab17f8e96486477ab8b166/versions.yml;f;65
+NFCORE_RNASEQ:RNASEQ:BEDTOOLS_GENOMECOV_FW (sample_e);d577846859ed96502f16be0e1866a3f4;/home/ubuntu/profiling/work/d5/77846859ed96502f16be0e1866a3f4/sample_e.reverse.bedGraph;f;57221178
+NFCORE_RNASEQ:RNASEQ:BEDTOOLS_GENOMECOV_FW (sample_e);d577846859ed96502f16be0e1866a3f4;/home/ubuntu/profiling/work/d5/77846859ed96502f16be0e1866a3f4/versions.yml;f;67
+NFCORE_RNASEQ:RNASEQ:STRINGTIE_STRINGTIE (sample_e);aaec0e48e3937e2d270422dc15225865;/home/ubuntu/profiling/work/aa/ec0e48e3937e2d270422dc15225865/sample_e.transcripts.gtf;f;187634248
+NFCORE_RNASEQ:RNASEQ:STRINGTIE_STRINGTIE (sample_e);aaec0e48e3937e2d270422dc15225865;/home/ubuntu/profiling/work/aa/ec0e48e3937e2d270422dc15225865/sample_e.gene.abundance.txt;f;3980659
+NFCORE_RNASEQ:RNASEQ:STRINGTIE_STRINGTIE (sample_e);aaec0e48e3937e2d270422dc15225865;/home/ubuntu/profiling/work/aa/ec0e48e3937e2d270422dc15225865/sample_e.coverage.gtf;f;19344596
+NFCORE_RNASEQ:RNASEQ:STRINGTIE_STRINGTIE (sample_e);aaec0e48e3937e2d270422dc15225865;/home/ubuntu/profiling/work/aa/ec0e48e3937e2d270422dc15225865/sample_e.ballgown;d;98743609
+NFCORE_RNASEQ:RNASEQ:STRINGTIE_STRINGTIE (sample_e);aaec0e48e3937e2d270422dc15225865;/home/ubuntu/profiling/work/aa/ec0e48e3937e2d270422dc15225865/versions.yml;f;65
+NFCORE_RNASEQ:RNASEQ:SAMTOOLS_SORT_QUALIMAP (sample_e);7da6319a607d027839b0b2092681154d;/home/ubuntu/profiling/work/7d/a6319a607d027839b0b2092681154d/sample_e.namesorted.bam;f;384130288
+NFCORE_RNASEQ:RNASEQ:SAMTOOLS_SORT_QUALIMAP (sample_e);7da6319a607d027839b0b2092681154d;/home/ubuntu/profiling/work/7d/a6319a607d027839b0b2092681154d/versions.yml;f;67
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONANNOTATION (sample_e);bf84aac52b5e061c9df341faf2994819;/home/ubuntu/profiling/work/bf/84aac52b5e061c9df341faf2994819/sample_e.junction.xls;f;4382166
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONANNOTATION (sample_e);bf84aac52b5e061c9df341faf2994819;/home/ubuntu/profiling/work/bf/84aac52b5e061c9df341faf2994819/sample_e.junction_plot.r;f;555
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONANNOTATION (sample_e);bf84aac52b5e061c9df341faf2994819;/home/ubuntu/profiling/work/bf/84aac52b5e061c9df341faf2994819/sample_e.junction_annotation.log;f;553
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONANNOTATION (sample_e);bf84aac52b5e061c9df341faf2994819;/home/ubuntu/profiling/work/bf/84aac52b5e061c9df341faf2994819/sample_e.junction.bed;f;9475366
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONANNOTATION (sample_e);bf84aac52b5e061c9df341faf2994819;/home/ubuntu/profiling/work/bf/84aac52b5e061c9df341faf2994819/sample_e.junction.Interact.bed;f;21621751
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONANNOTATION (sample_e);bf84aac52b5e061c9df341faf2994819;/home/ubuntu/profiling/work/bf/84aac52b5e061c9df341faf2994819/sample_e.splice_junction.pdf;f;13283
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONANNOTATION (sample_e);bf84aac52b5e061c9df341faf2994819;/home/ubuntu/profiling/work/bf/84aac52b5e061c9df341faf2994819/sample_e.splice_events.pdf;f;13456
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONANNOTATION (sample_e);bf84aac52b5e061c9df341faf2994819;/home/ubuntu/profiling/work/bf/84aac52b5e061c9df341faf2994819/versions.yml;f;76
+NFCORE_RNASEQ:RNASEQ:DUPRADAR (sample_e);7a4e5899a0b69bdde711d54036fdff54;/home/ubuntu/profiling/work/7a/4e5899a0b69bdde711d54036fdff54/sample_e_duprateExpDens.pdf;f;898757
+NFCORE_RNASEQ:RNASEQ:DUPRADAR (sample_e);7a4e5899a0b69bdde711d54036fdff54;/home/ubuntu/profiling/work/7a/4e5899a0b69bdde711d54036fdff54/sample_e_duprateExpBoxplot.pdf;f;16668
+NFCORE_RNASEQ:RNASEQ:DUPRADAR (sample_e);7a4e5899a0b69bdde711d54036fdff54;/home/ubuntu/profiling/work/7a/4e5899a0b69bdde711d54036fdff54/sample_e_expressionHist.pdf;f;5389
+NFCORE_RNASEQ:RNASEQ:DUPRADAR (sample_e);7a4e5899a0b69bdde711d54036fdff54;/home/ubuntu/profiling/work/7a/4e5899a0b69bdde711d54036fdff54/sample_e_dupMatrix.txt;f;3869341
+NFCORE_RNASEQ:RNASEQ:DUPRADAR (sample_e);7a4e5899a0b69bdde711d54036fdff54;/home/ubuntu/profiling/work/7a/4e5899a0b69bdde711d54036fdff54/sample_e_intercept_slope.txt;f;152
+NFCORE_RNASEQ:RNASEQ:DUPRADAR (sample_e);7a4e5899a0b69bdde711d54036fdff54;/home/ubuntu/profiling/work/7a/4e5899a0b69bdde711d54036fdff54/sample_e_dup_intercept_mqc.txt;f;300
+NFCORE_RNASEQ:RNASEQ:DUPRADAR (sample_e);7a4e5899a0b69bdde711d54036fdff54;/home/ubuntu/profiling/work/7a/4e5899a0b69bdde711d54036fdff54/sample_e_duprateExpDensCurve_mqc.txt;f;53886
+NFCORE_RNASEQ:RNASEQ:DUPRADAR (sample_e);7a4e5899a0b69bdde711d54036fdff54;/home/ubuntu/profiling/work/7a/4e5899a0b69bdde711d54036fdff54/sample_e.R_sessionInfo.log;f;894
+NFCORE_RNASEQ:RNASEQ:DUPRADAR (sample_e);7a4e5899a0b69bdde711d54036fdff54;/home/ubuntu/profiling/work/7a/4e5899a0b69bdde711d54036fdff54/versions.yml;f;67
+NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (sample_e);4bbca3e5f15fe6eabb9fe47be0bf0e10;/home/ubuntu/profiling/work/4b/bca3e5f15fe6eabb9fe47be0bf0e10/sample_e.markdup.sorted.bam.idxstats;f;525
+NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (sample_e);4bbca3e5f15fe6eabb9fe47be0bf0e10;/home/ubuntu/profiling/work/4b/bca3e5f15fe6eabb9fe47be0bf0e10/versions.yml;f;107
+NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (sample_e);b55691ad5bc9bd99b6770ee917c8b83f;/home/ubuntu/profiling/work/b5/5691ad5bc9bd99b6770ee917c8b83f/sample_e.markdup.sorted.bam.flagstat;f;528
+NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (sample_e);b55691ad5bc9bd99b6770ee917c8b83f;/home/ubuntu/profiling/work/b5/5691ad5bc9bd99b6770ee917c8b83f/versions.yml;f;107
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_READDUPLICATION (sample_e);5fa38887f56f4e6bd126a59884205cff;/home/ubuntu/profiling/work/5f/a38887f56f4e6bd126a59884205cff/sample_e.seq.DupRate.xls;f;534
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_READDUPLICATION (sample_e);5fa38887f56f4e6bd126a59884205cff;/home/ubuntu/profiling/work/5f/a38887f56f4e6bd126a59884205cff/sample_e.pos.DupRate.xls;f;779
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_READDUPLICATION (sample_e);5fa38887f56f4e6bd126a59884205cff;/home/ubuntu/profiling/work/5f/a38887f56f4e6bd126a59884205cff/sample_e.DupRate_plot.pdf;f;11685
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_READDUPLICATION (sample_e);5fa38887f56f4e6bd126a59884205cff;/home/ubuntu/profiling/work/5f/a38887f56f4e6bd126a59884205cff/sample_e.DupRate_plot.r;f;2113
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_READDUPLICATION (sample_e);5fa38887f56f4e6bd126a59884205cff;/home/ubuntu/profiling/work/5f/a38887f56f4e6bd126a59884205cff/versions.yml;f;73
+NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (sample_e);82b8696eb6331c3069f10e58cf2ae571;/home/ubuntu/profiling/work/82/b8696eb6331c3069f10e58cf2ae571/sample_e.markdup.sorted.bam.stats;f;255077
+NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (sample_e);82b8696eb6331c3069f10e58cf2ae571;/home/ubuntu/profiling/work/82/b8696eb6331c3069f10e58cf2ae571/versions.yml;f;104
+NFCORE_RNASEQ:RNASEQ:MULTIQC_CUSTOM_BIOTYPE (sample_e);13321285e5667c5ba1b0701de1ed9216;/home/ubuntu/profiling/work/13/321285e5667c5ba1b0701de1ed9216/sample_e.biotype_counts_mqc.tsv;f;889
+NFCORE_RNASEQ:RNASEQ:MULTIQC_CUSTOM_BIOTYPE (sample_e);13321285e5667c5ba1b0701de1ed9216;/home/ubuntu/profiling/work/13/321285e5667c5ba1b0701de1ed9216/sample_e.biotype_counts_rrna_mqc.tsv;f;310
+NFCORE_RNASEQ:RNASEQ:MULTIQC_CUSTOM_BIOTYPE (sample_e);13321285e5667c5ba1b0701de1ed9216;/home/ubuntu/profiling/work/13/321285e5667c5ba1b0701de1ed9216/versions.yml;f;65
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_READDISTRIBUTION (sample_e);0dd88bdead58904bfb599059f37087c8;/home/ubuntu/profiling/work/0d/d88bdead58904bfb599059f37087c8/sample_e.read_distribution.txt;f;1125
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_READDISTRIBUTION (sample_e);0dd88bdead58904bfb599059f37087c8;/home/ubuntu/profiling/work/0d/d88bdead58904bfb599059f37087c8/versions.yml;f;74
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_INFEREXPERIMENT (sample_e);ec2330ed4337d8bbd946d94f183e3e2f;/home/ubuntu/profiling/work/ec/2330ed4337d8bbd946d94f183e3e2f/sample_e.infer_experiment.txt;f;183
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_INFEREXPERIMENT (sample_e);ec2330ed4337d8bbd946d94f183e3e2f;/home/ubuntu/profiling/work/ec/2330ed4337d8bbd946d94f183e3e2f/versions.yml;f;73
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_INNERDISTANCE (sample_e);ea5f7e9038a63d4acc6ac1de5f584872;/home/ubuntu/profiling/work/ea/5f7e9038a63d4acc6ac1de5f584872/sample_e.inner_distance.txt;f;54048131
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_INNERDISTANCE (sample_e);ea5f7e9038a63d4acc6ac1de5f584872;/home/ubuntu/profiling/work/ea/5f7e9038a63d4acc6ac1de5f584872/sample_e.inner_distance_freq.txt;f;1306
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_INNERDISTANCE (sample_e);ea5f7e9038a63d4acc6ac1de5f584872;/home/ubuntu/profiling/work/ea/5f7e9038a63d4acc6ac1de5f584872/sample_e.inner_distance_mean.txt;f;67
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_INNERDISTANCE (sample_e);ea5f7e9038a63d4acc6ac1de5f584872;/home/ubuntu/profiling/work/ea/5f7e9038a63d4acc6ac1de5f584872/sample_e.inner_distance_plot.pdf;f;8675
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_INNERDISTANCE (sample_e);ea5f7e9038a63d4acc6ac1de5f584872;/home/ubuntu/profiling/work/ea/5f7e9038a63d4acc6ac1de5f584872/sample_e.inner_distance_plot.r;f;1621
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_INNERDISTANCE (sample_e);ea5f7e9038a63d4acc6ac1de5f584872;/home/ubuntu/profiling/work/ea/5f7e9038a63d4acc6ac1de5f584872/versions.yml;f;71
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_BAMSTAT (sample_e);575aa83445adea2311bda5862854f942;/home/ubuntu/profiling/work/57/5aa83445adea2311bda5862854f942/sample_e.bam_stat.txt;f;837
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_BAMSTAT (sample_e);575aa83445adea2311bda5862854f942;/home/ubuntu/profiling/work/57/5aa83445adea2311bda5862854f942/versions.yml;f;65
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONSATURATION (sample_e);e8af3959b1f6aa17395ed2bd0b822dd6;/home/ubuntu/profiling/work/e8/af3959b1f6aa17395ed2bd0b822dd6/sample_e.junctionSaturation_plot.pdf;f;8468
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONSATURATION (sample_e);e8af3959b1f6aa17395ed2bd0b822dd6;/home/ubuntu/profiling/work/e8/af3959b1f6aa17395ed2bd0b822dd6/sample_e.junctionSaturation_plot.r;f;845
+NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONSATURATION (sample_e);e8af3959b1f6aa17395ed2bd0b822dd6;/home/ubuntu/profiling/work/e8/af3959b1f6aa17395ed2bd0b822dd6/versions.yml;f;76
+NFCORE_RNASEQ:RNASEQ:DESEQ2_QC_STAR_SALMON;101a30e2ece047cc231d6005047cc990;/home/ubuntu/profiling/work/10/1a30e2ece047cc231d6005047cc990/deseq2.dds.RData;f;354969
+NFCORE_RNASEQ:RNASEQ:DESEQ2_QC_STAR_SALMON;101a30e2ece047cc231d6005047cc990;/home/ubuntu/profiling/work/10/1a30e2ece047cc231d6005047cc990/versions.yml;f;96
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:SE_TRANSCRIPT_UNIFIED (all_samples);6a26c8353d39ffff4516d34a88770eb9;/home/ubuntu/profiling/work/6a/26c8353d39ffff4516d34a88770eb9/salmon.merged.transcript.SummarizedExperiment.rds;f;5045469
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:SE_TRANSCRIPT_UNIFIED (all_samples);6a26c8353d39ffff4516d34a88770eb9;/home/ubuntu/profiling/work/6a/26c8353d39ffff4516d34a88770eb9/salmon.merged.transcript.R_sessionInfo.log;f;2157
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:SE_TRANSCRIPT_UNIFIED (all_samples);6a26c8353d39ffff4516d34a88770eb9;/home/ubuntu/profiling/work/6a/26c8353d39ffff4516d34a88770eb9/versions.yml;f;113
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:SE_GENE_UNIFIED (all_samples);4cb7fe72148aebc2d6dc6d5ff1ab8693;/home/ubuntu/profiling/work/4c/b7fe72148aebc2d6dc6d5ff1ab8693/salmon.merged.gene.SummarizedExperiment.rds;f;2760724
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:SE_GENE_UNIFIED (all_samples);4cb7fe72148aebc2d6dc6d5ff1ab8693;/home/ubuntu/profiling/work/4c/b7fe72148aebc2d6dc6d5ff1ab8693/salmon.merged.gene.R_sessionInfo.log;f;2157
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:SE_GENE_UNIFIED (all_samples);4cb7fe72148aebc2d6dc6d5ff1ab8693;/home/ubuntu/profiling/work/4c/b7fe72148aebc2d6dc6d5ff1ab8693/versions.yml;f;107
+NFCORE_RNASEQ:RNASEQ:DESEQ2_QC_PSEUDO;c3bdb76d7178d7fba1379df4b0cd2e97;/home/ubuntu/profiling/work/c3/bdb76d7178d7fba1379df4b0cd2e97/deseq2.dds.RData;f;353121
+NFCORE_RNASEQ:RNASEQ:DESEQ2_QC_PSEUDO;c3bdb76d7178d7fba1379df4b0cd2e97;/home/ubuntu/profiling/work/c3/bdb76d7178d7fba1379df4b0cd2e97/versions.yml;f;91
+NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_REVERSE:UCSC_BEDCLIP (sample_e);ef121f1c98ccfbd309b35f255716d82f;/home/ubuntu/profiling/work/ef/121f1c98ccfbd309b35f255716d82f/sample_e.clip.reverse.bedGraph;f;57609701
+NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_REVERSE:UCSC_BEDCLIP (sample_e);ef121f1c98ccfbd309b35f255716d82f;/home/ubuntu/profiling/work/ef/121f1c98ccfbd309b35f255716d82f/versions.yml;f;93
+NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_REVERSE:UCSC_BEDGRAPHTOBIGWIG (sample_e);c7e6a9d391401f48271705eee7095d72;/home/ubuntu/profiling/work/c7/e6a9d391401f48271705eee7095d72/sample_e.reverse.bigWig;f;18532806
+NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_REVERSE:UCSC_BEDGRAPHTOBIGWIG (sample_e);c7e6a9d391401f48271705eee7095d72;/home/ubuntu/profiling/work/c7/e6a9d391401f48271705eee7095d72/versions.yml;f;102
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:SE_GENE_UNIFIED (all_samples);5855fb3ab7e4be85c3108348d20c6daa;/home/ubuntu/profiling/work/58/55fb3ab7e4be85c3108348d20c6daa/salmon.merged.gene.SummarizedExperiment.rds;f;2758829
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:SE_GENE_UNIFIED (all_samples);5855fb3ab7e4be85c3108348d20c6daa;/home/ubuntu/profiling/work/58/55fb3ab7e4be85c3108348d20c6daa/salmon.merged.gene.R_sessionInfo.log;f;2157
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:SE_GENE_UNIFIED (all_samples);5855fb3ab7e4be85c3108348d20c6daa;/home/ubuntu/profiling/work/58/55fb3ab7e4be85c3108348d20c6daa/versions.yml;f;112
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:SE_TRANSCRIPT_UNIFIED (all_samples);f66771fddd37374d9eb7546524681bbd;/home/ubuntu/profiling/work/f6/6771fddd37374d9eb7546524681bbd/salmon.merged.transcript.SummarizedExperiment.rds;f;4902731
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:SE_TRANSCRIPT_UNIFIED (all_samples);f66771fddd37374d9eb7546524681bbd;/home/ubuntu/profiling/work/f6/6771fddd37374d9eb7546524681bbd/salmon.merged.transcript.R_sessionInfo.log;f;2157
+NFCORE_RNASEQ:RNASEQ:QUANTIFY_PSEUDO_ALIGNMENT:SE_TRANSCRIPT_UNIFIED (all_samples);f66771fddd37374d9eb7546524681bbd;/home/ubuntu/profiling/work/f6/6771fddd37374d9eb7546524681bbd/versions.yml;f;118
+NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_FORWARD:UCSC_BEDCLIP (sample_e);1f177c47185e6d063b11a108ea2d54cf;/home/ubuntu/profiling/work/1f/177c47185e6d063b11a108ea2d54cf/sample_e.clip.forward.bedGraph;f;57221178
+NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_FORWARD:UCSC_BEDCLIP (sample_e);1f177c47185e6d063b11a108ea2d54cf;/home/ubuntu/profiling/work/1f/177c47185e6d063b11a108ea2d54cf/versions.yml;f;93
+NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_FORWARD:UCSC_BEDGRAPHTOBIGWIG (sample_e);d03efbffa2a11cbdbb4ce1ee0d26acd9;/home/ubuntu/profiling/work/d0/3efbffa2a11cbdbb4ce1ee0d26acd9/sample_e.forward.bigWig;f;18450631
+NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_FORWARD:UCSC_BEDGRAPHTOBIGWIG (sample_e);d03efbffa2a11cbdbb4ce1ee0d26acd9;/home/ubuntu/profiling/work/d0/3efbffa2a11cbdbb4ce1ee0d26acd9/versions.yml;f;102
+NFCORE_RNASEQ:RNASEQ:QUALIMAP_RNASEQ (sample_e);e8fc2fb47edd406b4a549275f2a74a80;/home/ubuntu/profiling/work/e8/fc2fb47edd406b4a549275f2a74a80/sample_e;d;497829
+NFCORE_RNASEQ:RNASEQ:QUALIMAP_RNASEQ (sample_e);e8fc2fb47edd406b4a549275f2a74a80;/home/ubuntu/profiling/work/e8/fc2fb47edd406b4a549275f2a74a80/versions.yml;f;59
+NFCORE_RNASEQ:RNASEQ:MULTIQC (1);b81926445f4bebee65c2701b4e3c85aa;/home/ubuntu/profiling/work/b8/1926445f4bebee65c2701b4e3c85aa/multiqc_report.html;f;2936557
+NFCORE_RNASEQ:RNASEQ:MULTIQC (1);b81926445f4bebee65c2701b4e3c85aa;/home/ubuntu/profiling/work/b8/1926445f4bebee65c2701b4e3c85aa/multiqc_report_data;d;6592990
+NFCORE_RNASEQ:RNASEQ:MULTIQC (1);b81926445f4bebee65c2701b4e3c85aa;/home/ubuntu/profiling/work/b8/1926445f4bebee65c2701b4e3c85aa/multiqc_report_plots;d;10413351

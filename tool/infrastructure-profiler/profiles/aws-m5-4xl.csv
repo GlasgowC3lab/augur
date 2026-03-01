@@ -1,0 +1,2 @@
+node,ram,cores,io_read,io_write,sysbench,z7b,bench_time
+aws-m5-4xl,64,16,127,127,410.70,2963,69.58033333333334
