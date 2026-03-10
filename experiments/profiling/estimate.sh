@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cp temp/traces/$cluster* data/traces/
+cp traces/$cluster* data/traces/
 python -m src.scripts.NFTracesToUniversal
 
 # GPGNODE-18 SETTING: 1.0 ondemand_linear 60 1.0 0.392 64 1
