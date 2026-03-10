@@ -6,7 +6,7 @@ python -m src.scripts.NFTracesToUniversal
 # GPGNODE-18 SETTING: 1.0 ondemand_linear 60 1.0 0.392 64 1
 # HU-C40 SETTING: 1.0 performance_linear 60 1.0 0.392 256 1
 # AWS c5d METAL SETTING: default_linear 1.0 
-# AWS m5 4xl SETTING: MODEL with default_minmax values of X, Y
+# AWS m5 4xl SETTING: MODEL with GA mode -> 240W TDP (can't find better data that aligns with the server)
 
 python -m src.scripts.IchnosCF $cluster-rnaseq-a.csv BASE
 python -m src.scripts.IchnosCF $cluster-rnaseq-b.csv BASE
