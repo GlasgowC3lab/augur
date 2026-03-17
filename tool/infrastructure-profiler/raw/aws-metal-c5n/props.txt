@@ -1,5 +1,0 @@
-CPU(s):                                  72
-Thread(s) per core:                      2
-Core(s) per socket:                      18
-Socket(s):                               2
-CPU(s) scaling MHz:                      39%

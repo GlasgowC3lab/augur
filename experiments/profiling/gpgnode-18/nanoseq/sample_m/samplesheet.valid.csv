@@ -1,0 +1,3 @@
+sample,barcode,input_file,fasta,gtf,is_transcripts,nanopolish_fast5
+sample_m_R1,,/users/grad/kathleen/profiling/sample_m.fastq.gz,GRCh38,,0,
+sample_m_2_R1,,/users/grad/kathleen/profiling/sample_m_2.fastq.gz,GRCh38,,0,

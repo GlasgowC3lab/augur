@@ -1,0 +1,2 @@
+node,ram,cores,io_read,io_write,sysbench,z7b,bench_time
+hu-c45,256,32,420,499,1066.66,2692,34.571666666666665

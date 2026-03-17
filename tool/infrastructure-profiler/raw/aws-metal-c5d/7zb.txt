@@ -1,0 +1,26 @@
+
+7-Zip 23.01 (x64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit locale=C.UTF-8 Threads:96 OPEN_MAX:1024
+
+Compiler: 13.2.0 GCC 13.2.0: SSE2
+Linux : 6.14.0-1018-aws : #18~24.04.1-Ubuntu SMP Mon Nov 24 19:46:27 UTC 2025 : x86_64
+PageSize:4KB THP:madvise hwcap:6 hwcap2:2
+Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz (50657) 
+
+1T CPU Freq (MHz):  3579  3714  3879  3888  3892  3888  3890
+48T CPU Freq (MHz): 4773% 3562   4788% 3577  
+
+RAM size:  193026 MB,  # CPU hardware threads:  96
+RAM usage:  21358 MB,  # Benchmark threads:     96
+
+                       Compressing  |                  Decompressing
+Dict     Speed Usage    R/U Rating  |      Speed Usage    R/U Rating
+         KiB/s     %   MIPS   MIPS  |      KiB/s     %   MIPS   MIPS
+
+22:     296739  8669   3330 288668  |    2940913  9517   2635 250752
+23:     255714  7938   3282 260542  |    2731318  8916   2650 236301
+24:     251588  8216   3292 270508  |    2621807  8682   2650 230050
+25:     230522  8021   3281 263201  |    2564325  8576   2660 228147
+----------------------------------  | ------------------------------
+Avr:    258641  8211   3296 270730  |    2714591  8923   2649 236313
+Tot:            8567   2973 253521

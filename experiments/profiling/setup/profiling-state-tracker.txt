@@ -1,0 +1,31 @@
+workflow,cluster,workflow-profiled?
+
+GPG cluster - infrastructure is profiled 
+-- rnaseq is in progress
+-- chipseq ??
+-- nanoseq is done 
+profiling to be completed 
+other workflows to run: sarek, rangeland 
+-- sarek needs to be profiled as well 
+
+HU cluster - infrastructure is profiled 
+-- rnaseq is done
+-- chipseq is done 
+-- nanoseq is being executed, and then needs to be profiled 
+-- sarek is run, then needs to be profiled 
+
+AWS metal node (aws-metal-c5d) + 192GB disk
+-- nanoseq profiling is pending 
+-- sarek profiling is pending 
+
+AWS 'local machine' nodes 
+t3.2xlarge has 8 vCPUs and 32GB RAM, would load in a disk of ~72GB (?) 
+
+-- all workflows to be profiled 
+
+
+>> make scripts to automate the process of running all profiling and updating scripts as needed for all workflows and test data
+
+to downsample data for -- start from GPG 
+https://raw.githubusercontent.com/nf-core/test-datasets/sarek/testdata/csv/HCC1395_WXS_somatic_full_test.csv
+- used for the full sized sarek run 

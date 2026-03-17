@@ -2,6 +2,13 @@ import sys
 import csv
 from pathlib import Path
 
+
+def is_ts(value):
+    try:
+        return int(value) > 1e12  # ts must be > January 1st 2020
+    except ValueError:
+        return False
+
 def main(args):
     energy_file = Path(args[1])
     run_file = Path(args[2])
@@ -25,27 +32,49 @@ def main(args):
         lines = [line.strip() for line in f if line.strip()]
 
     readings = []
-    for i in range(0, len(lines), 3):  # for gpg nodes
-    # for i in range(0, len(lines), 2):
-        if i + 2 < len(lines):  # for gpg nodes
-        # if i + 1 < len(lines):
+    i = 0
+
+    while i < len(lines):
+        if i + 2 < len(lines):
             try:
-                energy_1 = lines[i]
-                energy_2 = lines[i+1]  # for gpg nodes
-                ts = int(lines[i + 2])  # for gpg nodes
-                # ts = int(lines[i + 1])
-                readings.append((ts, energy_1, energy_2))  # for gpg nodes
-                # readings.append((ts, energy_1))
+                item_1 = int(lines[i])
+                item_2 = int(lines[i+1])
+                item_3 = int(lines[i+2])
+
+                if not is_ts(item_1) and not is_ts(item_2) and is_ts(item_3):
+                    readings.append((item_3, item_1, item_2))
+                    i += 3
+                    continue
+
             except ValueError:
-                continue
+                pass
+
+        found_sync = False
+        for j in range(i, min(i + 10, len(lines))):  
+            if is_ts(lines[j]):
+                if j >= 2:
+                    try:
+                        energy_1 = int(lines[j-2])
+                        energy_2 = int(lines[j-1])
+                        if not is_ts(lines[j-2]) and not is_ts(lines[j-1]):
+                            readings.append((int(lines[j]), energy_1, energy_2))
+                            i = j + 1
+                            found_sync = True
+                            break
+                    except ValueError:
+                        pass
+                i = j + 1
+                found_sync = True
+                break
+        
+        if not found_sync:
+            i += 1
 
     # assign readings
-    for ts, energy_1, energy_2 in readings:  # for gpg nodes
-    # for ts, energy_1 in readings:
+    for ts, energy_1, energy_2 in readings:
         for run in runs:
             if run["start"] < ts < run["end"]:
                 run["data"].append((ts, energy_1, energy_2))
-                # run["data"].append((ts, energy_1))
                 break  
 
     # write output

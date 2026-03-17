@@ -1,2 +1,2 @@
 node,ram,cores,io_read,io_write,sysbench,z7b,bench_time
-gpgnode-16,64,32,106,89.1,308.45,1785,58.96033333333333
+gpgnode-16,64,32,109,91.4,306.15,1779,197.36100000000002

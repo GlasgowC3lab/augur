@@ -1,0 +1,2 @@
+node,ram,cores,io_read,io_write,sysbench,z7b,bench_time
+aws-metal-c5d,192,96,127,127,519.69,2973,12.678666666666667
