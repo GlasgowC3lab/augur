@@ -1,0 +1,2 @@
+patient,sex,status,sample,lane,fastq_1,fastq_2
+D538G_1_079,XX,1,SRR11452471,6,/root/profiling/input/sarek_aa_1.fastq.gz,/root/profiling/input/sarek_aa_2.fastq.gz
